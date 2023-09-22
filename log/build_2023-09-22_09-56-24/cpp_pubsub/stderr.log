@@ -1,0 +1,7 @@
+[01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid Tester::function2()[m[K’:
+[01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:90:7:[m[K [01;31m[Kerror: [m[K‘[01m[KTime[m[K’ has not been declared
+   90 |       [01;31m[KTime[m[K::Time time = Time::Time::now();
+      |       [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

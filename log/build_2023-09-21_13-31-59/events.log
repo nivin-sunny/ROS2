@@ -1,0 +1,334 @@
+[0.000000] (-) TimerEvent: {}
+[0.004982] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.005109] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.005141] (-) JobUnselected: {'identifier': 'my_robot_controller'}
+[0.005173] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.005222] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/devuser/ros2_ws/install/tutorial_interfaces')])}
+[0.005258] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.030067] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.030724] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[0.031465] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/devuser/ros2_ws/build/tutorial_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/devuser/ros2_ws/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'devuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/devuser/ros2_ws/install/more_interfaces/lib:/home/devuser/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/devuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '52368'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/devuser/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'devuser'), ('_', '/home/devuser/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'devuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/devuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ATWLRR1201:@/tmp/.ICE-unix/4053,unix/ATWLRR1201:/tmp/.ICE-unix/4053'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/170cd0e2_26a8_4c01_b60b_4025925de22b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0I2DB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.239'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/devuser/ros2_ws/install/more_interfaces:/home/devuser/ros2_ws/install/cpp_srvcli:/home/devuser/ros2_ws/install/cpp_pubsub:/home/devuser/ros2_ws/install/tutorial_interfaces:/home/devuser/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/devuser/ros2_ws/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/devuser/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/devuser/ros2_ws/install/more_interfaces:/home/devuser/ros2_ws/install/cpp_srvcli:/home/devuser/ros2_ws/install/cpp_pubsub:/home/devuser/ros2_ws/install/tutorial_interfaces:/home/devuser/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.097342] (-) TimerEvent: {}
+[0.099260] (tutorial_interfaces) StdoutLine: {'line': b'[  2%] Built target tutorial_interfaces__cpp\n'}
+[0.100019] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[0.119313] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[0.149044] (tutorial_interfaces) StdoutLine: {'line': b'[ 31%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[0.149662] (tutorial_interfaces) StdoutLine: {'line': b'[ 34%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.151293] (tutorial_interfaces) StdoutLine: {'line': b'[ 44%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.152105] (tutorial_interfaces) StdoutLine: {'line': b'[ 55%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.156709] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[0.157197] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.186536] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces\n'}
+[0.197502] (-) TimerEvent: {}
+[0.216236] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] Built target tutorial_interfaces__py\n'}
+[0.249802] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[0.283539] (tutorial_interfaces) StdoutLine: {'line': b'[ 91%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.284654] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.285022] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.297640] (-) TimerEvent: {}
+[0.397941] (-) TimerEvent: {}
+[0.498224] (-) TimerEvent: {}
+[0.547947] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.549532] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[0.549974] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[0.550278] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[0.554145] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[0.555859] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[0.598383] (-) TimerEvent: {}
+[0.622648] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[0.648691] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[0.698475] (-) TimerEvent: {}
+[0.798873] (-) TimerEvent: {}
+[0.830937] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[0.849616] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/devuser/ros2_ws/build/tutorial_interfaces'], 'cwd': '/home/devuser/ros2_ws/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'devuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/devuser/ros2_ws/install/more_interfaces/lib:/home/devuser/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/devuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '52368'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/devuser/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'devuser'), ('_', '/home/devuser/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'devuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/devuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ATWLRR1201:@/tmp/.ICE-unix/4053,unix/ATWLRR1201:/tmp/.ICE-unix/4053'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/170cd0e2_26a8_4c01_b60b_4025925de22b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0I2DB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.239'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/devuser/ros2_ws/install/more_interfaces:/home/devuser/ros2_ws/install/cpp_srvcli:/home/devuser/ros2_ws/install/cpp_pubsub:/home/devuser/ros2_ws/install/tutorial_interfaces:/home/devuser/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/devuser/ros2_ws/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/devuser/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/devuser/ros2_ws/install/more_interfaces:/home/devuser/ros2_ws/install/cpp_srvcli:/home/devuser/ros2_ws/install/cpp_pubsub:/home/devuser/ros2_ws/install/tutorial_interfaces:/home/devuser/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.866714] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.867395] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[0.868037] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[0.868193] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[0.868321] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h\n'}
+[0.868440] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.868673] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h\n'}
+[0.868799] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[0.868917] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h\n'}
+[0.869032] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h\n'}
+[0.869144] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c\n'}
+[0.869255] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h\n'}
+[0.869369] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h\n'}
+[0.869481] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.c\n'}
+[0.869665] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h\n'}
+[0.869980] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h\n'}
+[0.870094] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[0.870206] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h\n'}
+[0.870355] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[0.870532] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[0.870707] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[0.871129] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.c\n'}
+[0.871299] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[0.871488] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[0.871680] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[0.871889] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[0.872248] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[0.872456] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[0.872979] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.873624] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[0.874021] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[0.874268] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[0.874717] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[0.874941] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[0.875337] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[0.875700] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.876013] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[0.876253] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[0.876563] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp\n'}
+[0.876766] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp\n'}
+[0.876985] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[0.877313] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp\n'}
+[0.877551] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp\n'}
+[0.877931] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp\n'}
+[0.878118] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp\n'}
+[0.878254] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp\n'}
+[0.878374] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp\n'}
+[0.878494] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[0.878629] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp\n'}
+[0.878751] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[0.878883] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[0.879003] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[0.879156] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[0.879276] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[0.879410] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[0.879525] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.879635] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[0.879752] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.879866] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.879973] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps\n'}
+[0.880082] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[0.880193] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[0.880300] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps\n'}
+[0.880442] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.880596] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.880712] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[0.880821] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[0.880929] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.881038] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[0.881144] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c\n'}
+[0.881275] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c\n'}
+[0.881384] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[0.881506] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[0.881613] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[0.881720] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[0.881825] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[0.881931] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[0.882046] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.882152] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[0.882258] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[0.882363] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[0.882517] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[0.882630] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp\n'}
+[0.882736] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.882843] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.882949] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.cpp\n'}
+[0.883072] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[0.883343] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[0.883515] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp\n'}
+[0.883625] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.883728] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.883830] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.883931] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[0.884032] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[0.884134] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info\n'}
+[0.884236] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.884339] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.884440] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.884583] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.884688] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces\n'}
+[0.884793] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.884896] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.884999] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg\n'}
+[0.885101] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere_s.c\n'}
+[0.885202] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num_s.c\n'}
+[0.885303] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py\n'}
+[0.885404] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py\n'}
+[0.885504] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py\n'}
+[0.885606] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.885750] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.885854] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py\n'}
+[0.885955] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv\n'}
+[0.886057] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py\n'}
+[0.886157] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints_s.c\n'}
+[0.886258] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py\n'}
+[0.886357] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[0.886456] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.886565] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.899014] (-) TimerEvent: {}
+[0.950602] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...\n"}
+[0.950877] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...\n"}
+[0.951030] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...\n"}
+[0.962745] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.963233] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.963573] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.963987] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[0.964219] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl\n'}
+[0.964466] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl\n'}
+[0.964938] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl\n'}
+[0.965175] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg\n'}
+[0.965396] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg\n'}
+[0.965608] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv\n'}
+[0.965809] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg\n'}
+[0.965924] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg\n'}
+[0.966057] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[0.966171] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[0.966288] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[0.966403] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.966586] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[0.966717] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[0.966877] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[0.966990] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[0.967105] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[0.967219] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[0.967386] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[0.967498] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[0.967610] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.967724] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.967838] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.967951] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.968065] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.968178] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.968326] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.968547] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.968802] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.968916] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.969026] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.969150] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.969259] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.969377] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.969484] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.969590] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.969696] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.969802] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.969907] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.970013] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.970119] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.970225] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.970344] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.970452] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.970558] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[0.970666] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[0.970774] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[0.971820] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[1.004252] (-) TimerEvent: {}
+[1.106520] (-) TimerEvent: {}
+[1.207411] (-) TimerEvent: {}
+[1.308661] (-) TimerEvent: {}
+[1.311015] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[1.331025] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[1.359950] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[1.361695] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[1.363603] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/devuser/ros2_ws/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/devuser/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'devuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/devuser/ros2_ws/install/tutorial_interfaces/lib:/home/devuser/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/devuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '52368'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/devuser/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'devuser'), ('_', '/home/devuser/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'devuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/devuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ATWLRR1201:@/tmp/.ICE-unix/4053,unix/ATWLRR1201:/tmp/.ICE-unix/4053'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/170cd0e2_26a8_4c01_b60b_4025925de22b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0I2DB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.239'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/devuser/ros2_ws/install/more_interfaces:/home/devuser/ros2_ws/install/cpp_srvcli:/home/devuser/ros2_ws/install/cpp_pubsub:/home/devuser/ros2_ws/install/tutorial_interfaces:/home/devuser/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/devuser/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/devuser/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/devuser/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/devuser/ros2_ws/install/tutorial_interfaces:/home/devuser/ros2_ws/install/more_interfaces:/home/devuser/ros2_ws/install/cpp_srvcli:/home/devuser/ros2_ws/install/cpp_pubsub:/home/devuser/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[1.408865] (-) TimerEvent: {}
+[1.445472] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[1.471003] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[1.479348] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[1.509100] (-) TimerEvent: {}
+[1.609947] (-) TimerEvent: {}
+[1.710361] (-) TimerEvent: {}
+[1.810687] (-) TimerEvent: {}
+[1.911026] (-) TimerEvent: {}
+[2.011404] (-) TimerEvent: {}
+[2.111798] (-) TimerEvent: {}
+[2.212332] (-) TimerEvent: {}
+[2.312884] (-) TimerEvent: {}
+[2.413516] (-) TimerEvent: {}
+[2.514010] (-) TimerEvent: {}
+[2.614493] (-) TimerEvent: {}
+[2.715042] (-) TimerEvent: {}
+[2.815466] (-) TimerEvent: {}
+[2.915964] (-) TimerEvent: {}
+[3.016370] (-) TimerEvent: {}
+[3.116851] (-) TimerEvent: {}
+[3.217245] (-) TimerEvent: {}
+[3.317644] (-) TimerEvent: {}
+[3.418110] (-) TimerEvent: {}
+[3.518531] (-) TimerEvent: {}
+[3.618903] (-) TimerEvent: {}
+[3.719274] (-) TimerEvent: {}
+[3.819684] (-) TimerEvent: {}
+[3.920059] (-) TimerEvent: {}
+[4.020482] (-) TimerEvent: {}
+[4.120991] (-) TimerEvent: {}
+[4.221412] (-) TimerEvent: {}
+[4.321866] (-) TimerEvent: {}
+[4.422346] (-) TimerEvent: {}
+[4.522712] (-) TimerEvent: {}
+[4.623077] (-) TimerEvent: {}
+[4.723499] (-) TimerEvent: {}
+[4.823928] (-) TimerEvent: {}
+[4.924363] (-) TimerEvent: {}
+[5.024705] (-) TimerEvent: {}
+[5.125069] (-) TimerEvent: {}
+[5.225406] (-) TimerEvent: {}
+[5.325852] (-) TimerEvent: {}
+[5.426685] (-) TimerEvent: {}
+[5.527569] (-) TimerEvent: {}
+[5.628326] (-) TimerEvent: {}
+[5.729313] (-) TimerEvent: {}
+[5.829950] (-) TimerEvent: {}
+[5.930604] (-) TimerEvent: {}
+[6.031200] (-) TimerEvent: {}
+[6.131775] (-) TimerEvent: {}
+[6.232239] (-) TimerEvent: {}
+[6.332738] (-) TimerEvent: {}
+[6.413386] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[6.413713] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[6.413855] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[6.413972] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.414088] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.414331] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[6.414549] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[6.414771] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.414950] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.415133] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.415331] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[6.415525] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.415712] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:70:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kminimal_publisher\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.415913] (cpp_pubsub) StderrLine: {'line': b'   70 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kminimal_publisher\x1b[m\x1b[K->get_logger(), "spin done : %d",spin_count);\n'}
+[6.416083] (cpp_pubsub) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.416285] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:70:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.416493] (cpp_pubsub) StderrLine: {'line': b'   70 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(minimal_publisher->get_logger(), "spin done : %d",spin_count);\n'}
+[6.416721] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.416851] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:70:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.416986] (cpp_pubsub) StderrLine: {'line': b'   70 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(minimal_publisher->get_logger(), "spin done : %d",spin_count);\n'}
+[6.417115] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.417231] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:70:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.417350] (cpp_pubsub) StderrLine: {'line': b'   70 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(minimal_publisher->get_logger(), "spin done : %d",spin_count);\n'}
+[6.417483] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.417602] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:70:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.417727] (cpp_pubsub) StderrLine: {'line': b'   70 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(minimal_publisher->get_logger(), "spin done : %d",spin_count);\n'}
+[6.417847] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.417971] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:70:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.418095] (cpp_pubsub) StderrLine: {'line': b'   70 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(minimal_publisher->get_logger(), "spin done : %d",spin_count);\n'}
+[6.418214] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.432864] (-) TimerEvent: {}
+[6.533372] (-) TimerEvent: {}
+[6.633885] (-) TimerEvent: {}
+[6.734380] (-) TimerEvent: {}
+[6.834873] (-) TimerEvent: {}
+[6.935330] (-) TimerEvent: {}
+[7.035779] (-) TimerEvent: {}
+[7.136286] (-) TimerEvent: {}
+[7.236996] (-) TimerEvent: {}
+[7.337472] (-) TimerEvent: {}
+[7.437993] (-) TimerEvent: {}
+[7.538497] (-) TimerEvent: {}
+[7.639042] (-) TimerEvent: {}
+[7.739414] (-) TimerEvent: {}
+[7.839797] (-) TimerEvent: {}
+[7.940161] (-) TimerEvent: {}
+[8.040565] (-) TimerEvent: {}
+[8.140945] (-) TimerEvent: {}
+[8.172916] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[8.173295] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2\n'}
+[8.173672] (cpp_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.176478] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[8.245166] (-) TimerEvent: {}
+[8.271885] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[8.282861] (-) EventReactorShutdown: {}

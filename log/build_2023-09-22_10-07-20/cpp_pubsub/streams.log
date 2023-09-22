@@ -1,0 +1,49 @@
+[0.014s] Invoking command in '/home/devuser/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/devuser/ros2_ws/install/tutorial_interfaces:/home/devuser/ros2_ws/install/cpp_srvcli:/home/devuser/ros2_ws/install/cpp_pubsub:/home/devuser/ros2_ws/install/my_robot_controller:/home/devuser/ros2_ws/install/more_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/devuser/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.065s] [ 50%] Built target listener
+[0.069s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[2.363s] [01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid Tester::function2()[m[K’:
+[2.363s] [01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:90:46:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Krcl_clock_type_t[m[K’ {aka ‘[01m[Krcl_clock_type_e[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.363s]    90 |       rclcpp::Time time = rclcpp::Time(10,10,[01;31m[K1[m[K);
+[2.363s]       |                                              [01;31m[K^[m[K
+[2.363s]       |                                              [01;31m[K|[m[K
+[2.363s]       |                                              [01;31m[Kint[m[K
+[2.363s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:24[m[K,
+[2.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:27[m[K,
+[2.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+[2.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.364s]                  from [01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18[m[K:
+[2.364s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:46:64:[m[K [01;36m[Knote: [m[K  initializing argument 3 of ‘[01m[Krclcpp::Time::Time(int32_t, uint32_t, rcl_clock_type_t)[m[K’
+[2.364s]    46 |   Time(int32_t seconds, uint32_t nanoseconds, [01;36m[Krcl_clock_type_t clock_type = RCL_SYSTEM_TIME[m[K);
+[2.364s]       |                                               [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.364s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.365s]                  from [01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18[m[K:
+[2.365s] [01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:91:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Krclcpp::Time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.365s]    91 |       RCLCPP_INFO(this->get_logger(),[01;35m[K"function 2 called in time : %s"[m[K,time);
+[2.365s]       |                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.365s] [01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:91:68:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.365s]    91 |       RCLCPP_INFO(this->get_logger(),"function 2 called in time : [01;36m[K%s[m[K",time);
+[2.365s]       |                                                                   [01;36m[K~^[m[K
+[2.365s]       |                                                                    [01;36m[K|[m[K
+[2.365s]       |                                                                    [01;36m[Kchar*[m[K
+[3.223s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[3.223s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[3.223s] gmake: *** [Makefile:146: all] Error 2
+[3.226s] Invoked command in '/home/devuser/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/home/devuser/ros2_ws/install/tutorial_interfaces:/home/devuser/ros2_ws/install/cpp_srvcli:/home/devuser/ros2_ws/install/cpp_pubsub:/home/devuser/ros2_ws/install/my_robot_controller:/home/devuser/ros2_ws/install/more_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/devuser/ros2_ws/build/cpp_pubsub -- -j8 -l8

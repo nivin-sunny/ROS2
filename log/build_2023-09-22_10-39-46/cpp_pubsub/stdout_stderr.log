@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 50%] Built target listener
+[ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid Tester::function2()[m[K’:
+[01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:92:25:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::Time[m[K’ to ‘[01m[Kint[m[K’ in initialization
+   92 |       int x = [01;31m[Ktimer1.now()[m[K;
+      |               [01;31m[K~~~~~~~~~~^~[m[K
+      |                         [01;31m[K|[m[K
+      |                         [01;31m[Krclcpp::Time[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

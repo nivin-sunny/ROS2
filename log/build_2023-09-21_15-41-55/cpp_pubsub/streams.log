@@ -1,0 +1,32 @@
+[0.014s] Invoking command in '/home/devuser/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/devuser/ros2_ws/install/tutorial_interfaces:/home/devuser/ros2_ws/install/more_interfaces:/home/devuser/ros2_ws/install/cpp_srvcli:/home/devuser/ros2_ws/install/cpp_pubsub:/home/devuser/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/ros2_ws/install/tutorial_interfaces/lib:/home/devuser/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/devuser/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.067s] [ 50%] Built target listener
+[0.071s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[3.274s] [01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid Tester::function1()[m[K’:
+[3.274s] [01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:80:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcounter1[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[3.274s]    80 |       [01;35m[Kcounter1++[m[K;
+[3.274s]       |       [01;35m[K~~~~~~~~^~[m[K
+[4.514s] [100%] [32m[1mLinking CXX executable talker[0m
+[4.719s] [100%] Built target talker
+[4.730s] Invoked command in '/home/devuser/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/devuser/ros2_ws/install/tutorial_interfaces:/home/devuser/ros2_ws/install/more_interfaces:/home/devuser/ros2_ws/install/cpp_srvcli:/home/devuser/ros2_ws/install/cpp_pubsub:/home/devuser/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/ros2_ws/install/tutorial_interfaces/lib:/home/devuser/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/devuser/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[4.757s] Invoking command in '/home/devuser/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/devuser/ros2_ws/install/tutorial_interfaces:/home/devuser/ros2_ws/install/more_interfaces:/home/devuser/ros2_ws/install/cpp_srvcli:/home/devuser/ros2_ws/install/cpp_pubsub:/home/devuser/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/ros2_ws/install/tutorial_interfaces/lib:/home/devuser/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/devuser/ros2_ws/build/cpp_pubsub
+[4.765s] -- Install configuration: ""
+[4.765s] -- Installing: /home/devuser/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[4.766s] -- Set runtime path of "/home/devuser/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[4.767s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[4.767s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[4.767s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[4.767s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[4.767s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[4.767s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[4.767s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[4.767s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[4.767s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[4.767s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[4.768s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[4.768s] -- Installing: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[4.768s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[4.768s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[4.768s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[4.768s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[4.769s] Invoked command in '/home/devuser/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/devuser/ros2_ws/install/tutorial_interfaces:/home/devuser/ros2_ws/install/more_interfaces:/home/devuser/ros2_ws/install/cpp_srvcli:/home/devuser/ros2_ws/install/cpp_pubsub:/home/devuser/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/ros2_ws/install/tutorial_interfaces/lib:/home/devuser/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/devuser/ros2_ws/build/cpp_pubsub

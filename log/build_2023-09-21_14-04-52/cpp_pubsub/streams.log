@@ -1,0 +1,13 @@
+[0.015s] Invoking command in '/home/devuser/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/devuser/ros2_ws/install/tutorial_interfaces:/home/devuser/ros2_ws/install/more_interfaces:/home/devuser/ros2_ws/install/cpp_srvcli:/home/devuser/ros2_ws/install/cpp_pubsub:/home/devuser/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/ros2_ws/install/tutorial_interfaces/lib:/home/devuser/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/devuser/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.067s] [ 50%] Built target listener
+[0.071s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[2.380s] [01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[Ktester::tester()[m[K’:
+[2.380s] [01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:68:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kabc[m[K’ was not declared in this scope; did you mean ‘[01m[Kabs[m[K’?
+[2.380s]    68 |     [01;31m[Kabc[m[K = this->create_publisher<tutorial_interfaces::msg::Num>("test_publisher",10);
+[2.380s]       |     [01;31m[K^~~[m[K
+[2.380s]       |     [32m[Kabs[m[K
+[3.216s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[3.216s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[3.216s] gmake: *** [Makefile:146: all] Error 2
+[3.219s] Invoked command in '/home/devuser/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/home/devuser/ros2_ws/install/tutorial_interfaces:/home/devuser/ros2_ws/install/more_interfaces:/home/devuser/ros2_ws/install/cpp_srvcli:/home/devuser/ros2_ws/install/cpp_pubsub:/home/devuser/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/ros2_ws/install/tutorial_interfaces/lib:/home/devuser/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/devuser/ros2_ws/build/cpp_pubsub -- -j8 -l8

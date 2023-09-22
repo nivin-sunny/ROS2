@@ -1,0 +1,4 @@
+[01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid Tester::function1()[m[K’:
+[01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:80:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcounter1[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+   80 |       [01;35m[Kcounter1 ++[m[K;
+      |       [01;35m[K~~~~~~~~~^~[m[K

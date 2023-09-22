@@ -1,0 +1,38 @@
+[0.031s] Invoking command in '/home/devuser/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/devuser/ros2_ws/install/tutorial_interfaces:/home/devuser/ros2_ws/install/more_interfaces:/home/devuser/ros2_ws/install/cpp_srvcli:/home/devuser/ros2_ws/install/cpp_pubsub:/home/devuser/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/ros2_ws/install/tutorial_interfaces/lib:/home/devuser/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/devuser/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.119s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.142s] [ 50%] Built target listener
+[0.149s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[3.937s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.938s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.938s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.938s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.938s]                  from [01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18[m[K:
+[3.938s] [01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.938s] [01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:70:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[3.938s]    70 |   RCLCPP_INFO([01;31m[Kpublisher_[m[K->get_logger(), "spin done : %d",spin_count);
+[3.938s]       |               [01;31m[K^~~~~~~~~~[m[K
+[3.938s] [01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:70:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.939s]    70 |   [01;31m[KRCLCPP_INFO[m[K(publisher_->get_logger(), "spin done : %d",spin_count);
+[3.939s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[3.939s] [01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:70:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.939s]    70 |   [01;31m[KRCLCPP_INFO[m[K(publisher_->get_logger(), "spin done : %d",spin_count);
+[3.939s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[3.939s] [01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:70:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.939s]    70 |   [01;31m[KRCLCPP_INFO[m[K(publisher_->get_logger(), "spin done : %d",spin_count);
+[3.939s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[3.940s] [01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:70:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.940s]    70 |   [01;31m[KRCLCPP_INFO[m[K(publisher_->get_logger(), "spin done : %d",spin_count);
+[3.940s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[3.940s] [01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:70:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.940s]    70 |   [01;31m[KRCLCPP_INFO[m[K(publisher_->get_logger(), "spin done : %d",spin_count);
+[3.940s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[5.729s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[5.729s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[5.730s] gmake: *** [Makefile:146: all] Error 2
+[5.734s] Invoked command in '/home/devuser/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/home/devuser/ros2_ws/install/tutorial_interfaces:/home/devuser/ros2_ws/install/more_interfaces:/home/devuser/ros2_ws/install/cpp_srvcli:/home/devuser/ros2_ws/install/cpp_pubsub:/home/devuser/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/ros2_ws/install/tutorial_interfaces/lib:/home/devuser/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/devuser/ros2_ws/build/cpp_pubsub -- -j8 -l8

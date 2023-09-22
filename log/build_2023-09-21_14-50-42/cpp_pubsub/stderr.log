@@ -1,0 +1,14 @@
+[01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:65:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kint8[m[K’ does not name a type; did you mean ‘[01m[Kint[m[K’?
+   65 |   [01;31m[Kint8[m[K test_timer;
+      |   [01;31m[K^~~~[m[K
+      |   [32m[Kint[m[K
+[01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KTester::Tester()[m[K’:
+[01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:72:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktest_timer[m[K’ was not declared in this scope
+   72 |     [01;31m[Ktest_timer[m[K = this->create_wall_timer(1s, std::bind(&Tester::timer_callback, this));
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:72:65:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KTester[m[K’
+   72 |     test_timer = this->create_wall_timer(1s, std::bind(&Tester::[01;31m[Ktimer_callback[m[K, this));
+      |                                                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

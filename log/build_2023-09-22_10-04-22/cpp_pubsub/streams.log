@@ -1,0 +1,49 @@
+[0.014s] Invoking command in '/home/devuser/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/devuser/ros2_ws/install/tutorial_interfaces:/home/devuser/ros2_ws/install/cpp_srvcli:/home/devuser/ros2_ws/install/cpp_pubsub:/home/devuser/ros2_ws/install/my_robot_controller:/home/devuser/ros2_ws/install/more_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/devuser/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.062s] [ 50%] Built target listener
+[0.066s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[2.350s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.351s]                  from [01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18[m[K:
+[2.351s] [01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid Tester::function2()[m[K’:
+[2.351s] [01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:91:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Krclcpp::Time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.351s]    91 |       RCLCPP_INFO(this->get_logger(),[01;35m[K"function 2 called in time : %d"[m[K,time);
+[2.351s]       |                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.351s] [01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:91:68:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.351s]    91 |       RCLCPP_INFO(this->get_logger(),"function 2 called in time : [01;36m[K%d[m[K",time);
+[2.352s]       |                                                                   [01;36m[K~^[m[K
+[2.352s]       |                                                                    [01;36m[K|[m[K
+[2.352s]       |                                                                    [01;36m[Kint[m[K
+[4.430s] [100%] [32m[1mLinking CXX executable talker[0m
+[4.630s] [100%] Built target talker
+[4.640s] Invoked command in '/home/devuser/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/devuser/ros2_ws/install/tutorial_interfaces:/home/devuser/ros2_ws/install/cpp_srvcli:/home/devuser/ros2_ws/install/cpp_pubsub:/home/devuser/ros2_ws/install/my_robot_controller:/home/devuser/ros2_ws/install/more_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/devuser/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[4.664s] Invoking command in '/home/devuser/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/devuser/ros2_ws/install/tutorial_interfaces:/home/devuser/ros2_ws/install/cpp_srvcli:/home/devuser/ros2_ws/install/cpp_pubsub:/home/devuser/ros2_ws/install/my_robot_controller:/home/devuser/ros2_ws/install/more_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/devuser/ros2_ws/build/cpp_pubsub
+[4.672s] -- Install configuration: ""
+[4.672s] -- Installing: /home/devuser/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[4.673s] -- Set runtime path of "/home/devuser/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[4.674s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[4.674s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[4.674s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[4.674s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[4.674s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[4.674s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[4.674s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[4.674s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[4.674s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[4.674s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[4.675s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[4.675s] -- Installing: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[4.675s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[4.675s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[4.675s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[4.675s] -- Up-to-date: /home/devuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[4.676s] Invoked command in '/home/devuser/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/devuser/ros2_ws/install/tutorial_interfaces:/home/devuser/ros2_ws/install/cpp_srvcli:/home/devuser/ros2_ws/install/cpp_pubsub:/home/devuser/ros2_ws/install/my_robot_controller:/home/devuser/ros2_ws/install/more_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/devuser/ros2_ws/build/cpp_pubsub

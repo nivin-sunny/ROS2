@@ -1,0 +1,33 @@
+[DEBUG] [1695388213.903791774] [tester_node]: Debug logged
+[INFO] [1695388213.903857993] [tester_node]: Info logged
+[WARN] [1695388213.903868065] [tester_node]: Warning logged
+[ERROR] [1695388213.903873774] [tester_node]: Error logged
+[FATAL] [1695388213.903878922] [tester_node]: Fatal logged
+[INFO] [1695388213.904605706] [tester_node]: test publisher working
+[INFO] [1695388214.905076598] [tester_node]: function1 called : 0 in 526650928
+[INFO] [1695388215.905069932] [tester_node]: function1 called : 1 in 526650928
+[INFO] [1695388216.905216840] [tester_node]: function1 called : 2 in 526650928
+[INFO] [1695388217.904966969] [tester_node]: function1 called : 3 in 526650928
+[INFO] [1695388218.905035088] [tester_node]: function1 called : 4 in 526650928
+[INFO] [1695388219.905022273] [tester_node]: function1 called : 5 in 526650928
+[INFO] [1695388220.904949150] [tester_node]: function1 called : 6 in 526650928
+[INFO] [1695388221.905022911] [tester_node]: function1 called : 7 in 526650928
+[INFO] [1695388222.905100398] [tester_node]: function1 called : 8 in 526650928
+[INFO] [1695388223.904927140] [tester_node]: function1 called : 9 in 526650928
+[INFO] [1695388224.905067687] [tester_node]: function1 called : 10 in 526650928
+[INFO] [1695388224.905355067] [tester_node]: function 2 called in time : 526650944
+[INFO] [1695388225.904795080] [tester_node]: function1 called : 11 in 526650928
+[INFO] [1695388226.905086239] [tester_node]: function1 called : 12 in 526650928
+[INFO] [1695388227.904947261] [tester_node]: function1 called : 13 in 526650928
+[INFO] [1695388228.905143888] [tester_node]: function1 called : 14 in 526650928
+[INFO] [1695388229.904820919] [tester_node]: function1 called : 15 in 526650928
+[INFO] [1695388230.904928466] [tester_node]: function1 called : 16 in 526650928
+[INFO] [1695388231.904963658] [tester_node]: function1 called : 17 in 526650928
+[INFO] [1695388232.905123261] [tester_node]: function1 called : 18 in 526650928
+[INFO] [1695388233.904831384] [tester_node]: function1 called : 19 in 526650928
+[INFO] [1695388234.905049579] [tester_node]: function1 called : 20 in 526650928
+[INFO] [1695388235.904965674] [tester_node]: function1 called : 21 in 526650928
+[INFO] [1695388236.905110423] [tester_node]: function1 called : 22 in 526650928
+[INFO] [1695388237.904828058] [tester_node]: function1 called : 23 in 526650928
+[INFO] [1695388238.905088062] [tester_node]: function1 called : 24 in 526650928
+[INFO] [1695388239.900565302] [rclcpp]: signal_handler(signum=2)

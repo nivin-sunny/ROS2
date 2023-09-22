@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 50%] Built target listener
+[ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[Ktester::tester()[m[K’:
+[01m[K/home/devuser/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:68:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kabc[m[K’ was not declared in this scope; did you mean ‘[01m[Kabs[m[K’?
+   68 |     [01;31m[Kabc[m[K = this->create_publisher<tutorial_interfaces::msg::Num>("test_publisher",10);
+      |     [01;31m[K^~~[m[K
+      |     [32m[Kabs[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
