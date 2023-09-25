@@ -1,0 +1,4 @@
+source;share/callback_trials/local_setup.bash
+source;share/callback_trials/local_setup.dsv
+source;share/callback_trials/local_setup.sh
+source;share/callback_trials/local_setup.zsh

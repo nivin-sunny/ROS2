@@ -1,0 +1,2 @@
+Invoking command in '/home/devuser/AOX/ros_ws/callback_trials/build/callback_trials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/callback_trials/build/callback_trials -- -j8 -l8
+Invoked command in '/home/devuser/AOX/ros_ws/callback_trials/build/callback_trials' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/callback_trials/build/callback_trials -- -j8 -l8

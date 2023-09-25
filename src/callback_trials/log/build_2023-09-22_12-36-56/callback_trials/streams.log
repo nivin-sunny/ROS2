@@ -1,0 +1,29 @@
+[0.014s] Invoking command in '/home/devuser/AOX/ros_ws/callback_trials/build/callback_trials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/callback_trials/build/callback_trials -- -j8 -l8
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.121s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[0.121s] [ 75%] Built target server
+[2.582s] [100%] [32m[1mLinking CXX executable client[0m
+[2.684s] [100%] Built target client
+[2.692s] Invoked command in '/home/devuser/AOX/ros_ws/callback_trials/build/callback_trials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/callback_trials/build/callback_trials -- -j8 -l8
+[2.717s] Invoking command in '/home/devuser/AOX/ros_ws/callback_trials/build/callback_trials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devuser/AOX/ros_ws/callback_trials/build/callback_trials
+[2.721s] -- Install configuration: ""
+[2.722s] -- Up-to-date: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/lib/callback_trials/server
+[2.722s] -- Installing: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/lib/callback_trials/client
+[2.722s] -- Set runtime path of "/home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/lib/callback_trials/client" to ""
+[2.722s] -- Up-to-date: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/ament_index/resource_index/package_run_dependencies/callback_trials
+[2.722s] -- Up-to-date: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/ament_index/resource_index/parent_prefix_path/callback_trials
+[2.722s] -- Up-to-date: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/environment/ament_prefix_path.sh
+[2.722s] -- Up-to-date: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/environment/ament_prefix_path.dsv
+[2.723s] -- Up-to-date: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/environment/path.sh
+[2.723s] -- Up-to-date: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/environment/path.dsv
+[2.723s] -- Up-to-date: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/local_setup.bash
+[2.723s] -- Up-to-date: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/local_setup.sh
+[2.723s] -- Up-to-date: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/local_setup.zsh
+[2.723s] -- Up-to-date: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/local_setup.dsv
+[2.723s] -- Installing: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/package.dsv
+[2.723s] -- Up-to-date: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/ament_index/resource_index/packages/callback_trials
+[2.723s] -- Up-to-date: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/cmake/callback_trialsConfig.cmake
+[2.723s] -- Up-to-date: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/cmake/callback_trialsConfig-version.cmake
+[2.723s] -- Up-to-date: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/package.xml
+[2.724s] Invoked command in '/home/devuser/AOX/ros_ws/callback_trials/build/callback_trials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devuser/AOX/ros_ws/callback_trials/build/callback_trials

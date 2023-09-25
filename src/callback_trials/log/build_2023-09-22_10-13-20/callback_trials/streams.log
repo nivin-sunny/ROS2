@@ -1,0 +1,47 @@
+[0.013s] Invoking command in '/home/devuser/AOX/ros_ws/callback_trials/build/callback_trials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/devuser/AOX/ros_ws/callback_trials -DCMAKE_INSTALL_PREFIX=/home/devuser/AOX/ros_ws/callback_trials/install/callback_trials
+[0.660s] -- The C compiler identification is GNU 11.4.0
+[0.740s] -- The CXX compiler identification is GNU 11.4.0
+[0.790s] -- Detecting C compiler ABI info
+[0.972s] -- Detecting C compiler ABI info - done
+[0.977s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.977s] -- Detecting C compile features
+[0.997s] -- Detecting C compile features - done
+[1.004s] -- Detecting CXX compiler ABI info
+[1.133s] -- Detecting CXX compiler ABI info - done
+[1.140s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.140s] -- Detecting CXX compile features
+[1.141s] -- Detecting CXX compile features - done
+[1.333s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.609s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.879s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.081s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.081s] -- Configured cppcheck include dirs: 
+[2.081s] -- Configured cppcheck exclude dirs and/or files: 
+[2.082s] -- Added test 'lint_cmake' to check CMake code style
+[2.085s] -- Added test 'uncrustify' to check C / C++ code style
+[2.085s] -- Configured uncrustify additional arguments: 
+[2.086s] -- Added test 'xmllint' to check XML markup files
+[2.087s] -- Configuring done
+[2.089s] -- Generating done
+[2.089s] -- Build files have been written to: /home/devuser/AOX/ros_ws/callback_trials/build/callback_trials
+[2.092s] Invoked command in '/home/devuser/AOX/ros_ws/callback_trials/build/callback_trials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/devuser/AOX/ros_ws/callback_trials -DCMAKE_INSTALL_PREFIX=/home/devuser/AOX/ros_ws/callback_trials/install/callback_trials
+[2.093s] Invoking command in '/home/devuser/AOX/ros_ws/callback_trials/build/callback_trials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/callback_trials/build/callback_trials -- -j8 -l8
+[2.119s] Invoked command in '/home/devuser/AOX/ros_ws/callback_trials/build/callback_trials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/callback_trials/build/callback_trials -- -j8 -l8
+[2.140s] Invoking command in '/home/devuser/AOX/ros_ws/callback_trials/build/callback_trials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devuser/AOX/ros_ws/callback_trials/build/callback_trials
+[2.145s] -- Install configuration: ""
+[2.145s] -- Installing: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/ament_index/resource_index/package_run_dependencies/callback_trials
+[2.145s] -- Installing: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/ament_index/resource_index/parent_prefix_path/callback_trials
+[2.145s] -- Installing: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/environment/ament_prefix_path.sh
+[2.145s] -- Installing: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/environment/ament_prefix_path.dsv
+[2.145s] -- Installing: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/environment/path.sh
+[2.146s] -- Installing: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/environment/path.dsv
+[2.146s] -- Installing: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/local_setup.bash
+[2.146s] -- Installing: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/local_setup.sh
+[2.146s] -- Installing: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/local_setup.zsh
+[2.146s] -- Installing: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/local_setup.dsv
+[2.146s] -- Installing: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/package.dsv
+[2.146s] -- Installing: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/ament_index/resource_index/packages/callback_trials
+[2.146s] -- Installing: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/cmake/callback_trialsConfig.cmake
+[2.146s] -- Installing: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/cmake/callback_trialsConfig-version.cmake
+[2.146s] -- Installing: /home/devuser/AOX/ros_ws/callback_trials/install/callback_trials/share/callback_trials/package.xml
+[2.148s] Invoked command in '/home/devuser/AOX/ros_ws/callback_trials/build/callback_trials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devuser/AOX/ros_ws/callback_trials/build/callback_trials
