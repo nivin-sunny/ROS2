@@ -1,0 +1,30 @@
+[0.013s] Invoking command in '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub -- -j8 -l8
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target watchdog[0m
+[0.053s] [ 66%] Built target talker
+[0.053s] [ 66%] Built target listener
+[0.056s] [ 83%] [32mBuilding CXX object CMakeFiles/watchdog.dir/src/watchdog.cpp.o[0m
+[5.657s] [100%] [32m[1mLinking CXX executable watchdog[0m
+[5.927s] [100%] Built target watchdog
+[5.935s] Invoked command in '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub -- -j8 -l8
+[5.961s] Invoking command in '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub
+[5.967s] -- Install configuration: ""
+[5.967s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/talker
+[5.967s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/listener
+[5.967s] -- Installing: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/watchdog
+[5.970s] -- Set runtime path of "/home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/watchdog" to ""
+[5.970s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[5.970s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[5.970s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[5.970s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[5.970s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[5.970s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[5.970s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[5.970s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[5.970s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[5.970s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[5.970s] -- Installing: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[5.970s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[5.970s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[5.971s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[5.971s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[5.972s] Invoked command in '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub

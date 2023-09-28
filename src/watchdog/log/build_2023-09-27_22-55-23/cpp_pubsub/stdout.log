@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 33%] Built target talker
+[ 50%] [32mBuilding CXX object CMakeFiles/watchdog.dir/src/watchdog.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m

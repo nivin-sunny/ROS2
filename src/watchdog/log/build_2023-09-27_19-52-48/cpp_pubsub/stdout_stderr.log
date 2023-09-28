@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target watchdog[0m
+[ 33%] Built target talker
+[ 66%] Built target listener
+[ 83%] [32mBuilding CXX object CMakeFiles/watchdog.dir/src/watchdog.cpp.o[0m
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:[m[K In constructor ‘[01m[KWatchdogNode::WatchdogNode()[m[K’:
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:21:57:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KWatchdogNode::create_client<tutorial_interfaces::srv::Empty>()[m[K’
+   21 |     [01;31m[Kthis->create_client<tutorial_interfaces::srv::Empty>()[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:125:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktypename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = tutorial_interfaces::srv::Empty; typename rclcpp::Client<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Client<tutorial_interfaces::srv::Empty> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’
+  125 | [01;36m[KNode[m[K::create_client(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:125:1:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+gmake[2]: *** [CMakeFiles/watchdog.dir/build.make:76: CMakeFiles/watchdog.dir/src/watchdog.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/watchdog.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

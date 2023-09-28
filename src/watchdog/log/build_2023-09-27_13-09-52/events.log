@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.000183] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000338] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.023126] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.029585] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.030108] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'devuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/devuser/AOX/ros_ws/cpp_pubsub/src/install/tutorial_interfaces/lib:/home/devuser/AOX/ros_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/devuser'), ('OLDPWD', '/home/devuser/AOX/ros_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '7992'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/devuser/AOX/ros_ws/cpp_pubsub/install:/home/devuser/AOX/ros_ws/cpp_pubsub/src/install:/home/devuser/AOX/ros_ws/install:/home/devuser/AOX/ros_ws/callback_trials/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'devuser'), ('_', '/home/devuser/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'devuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/devuser/AOX/ros_ws/install/rosidl_cli/bin:/home/devuser/AOX/ros_ws/install/rosdoc2/bin:/opt/ros/humble/bin:/home/devuser/.cargo/bin:/home/devuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin::/usr/local/ssl/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ATWLLL1013:@/tmp/.ICE-unix/2505,unix/ATWLLL1013:/tmp/.ICE-unix/2505'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/18b71966_692c_4dab_9d7f_39c3f9952fb8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IMVYB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.152'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub:/home/devuser/AOX/ros_ws/cpp_pubsub/src/install/tutorial_interfaces:/home/devuser/AOX/ros_ws/install/rosidl_typesupport_interface:/home/devuser/AOX/ros_ws/install/rosidl_adapter:/home/devuser/AOX/ros_ws/install/rosidl_cli:/home/devuser/AOX/ros_ws/install/rmw_implementation:/home/devuser/AOX/ros_ws/install/cpp_srvcli:/home/devuser/AOX/ros_ws/install/cpp_pubsub:/home/devuser/AOX/ros_ws/install/more_interfaces:/home/devuser/AOX/ros_ws/install/callback_trials:/home/devuser/AOX/ros_ws/callback_trials/install/callback_trials:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/devuser/AOX/ros_ws/cpp_pubsub/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/devuser/AOX/ros_ws/install/rosidl_adapter/local/lib/python3.10/dist-packages:/home/devuser/AOX/ros_ws/install/rosidl_cli/lib/python3.10/site-packages:/home/devuser/AOX/ros_ws/install/rosdoc2/lib/python3.10/site-packages:/home/devuser/AOX/ros_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub:/home/devuser/AOX/ros_ws/cpp_pubsub/src/install/tutorial_interfaces:/home/devuser/AOX/ros_ws/install/rosidl_typesupport_interface:/home/devuser/AOX/ros_ws/install/rosidl_adapter:/home/devuser/AOX/ros_ws/install/rmw_implementation:/home/devuser/AOX/ros_ws/install/cpp_srvcli:/home/devuser/AOX/ros_ws/install/cpp_pubsub:/home/devuser/AOX/ros_ws/install/more_interfaces:/home/devuser/AOX/ros_ws/install/callback_trials:/home/devuser/AOX/ros_ws/callback_trials/install/callback_trials:/home/devuser/AOX/ros_ws/install/rosidl_cli:/opt/ros/humble')]), 'shell': False}
+[0.059631] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.059831] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.064845] (cpp_pubsub) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/watchdog.dir/src/watchdog.cpp.o\x1b[0m\n'}
+[0.083758] (cpp_pubsub) StdoutLine: {'line': b'[ 83%] Built target listener\n'}
+[0.083980] (cpp_pubsub) StdoutLine: {'line': b'[ 83%] Built target talker\n'}
+[0.099881] (-) TimerEvent: {}
+[0.200142] (-) TimerEvent: {}
+[0.300452] (-) TimerEvent: {}
+[0.400727] (-) TimerEvent: {}
+[0.500953] (-) TimerEvent: {}
+[0.601226] (-) TimerEvent: {}
+[0.701459] (-) TimerEvent: {}
+[0.801709] (-) TimerEvent: {}
+[0.901993] (-) TimerEvent: {}
+[1.002523] (-) TimerEvent: {}
+[1.102776] (-) TimerEvent: {}
+[1.203051] (-) TimerEvent: {}
+[1.303414] (-) TimerEvent: {}
+[1.403707] (-) TimerEvent: {}
+[1.503989] (-) TimerEvent: {}
+[1.604328] (-) TimerEvent: {}
+[1.704614] (-) TimerEvent: {}
+[1.739262] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:19:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEmpty\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Empty\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.739565] (cpp_pubsub) StderrLine: {'line': b'   19 |   rclcpp::Subscription<std_msgs::msg::\x1b[01;31m\x1b[KEmpty\x1b[m\x1b[K>::SharedPtr subscription_;\n'}
+[1.739632] (cpp_pubsub) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.739699] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/wait_result.hpp:25\x1b[m\x1b[K,\n'}
+[1.739769] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp:32\x1b[m\x1b[K,\n'}
+[1.739830] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:26\x1b[m\x1b[K,\n'}
+[1.739889] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:168\x1b[m\x1b[K,\n'}
+[1.739946] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:1\x1b[m\x1b[K:\n'}
+[1.739999] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/wait_result_kind.hpp:28:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::Empty\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.740068] (cpp_pubsub) StderrLine: {'line': b'   28 |   \x1b[01;36m\x1b[KEmpty\x1b[m\x1b[K,  //<! Kind used when trying to wait on an empty wait set.\n'}
+[1.740129] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.740187] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:19:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.740244] (cpp_pubsub) StderrLine: {'line': b'   19 |   rclcpp::Subscription<std_msgs::msg::Empty\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscription_;\n'}
+[1.740312] (cpp_pubsub) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.740383] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:19:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[1.740445] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:19:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[1.740504] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:19:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[1.740563] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:19:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.740636] (cpp_pubsub) StderrLine: {'line': b'   19 |   rclcpp::Subscription<std_msgs::msg::Empty>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscription_;\n'}
+[1.740690] (cpp_pubsub) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.740743] (cpp_pubsub) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.740904] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:19:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.740979] (cpp_pubsub) StderrLine: {'line': b'   19 |   rclcpp::Subscription<std_msgs::msg::Empty>::SharedPtr \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K;\n'}
+[1.741032] (cpp_pubsub) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.741070] (cpp_pubsub) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[1.746468] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KWatchdogNode::WatchdogNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.746588] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:8:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.746634] (cpp_pubsub) StderrLine: {'line': b'    8 |     \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<std_msgs::msg::Empty>(\n'}
+[1.746675] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.746932] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[1.746993] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:8:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEmpty\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Empty\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.747041] (cpp_pubsub) StderrLine: {'line': b'    8 |     subscription_ = this->create_subscription<std_msgs::msg::\x1b[01;31m\x1b[KEmpty\x1b[m\x1b[K>(\n'}
+[1.747085] (cpp_pubsub) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.747128] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/wait_result.hpp:25\x1b[m\x1b[K,\n'}
+[1.747171] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp:32\x1b[m\x1b[K,\n'}
+[1.747255] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:26\x1b[m\x1b[K,\n'}
+[1.747294] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:168\x1b[m\x1b[K,\n'}
+[1.747334] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:1\x1b[m\x1b[K:\n'}
+[1.747379] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/wait_result_kind.hpp:28:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::Empty\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.747419] (cpp_pubsub) StderrLine: {'line': b'   28 |   \x1b[01;36m\x1b[KEmpty\x1b[m\x1b[K,  //<! Kind used when trying to wait on an empty wait set.\n'}
+[1.747459] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.747497] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:9:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEmpty\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.747534] (cpp_pubsub) StderrLine: {'line': b'    9 |         "topic", 10, [this](const std_msgs::msg::\x1b[01;31m\x1b[KEmpty\x1b[m\x1b[K::SharedPtr) {\n'}
+[1.747570] (cpp_pubsub) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.747605] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[1.747640] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:11:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.747676] (cpp_pubsub) StderrLine: {'line': b'   11 |         })\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[1.747714] (cpp_pubsub) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.747749] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KWatchdogNode::WatchdogNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.747784] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:11:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.747819] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:8:68:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.747855] (cpp_pubsub) StderrLine: {'line': b'    8 |     subscription_ = this->create_subscription<std_msgs::msg::Empty>\x1b[01;36m\x1b[K(\x1b[m\x1b[K\n'}
+[1.747890] (cpp_pubsub) StderrLine: {'line': b'      |                                                                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.804711] (-) TimerEvent: {}
+[1.904950] (-) TimerEvent: {}
+[2.005231] (-) TimerEvent: {}
+[2.082483] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/watchdog.dir/build.make:76: CMakeFiles/watchdog.dir/src/watchdog.cpp.o] Error 1\n'}
+[2.082633] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/watchdog.dir/all] Error 2\n'}
+[2.082715] (cpp_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.084004] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[2.105521] (-) TimerEvent: {}
+[2.119202] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[2.119728] (-) EventReactorShutdown: {}

@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.000331] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000441] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.015215] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.015381] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.015883] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'devuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/devuser/AOX/ros_ws/cpp_pubsub/src/install/tutorial_interfaces/lib:/home/devuser/AOX/ros_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/devuser'), ('OLDPWD', '/home/devuser/AOX/ros_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2505'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=80d8ad675da5acc11641a52a65112fa0'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/devuser/AOX/ros_ws/cpp_pubsub/install:/home/devuser/AOX/ros_ws/cpp_pubsub/src/install:/home/devuser/AOX/ros_ws/install:/home/devuser/AOX/ros_ws/callback_trials/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'devuser'), ('_', '/home/devuser/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'devuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/devuser/AOX/ros_ws/install/rosidl_cli/bin:/home/devuser/AOX/ros_ws/install/rosdoc2/bin:/opt/ros/humble/bin:/home/devuser/.cargo/bin:/home/devuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin::/usr/local/ssl/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ATWLLL1013:@/tmp/.ICE-unix/2505,unix/ATWLLL1013:/tmp/.ICE-unix/2505'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1a1fa3e0_7489_4a18_86f8_046c83374ac8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IMVYB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.152'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/devuser/AOX/ros_ws/callback_trials/install/callback_trials:/home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub:/home/devuser/AOX/ros_ws/cpp_pubsub/src/install/tutorial_interfaces:/home/devuser/AOX/ros_ws/install/rosidl_typesupport_interface:/home/devuser/AOX/ros_ws/install/rosidl_adapter:/home/devuser/AOX/ros_ws/install/rosidl_cli:/home/devuser/AOX/ros_ws/install/rmw_implementation:/home/devuser/AOX/ros_ws/install/cpp_srvcli:/home/devuser/AOX/ros_ws/install/cpp_pubsub:/home/devuser/AOX/ros_ws/install/more_interfaces:/home/devuser/AOX/ros_ws/install/callback_trials:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=80d8ad675da5acc11641a52a65112fa0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/devuser/AOX/ros_ws/cpp_pubsub/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/devuser/AOX/ros_ws/install/rosidl_adapter/local/lib/python3.10/dist-packages:/home/devuser/AOX/ros_ws/install/rosidl_cli/lib/python3.10/site-packages:/home/devuser/AOX/ros_ws/install/rosdoc2/lib/python3.10/site-packages:/home/devuser/AOX/ros_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/devuser/AOX/ros_ws/callback_trials/install/callback_trials:/home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub:/home/devuser/AOX/ros_ws/cpp_pubsub/src/install/tutorial_interfaces:/home/devuser/AOX/ros_ws/install/rosidl_typesupport_interface:/home/devuser/AOX/ros_ws/install/rosidl_adapter:/home/devuser/AOX/ros_ws/install/rmw_implementation:/home/devuser/AOX/ros_ws/install/cpp_srvcli:/home/devuser/AOX/ros_ws/install/cpp_pubsub:/home/devuser/AOX/ros_ws/install/more_interfaces:/home/devuser/AOX/ros_ws/install/callback_trials:/home/devuser/AOX/ros_ws/install/rosidl_cli:/opt/ros/humble')]), 'shell': False}
+[0.046886] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target watchdog\x1b[0m\n'}
+[0.055442] (cpp_pubsub) StdoutLine: {'line': b'[ 66%] Built target talker\n'}
+[0.055652] (cpp_pubsub) StdoutLine: {'line': b'[ 66%] Built target listener\n'}
+[0.058990] (cpp_pubsub) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/watchdog.dir/src/watchdog.cpp.o\x1b[0m\n'}
+[0.099809] (-) TimerEvent: {}
+[0.200108] (-) TimerEvent: {}
+[0.300456] (-) TimerEvent: {}
+[0.400795] (-) TimerEvent: {}
+[0.501035] (-) TimerEvent: {}
+[0.601662] (-) TimerEvent: {}
+[0.702372] (-) TimerEvent: {}
+[0.803390] (-) TimerEvent: {}
+[0.904104] (-) TimerEvent: {}
+[1.004474] (-) TimerEvent: {}
+[1.104780] (-) TimerEvent: {}
+[1.205054] (-) TimerEvent: {}
+[1.305339] (-) TimerEvent: {}
+[1.405627] (-) TimerEvent: {}
+[1.505995] (-) TimerEvent: {}
+[1.606332] (-) TimerEvent: {}
+[1.706753] (-) TimerEvent: {}
+[1.807084] (-) TimerEvent: {}
+[1.907485] (-) TimerEvent: {}
+[2.007817] (-) TimerEvent: {}
+[2.108108] (-) TimerEvent: {}
+[2.208499] (-) TimerEvent: {}
+[2.308797] (-) TimerEvent: {}
+[2.409081] (-) TimerEvent: {}
+[2.509380] (-) TimerEvent: {}
+[2.609674] (-) TimerEvent: {}
+[2.709975] (-) TimerEvent: {}
+[2.810271] (-) TimerEvent: {}
+[2.910531] (-) TimerEvent: {}
+[3.010824] (-) TimerEvent: {}
+[3.111124] (-) TimerEvent: {}
+[3.211430] (-) TimerEvent: {}
+[3.312305] (-) TimerEvent: {}
+[3.413350] (-) TimerEvent: {}
+[3.513621] (-) TimerEvent: {}
+[3.613946] (-) TimerEvent: {}
+[3.714277] (-) TimerEvent: {}
+[3.814606] (-) TimerEvent: {}
+[3.915497] (-) TimerEvent: {}
+[4.016578] (-) TimerEvent: {}
+[4.116912] (-) TimerEvent: {}
+[4.217181] (-) TimerEvent: {}
+[4.317433] (-) TimerEvent: {}
+[4.417665] (-) TimerEvent: {}
+[4.517930] (-) TimerEvent: {}
+[4.618231] (-) TimerEvent: {}
+[4.718509] (-) TimerEvent: {}
+[4.818839] (-) TimerEvent: {}
+[4.919148] (-) TimerEvent: {}
+[5.019459] (-) TimerEvent: {}
+[5.119797] (-) TimerEvent: {}
+[5.220091] (-) TimerEvent: {}
+[5.320412] (-) TimerEvent: {}
+[5.420726] (-) TimerEvent: {}
+[5.521000] (-) TimerEvent: {}
+[5.621272] (-) TimerEvent: {}
+[5.721533] (-) TimerEvent: {}
+[5.821850] (-) TimerEvent: {}
+[5.922146] (-) TimerEvent: {}
+[6.022439] (-) TimerEvent: {}
+[6.076283] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable watchdog\x1b[0m\n'}
+[6.122557] (-) TimerEvent: {}
+[6.222809] (-) TimerEvent: {}
+[6.323070] (-) TimerEvent: {}
+[6.364457] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target watchdog\n'}
+[6.373250] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[6.393069] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[6.399801] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub'], 'cwd': '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'devuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/devuser/AOX/ros_ws/cpp_pubsub/src/install/tutorial_interfaces/lib:/home/devuser/AOX/ros_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/devuser'), ('OLDPWD', '/home/devuser/AOX/ros_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2505'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=80d8ad675da5acc11641a52a65112fa0'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/devuser/AOX/ros_ws/cpp_pubsub/install:/home/devuser/AOX/ros_ws/cpp_pubsub/src/install:/home/devuser/AOX/ros_ws/install:/home/devuser/AOX/ros_ws/callback_trials/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'devuser'), ('_', '/home/devuser/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'devuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/devuser/AOX/ros_ws/install/rosidl_cli/bin:/home/devuser/AOX/ros_ws/install/rosdoc2/bin:/opt/ros/humble/bin:/home/devuser/.cargo/bin:/home/devuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin::/usr/local/ssl/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ATWLLL1013:@/tmp/.ICE-unix/2505,unix/ATWLLL1013:/tmp/.ICE-unix/2505'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1a1fa3e0_7489_4a18_86f8_046c83374ac8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IMVYB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.152'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/devuser/AOX/ros_ws/callback_trials/install/callback_trials:/home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub:/home/devuser/AOX/ros_ws/cpp_pubsub/src/install/tutorial_interfaces:/home/devuser/AOX/ros_ws/install/rosidl_typesupport_interface:/home/devuser/AOX/ros_ws/install/rosidl_adapter:/home/devuser/AOX/ros_ws/install/rosidl_cli:/home/devuser/AOX/ros_ws/install/rmw_implementation:/home/devuser/AOX/ros_ws/install/cpp_srvcli:/home/devuser/AOX/ros_ws/install/cpp_pubsub:/home/devuser/AOX/ros_ws/install/more_interfaces:/home/devuser/AOX/ros_ws/install/callback_trials:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=80d8ad675da5acc11641a52a65112fa0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/devuser/AOX/ros_ws/cpp_pubsub/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/devuser/AOX/ros_ws/install/rosidl_adapter/local/lib/python3.10/dist-packages:/home/devuser/AOX/ros_ws/install/rosidl_cli/lib/python3.10/site-packages:/home/devuser/AOX/ros_ws/install/rosdoc2/lib/python3.10/site-packages:/home/devuser/AOX/ros_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/devuser/AOX/ros_ws/callback_trials/install/callback_trials:/home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub:/home/devuser/AOX/ros_ws/cpp_pubsub/src/install/tutorial_interfaces:/home/devuser/AOX/ros_ws/install/rosidl_typesupport_interface:/home/devuser/AOX/ros_ws/install/rosidl_adapter:/home/devuser/AOX/ros_ws/install/rmw_implementation:/home/devuser/AOX/ros_ws/install/cpp_srvcli:/home/devuser/AOX/ros_ws/install/cpp_pubsub:/home/devuser/AOX/ros_ws/install/more_interfaces:/home/devuser/AOX/ros_ws/install/callback_trials:/home/devuser/AOX/ros_ws/install/rosidl_cli:/opt/ros/humble')]), 'shell': False}
+[6.406373] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.406738] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[6.406811] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[6.410078] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[6.410273] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/watchdog\n'}
+[6.413036] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/watchdog" to ""\n'}
+[6.413199] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[6.413290] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[6.413375] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[6.413457] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[6.413542] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[6.413610] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[6.413706] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[6.413787] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[6.413868] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[6.413948] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[6.414018] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[6.414095] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[6.414231] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[6.414305] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[6.414347] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[6.415564] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[6.423372] (-) TimerEvent: {}
+[6.468280] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[6.468734] (-) EventReactorShutdown: {}

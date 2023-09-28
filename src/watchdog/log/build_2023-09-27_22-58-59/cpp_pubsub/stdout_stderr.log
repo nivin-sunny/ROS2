@@ -1,0 +1,151 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[35m[1mConsolidate compiler generated dependencies of target watchdog[0m
+[ 33%] Built target talker
+[ 66%] [32mBuilding CXX object CMakeFiles/watchdog.dir/src/watchdog.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In function ‘[01m[Kvoid notify(std::shared_ptr<tutorial_interfaces::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:12:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   12 | void notify([01;35m[Kconst std::shared_ptr<tutorial_interfaces::srv::Empty::Request> request[m[K,
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:13:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   13 |           [01;35m[Kstd::shared_ptr<tutorial_interfaces::srv::Empty::Response>      response[m[K)
+      |           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:[m[K At global scope:
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:17:58:[m[K [01;31m[Kerror: [m[K‘[01m[KAddThreeInts[m[K’ is not a member of ‘[01m[Ktutorial_interfaces::srv[m[K’
+   17 | void add(const std::shared_ptr<tutorial_interfaces::srv::[01;31m[KAddThreeInts[m[K::Request> request,
+      |                                                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:17:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 | void add(const std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Request[01;31m[K>[m[K request,
+      |                                                                               [01;31m[K^[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:17:58:[m[K [01;31m[Kerror: [m[K‘[01m[KAddThreeInts[m[K’ is not a member of ‘[01m[Ktutorial_interfaces::srv[m[K’
+   17 | void add(const std::shared_ptr<tutorial_interfaces::srv::[01;31m[KAddThreeInts[m[K::Request> request,
+      |                                                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:17:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 | void add(const std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Request[01;31m[K>[m[K request,
+      |                                                                               [01;31m[K^[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:17:58:[m[K [01;31m[Kerror: [m[K‘[01m[KAddThreeInts[m[K’ is not a member of ‘[01m[Ktutorial_interfaces::srv[m[K’
+   17 | void add(const std::shared_ptr<tutorial_interfaces::srv::[01;31m[KAddThreeInts[m[K::Request> request,
+      |                                                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:17:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 | void add(const std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Request[01;31m[K>[m[K request,
+      |                                                                               [01;31m[K^[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:17:16:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   17 | void add(const [01;31m[Kstd[m[K::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Request> request,
+      |                [01;31m[K^~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:17:58:[m[K [01;31m[Kerror: [m[K‘[01m[KAddThreeInts[m[K’ is not a member of ‘[01m[Ktutorial_interfaces::srv[m[K’
+   17 | void add(const std::shared_ptr<tutorial_interfaces::srv::[01;31m[KAddThreeInts[m[K::Request> request,
+      |                                                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:17:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kadd[m[K’ declared void
+   17 | void [01;31m[Kadd[m[K(const std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Request> request,
+      |      [01;31m[K^~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:17:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+   17 | void add([01;31m[Kconst[m[K std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Request> request,
+      |          [01;31m[K^~~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:18:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   18 |           std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::AddThreeInts::Response>      response)
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                           [32m[Krcl_interfaces[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:18:74:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   18 |           std::shared_ptr<example_interfaces::srv::AddThreeInts::Response[01;31m[K>[m[K      response)
+      |                                                                          [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:3[m[K:
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(tutorial_interfaces::msg::Num_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:49:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::_num_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   49 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"I heard: '%d'"[m[K, [32m[Kmsg->num[m[K);              // CHANGE
+      |                                     [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~[m[K
+      |                                                           [32m[K|[m[K
+      |                                                           [32m[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::_num_type {aka long int}[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:49:49:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   49 |     RCLCPP_INFO(this->get_logger(), "I heard: '[01;36m[K%d[m[K'", msg->num);              // CHANGE
+      |                                                [01;36m[K~^[m[K
+      |                                                 [01;36m[K|[m[K
+      |                                                 [01;36m[Kint[m[K
+      |                                                [32m[K%ld[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:63:37:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::shared_ptr<rclcpp::Node> node[m[K’
+   63 |       std::shared_ptr<rclcpp::Node> [01;31m[Knode[m[K = rclcpp::Node::make_shared("add_two_ints_server");
+      |                                     [01;31m[K^~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:58:33:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::shared_ptr<rclcpp::Node> node[m[K’ previously declared here
+   58 |   std::shared_ptr<rclcpp::Node> [01;36m[Knode[m[K=std::make_shared<MinimalSubscriber>();
+      |                                 [01;36m[K^~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:65:45:[m[K [01;31m[Kerror: [m[K‘[01m[KAddThreeInts[m[K’ is not a member of ‘[01m[Ktutorial_interfaces::srv[m[K’
+   65 |   rclcpp::Service<tutorial_interfaces::srv::[01;31m[KAddThreeInts[m[K>::SharedPtr service =
+      |                                             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:65:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   65 |   rclcpp::Service<tutorial_interfaces::srv::AddThreeInts[01;31m[K>[m[K::SharedPtr service =
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:65:70:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kservice[m[K’
+   65 |   rclcpp::Service<tutorial_interfaces::srv::AddThreeInts>::SharedPtr [01;31m[Kservice[m[K =
+      |                                                                      [01;31m[K^~~~~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:[m[K In member function ‘[01m[Kvoid WatchdogNode::checkPublisherStatus()[m[K’:
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:42:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kargc[m[K’ was not declared in this scope
+   42 |       rclcpp::init([01;31m[Kargc[m[K, argv);
+      |                    [01;31m[K^~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:42:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope
+   42 |       rclcpp::init(argc, [01;31m[Kargv[m[K);
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:46:14:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   46 |       return [01;31m[K1[m[K;
+      |              [01;31m[K^[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:50:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   50 |   rclcpp::Client<[01;31m[Kexample_interfaces[m[K::srv::AddThreeInts>::SharedPtr client =
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                  [32m[Krcl_interfaces[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:50:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   50 |   rclcpp::Client<example_interfaces::srv::AddThreeInts[01;31m[K>[m[K::SharedPtr client =
+      |                                                       [01;31m[K^[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:50:68:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[Kclient[m[K’
+   50 |   rclcpp::Client<example_interfaces::srv::AddThreeInts>::SharedPtr [01;31m[Kclient[m[K =
+      |                                                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:53:61:[m[K [01;31m[Kerror: [m[K‘[01m[KAddThreeInts[m[K’ is not a member of ‘[01m[Ktutorial_interfaces::srv[m[K’
+   53 |   auto request = std::make_shared<tutorial_interfaces::srv::[01;31m[KAddThreeInts[m[K::Request>();
+      |                                                             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:53:23:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   53 |   auto request = std::[01;31m[Kmake_shared<tutorial_interfaces::srv::AddThreeInts::Request>[m[K();
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:53:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   53 |   auto request = [01;31m[Kstd::make_shared<tutorial_interfaces::srv::AddThreeInts::Request>()[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:53:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   53 |   auto request = [01;31m[Kstd::make_shared<tutorial_interfaces::srv::AddThreeInts::Request>()[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:57:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+   57 |   while (![01;31m[Kclient[m[K->wait_for_service(1s)) {
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:57:36:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+   57 |   while (!client->wait_for_service([01;31m[K1s[m[K)) {
+      |                                    [01;31m[K^~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:60:14:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   60 |       return [01;31m[K0[m[K;
+      |              [01;31m[K^[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:65:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+   65 |   auto result = [01;31m[Kclient[m[K->async_send_request(request);
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:67:42:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+   67 |   if (rclcpp::spin_until_future_complete([01;31m[Knode[m[K, result) ==
+      |                                          [01;31m[K^~~~[m[K
+      |                                          [32m[KNode[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/watchdog.dir/build.make:76: CMakeFiles/watchdog.dir/src/watchdog.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/watchdog.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

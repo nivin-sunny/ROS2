@@ -1,0 +1,140 @@
+[0.011s] Invoking command in '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub -- -j8 -l8
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target watchdog[0m
+[0.045s] [ 33%] Built target talker
+[0.048s] [ 66%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.048s] [ 66%] [32mBuilding CXX object CMakeFiles/watchdog.dir/src/watchdog.cpp.o[0m
+[1.769s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:[m[K In constructor ‘[01m[KWatchdogNode::WatchdogNode()[m[K’:
+[1.769s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:8:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+[1.769s]     8 |     [01;31m[Kclient_[m[K = create_client<cpp_pubsub::srv::minimal_subscriber>("minimal_subscriber/shutdown");
+[1.769s]       |     [01;31m[K^~~~~~~[m[K
+[1.774s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:8:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kcpp_pubsub[m[K’ was not declared in this scope
+[1.774s]     8 |     client_ = create_client<[01;31m[Kcpp_pubsub[m[K::srv::minimal_subscriber>("minimal_subscriber/shutdown");
+[1.774s]       |                             [01;31m[K^~~~~~~~~~[m[K
+[1.774s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:8:15:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.774s]     8 |     client_ = [01;31m[Kcreate_client<cpp_pubsub::srv::minimal_subscriber>[m[K("minimal_subscriber/shutdown");
+[1.774s]       |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.774s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:8:65:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KWatchdogNode::create_client<<expression error> >(const char [28])[m[K’
+[1.774s]     8 |     client_ = [01;31m[Kcreate_client<cpp_pubsub::srv::minimal_subscriber>("minimal_subscriber/shutdown")[m[K;
+[1.774s]       |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.774s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.774s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[1.774s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.774s]                  from [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:1[m[K:
+[1.774s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[1.774s]   252 |   [01;36m[Kcreate_client[m[K(
+[1.774s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[1.774s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.775s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:8:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.775s]     8 |     client_ = [01;31m[Kcreate_client<cpp_pubsub::srv::minimal_subscriber>("minimal_subscriber/shutdown")[m[K;
+[1.775s]       |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.775s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:32:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kyour_package[m[K’ was not declared in this scope
+[1.775s]    32 |     rclcpp::Service<[01;31m[Kyour_package[m[K::srv::ShutdownNode>::SharedPtr service_;
+[1.775s]       |                     [01;31m[K^~~~~~~~~~~~[m[K
+[1.775s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:32:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.776s]    32 |     rclcpp::Service<your_package::srv::ShutdownNode[01;31m[K>[m[K::SharedPtr service_;
+[1.776s]       |                                                    [01;31m[K^[m[K
+[1.776s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:32:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.776s]    32 |     rclcpp::Service<your_package::srv::ShutdownNode>::[01;31m[KSharedPtr[m[K service_;
+[1.776s]       |                                                       [01;31m[K^~~~~~~~~[m[K
+[1.776s]       |                                                                [32m[K;[m[K
+[1.777s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:32:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_[m[K’ does not name a type
+[1.777s]    32 |     rclcpp::Service<your_package::srv::ShutdownNode>::SharedPtr [01;31m[Kservice_[m[K;
+[1.777s]       |                                                                 [01;31m[K^~~~~~~~[m[K
+[1.789s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[1.789s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:15:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_[m[K’ was not declared in this scope
+[1.789s]    15 |       [01;31m[Kservice_[m[K = create_service<cpp_pubsub::srv::minimal_subscriber>(
+[1.789s]       |       [01;31m[K^~~~~~~~[m[K
+[1.789s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:[m[K In member function ‘[01m[Kvoid WatchdogNode::send_shutdown_request()[m[K’:
+[1.789s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:20:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kyour_package[m[K’ was not declared in this scope
+[1.789s]    20 |         auto request = std::make_shared<[01;31m[Kyour_package[m[K::srv::ShutdownNode::Request>();
+[1.789s]       |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[1.789s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:20:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.789s]    20 |         auto request = std::[01;31m[Kmake_shared<your_package::srv::ShutdownNode::Request>[m[K();
+[1.789s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.789s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:20:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.789s]    20 |         auto request = [01;31m[Kstd::make_shared<your_package::srv::ShutdownNode::Request>()[m[K;
+[1.790s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.790s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.790s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.790s]                  from [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:1[m[K:
+[1.790s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[1.790s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.790s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.790s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.790s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:20:82:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.790s]    20 |         auto request = [01;31m[Kstd::make_shared<your_package::srv::ShutdownNode::Request>()[m[K;
+[1.790s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.793s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:15:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kcpp_pubsub[m[K’ was not declared in this scope
+[1.793s]    15 |       service_ = create_service<[01;31m[Kcpp_pubsub[m[K::srv::minimal_subscriber>(
+[1.793s]       |                                 [01;31m[K^~~~~~~~~~[m[K
+[1.793s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:15:18:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.794s]    15 |       service_ = [01;31m[Kcreate_service<cpp_pubsub::srv::minimal_subscriber>[m[K(
+[1.794s]       |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.794s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:21:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+[1.794s]    21 |         auto future = [01;31m[Kclient_[m[K->async_send_request(request);
+[1.794s]       |                       [01;31m[K^~~~~~~[m[K
+[1.794s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:23:87:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::executor[m[K’ has not been declared
+[1.794s]    23 |         if (rclcpp::spin_until_future_complete(shared_from_this(), future) == rclcpp::[01;31m[Kexecutor[m[K::FutureReturnCode::SUCCESS &&
+[1.794s]       |                                                                                       [01;31m[K^~~~~~~~[m[K
+[1.794s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In lambda function:
+[1.794s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:21:25:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[1.794s]    21 |                 response[01;31m[K->[m[Ksuccess = true;
+[1.795s]       |                         [01;31m[K^~[m[K
+[1.795s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:17:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.795s]    17 |             [this]([01;35m[Kconst std::shared_ptr<cpp_pubsub::srv::minimal_subscriber::Request> request[m[K,
+[1.795s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[1.795s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[1.795s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:15:69:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::create_service<<expression error> >(const char [19], MinimalSubscriber::MinimalSubscriber()::<lambda(int, int)>)[m[K’
+[1.795s]    15 |       service_ = [01;31m[Kcreate_service<cpp_pubsub::srv::minimal_subscriber>([m[K
+[1.795s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[1.795s]    16 | [01;31m[K            "minimal_subscriber",[m[K
+[1.795s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K                                    
+[1.795s]    17 | [01;31m[K            [this](const std::shared_ptr<cpp_pubsub::srv::minimal_subscriber::Request> request,[m[K
+[1.795s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.795s]    18 | [01;31m[K                   std::shared_ptr<cpp_pubsub::srv::minimal_subscriber::Response> response) {[m[K
+[1.795s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.795s]    19 | [01;31m[K                RCLCPP_INFO(get_logger(), "Received shutdown request.");[m[K
+[1.795s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.795s]    20 | [01;31m[K                // Perform any necessary cleanup or shutdown actions here[m[K
+[1.795s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.795s]    21 | [01;31m[K                response->success = true;[m[K
+[1.795s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                            
+[1.795s]    22 | [01;31m[K                rclcpp::shutdown();[m[K
+[1.795s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~[m[K                                  
+[1.795s]    23 | [01;31m[K            })[m[K;
+[1.795s]       |             [01;31m[K~~[m[K                                                       
+[1.795s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.795s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[1.796s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.796s]                  from [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:3[m[K:
+[1.796s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[1.796s]   267 |   [01;36m[Kcreate_service[m[K(
+[1.796s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.796s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.796s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:15:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.796s]    15 |       service_ = [01;31m[Kcreate_service<cpp_pubsub::srv::minimal_subscriber>([m[K
+[1.796s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[1.796s]    16 | [01;31m[K            "minimal_subscriber",[m[K
+[1.796s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K                                    
+[1.796s]    17 | [01;31m[K            [this](const std::shared_ptr<cpp_pubsub::srv::minimal_subscriber::Request> request,[m[K
+[1.796s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.796s]    18 | [01;31m[K                   std::shared_ptr<cpp_pubsub::srv::minimal_subscriber::Response> response) {[m[K
+[1.796s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.796s]    19 | [01;31m[K                RCLCPP_INFO(get_logger(), "Received shutdown request.");[m[K
+[1.796s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.796s]    20 | [01;31m[K                // Perform any necessary cleanup or shutdown actions here[m[K
+[1.796s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.796s]    21 | [01;31m[K                response->success = true;[m[K
+[1.796s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                            
+[1.796s]    22 | [01;31m[K                rclcpp::shutdown();[m[K
+[1.796s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~[m[K                                  
+[1.796s]    23 | [01;31m[K            })[m[K;
+[1.796s]       |             [01;31m[K~~[m[K                                                       
+[3.589s] gmake[2]: *** [CMakeFiles/watchdog.dir/build.make:76: CMakeFiles/watchdog.dir/src/watchdog.cpp.o] Error 1
+[3.589s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/watchdog.dir/all] Error 2
+[3.589s] gmake[1]: *** Waiting for unfinished jobs....
+[3.609s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[3.609s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/listener.dir/all] Error 2
+[3.609s] gmake: *** [Makefile:146: all] Error 2
+[3.611s] Invoked command in '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub -- -j8 -l8

@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target watchdog[0m
+[ 66%] Built target talker
+[ 66%] Built target listener
+[ 83%] [32mBuilding CXX object CMakeFiles/watchdog.dir/src/watchdog.cpp.o[0m
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:77:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kshutdown[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   77 |   [01;31m[Krclcpp[m[K::shutdown();
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:77:3:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[K::[m[K’
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:78:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+   78 |   [01;31m[Kreturn[m[K 0;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:79:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   79 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:[m[K In member function ‘[01m[Kvoid WatchdogNode::checkPublisherStatus()[m[K’:
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:46:33:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   46 | int main(int argc, char **argv) [01;31m[K{[m[K
+      |                                 [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/watchdog.dir/build.make:76: CMakeFiles/watchdog.dir/src/watchdog.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/watchdog.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

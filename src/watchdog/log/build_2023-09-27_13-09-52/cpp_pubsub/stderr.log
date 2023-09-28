@@ -1,0 +1,56 @@
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:19:39:[m[K [01;31m[Kerror: [m[K‘[01m[KEmpty[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Krclcpp::Empty[m[K’?
+   19 |   rclcpp::Subscription<std_msgs::msg::[01;31m[KEmpty[m[K>::SharedPtr subscription_;
+      |                                       [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_result.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:168[m[K,
+                 from [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_result_kind.hpp:28:3:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Empty[m[K’ declared here
+   28 |   [01;36m[KEmpty[m[K,  //<! Kind used when trying to wait on an empty wait set.
+      |   [01;36m[K^~~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:19:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   19 |   rclcpp::Subscription<std_msgs::msg::Empty[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                            [01;31m[K^[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:19:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:19:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:19:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:19:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   19 |   rclcpp::Subscription<std_msgs::msg::Empty>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                               [01;31m[K^~~~~~~~~[m[K
+      |                                                        [32m[K;[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:19:57:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   19 |   rclcpp::Subscription<std_msgs::msg::Empty>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                         [32m[Krmw_subscription_t[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:[m[K In constructor ‘[01m[KWatchdogNode::WatchdogNode()[m[K’:
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:8:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+    8 |     [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::Empty>(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:8:62:[m[K [01;31m[Kerror: [m[K‘[01m[KEmpty[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Krclcpp::Empty[m[K’?
+    8 |     subscription_ = this->create_subscription<std_msgs::msg::[01;31m[KEmpty[m[K>(
+      |                                                              [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_result.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:168[m[K,
+                 from [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_result_kind.hpp:28:3:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Empty[m[K’ declared here
+   28 |   [01;36m[KEmpty[m[K,  //<! Kind used when trying to wait on an empty wait set.
+      |   [01;36m[K^~~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:9:50:[m[K [01;31m[Kerror: [m[K‘[01m[KEmpty[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+    9 |         "topic", 10, [this](const std_msgs::msg::[01;31m[KEmpty[m[K::SharedPtr) {
+      |                                                  [01;31m[K^~~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:[m[K In lambda function:
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:11:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+   11 |         })[01;31m[K;[m[K
+      |           [01;31m[K^[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:[m[K In constructor ‘[01m[KWatchdogNode::WatchdogNode()[m[K’:
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:11:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:8:68:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+    8 |     subscription_ = this->create_subscription<std_msgs::msg::Empty>[01;36m[K([m[K
+      |                                                                    [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/watchdog.dir/build.make:76: CMakeFiles/watchdog.dir/src/watchdog.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/watchdog.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

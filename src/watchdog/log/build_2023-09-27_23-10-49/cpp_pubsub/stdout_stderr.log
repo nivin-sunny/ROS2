@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target watchdog[0m
+[ 66%] Built target listener
+[ 66%] Built target talker
+[ 83%] [32mBuilding CXX object CMakeFiles/watchdog.dir/src/watchdog.cpp.o[0m
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:[m[K In member function ‘[01m[Kvoid WatchdogNode::checkPublisherStatus()[m[K’:
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:48:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope
+   48 |   request->a = atoll([01;31m[Kargv[m[K[1]);
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:51:36:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+   51 |   while (!client->wait_for_service([01;31m[K1s[m[K)) {
+      |                                    [01;31m[K^~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:54:14:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   54 |       return [01;31m[K0[m[K;
+      |              [01;31m[K^[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:61:42:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+   61 |   if (rclcpp::spin_until_future_complete([01;31m[Knode[m[K, result) ==
+      |                                          [01;31m[K^~~~[m[K
+      |                                          [32m[KNode[m[K
+gmake[2]: *** [CMakeFiles/watchdog.dir/build.make:76: CMakeFiles/watchdog.dir/src/watchdog.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/watchdog.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

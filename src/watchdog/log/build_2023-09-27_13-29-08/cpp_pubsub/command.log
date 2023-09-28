@@ -1,0 +1,2 @@
+Invoking command in '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devuser/AOX/ros_ws/install/rosidl_cli:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub -- -j8 -l8
+Invoked command in '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devuser/AOX/ros_ws/install/rosidl_cli:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub -- -j8 -l8

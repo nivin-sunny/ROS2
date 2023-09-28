@@ -1,0 +1,62 @@
+[0.018s] Invoking command in '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub -- -j8 -l8
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target watchdog[0m
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.061s] [ 33%] Built target talker
+[0.065s] [ 66%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.065s] [ 66%] [32mBuilding CXX object CMakeFiles/watchdog.dir/src/watchdog.cpp.o[0m
+[1.956s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In lambda function:
+[1.956s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:31:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.956s]    31 |                    [01;35m[Kstd::shared_ptr<tutorial_interfaces::srv::Empty::Response> response[m[K) {
+[1.956s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[1.959s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.959s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.959s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.959s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.959s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.959s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.959s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.959s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.959s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.959s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.959s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.959s]                  from [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:3[m[K:
+[1.960s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(tutorial_interfaces::msg::Num_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.960s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:42:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::_num_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.960s]    42 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"I heard: '%d'"[m[K, [32m[Kmsg->num[m[K);              // CHANGE
+[1.960s]       |                                     [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~[m[K
+[1.960s]       |                                                           [32m[K|[m[K
+[1.960s]       |                                                           [32m[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::_num_type {aka long int}[m[K
+[1.960s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:42:49:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.960s]    42 |     RCLCPP_INFO(this->get_logger(), "I heard: '[01;36m[K%d[m[K'", msg->num);              // CHANGE
+[1.960s]       |                                                [01;36m[K~^[m[K
+[1.960s]       |                                                 [01;36m[K|[m[K
+[1.960s]       |                                                 [01;36m[Kint[m[K
+[1.960s]       |                                                [32m[K%ld[m[K
+[7.265s] [ 83%] [32m[1mLinking CXX executable listener[0m
+[7.269s] [100%] [32m[1mLinking CXX executable watchdog[0m
+[7.644s] [100%] Built target listener
+[7.659s] [100%] Built target watchdog
+[7.670s] Invoked command in '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub -- -j8 -l8
+[7.708s] Invoking command in '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub
+[7.715s] -- Install configuration: ""
+[7.715s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/talker
+[7.715s] -- Installing: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/listener
+[7.718s] -- Set runtime path of "/home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[7.718s] -- Installing: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/watchdog
+[7.722s] -- Set runtime path of "/home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/watchdog" to ""
+[7.722s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[7.722s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[7.722s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[7.722s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[7.722s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[7.722s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[7.722s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[7.722s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[7.722s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[7.722s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[7.722s] -- Installing: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[7.723s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[7.723s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[7.723s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[7.723s] -- Up-to-date: /home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[7.724s] Invoked command in '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub

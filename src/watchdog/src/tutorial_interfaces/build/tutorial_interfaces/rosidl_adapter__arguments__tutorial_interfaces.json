@@ -1,0 +1,9 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/devuser/AOX/ros_ws/cpp_pubsub/src/tutorial_interfaces:msg/Num.msg",
+    "/home/devuser/AOX/ros_ws/cpp_pubsub/src/tutorial_interfaces:msg/Sphere.msg",
+    "/home/devuser/AOX/ros_ws/cpp_pubsub/src/tutorial_interfaces:srv/AddThreeInts.srv",
+    "/home/devuser/AOX/ros_ws/cpp_pubsub/src/tutorial_interfaces:srv/Empty.srv"
+  ]
+}

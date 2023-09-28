@@ -1,0 +1,4 @@
+/home/devuser/AOX/ros_ws/cpp_pubsub/src/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/Num.idl
+/home/devuser/AOX/ros_ws/cpp_pubsub/src/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/Sphere.idl
+/home/devuser/AOX/ros_ws/cpp_pubsub/src/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:srv/AddThreeInts.idl
+/home/devuser/AOX/ros_ws/cpp_pubsub/src/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:srv/Empty.idl

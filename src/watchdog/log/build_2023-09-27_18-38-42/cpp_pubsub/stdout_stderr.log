@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[35m[1mConsolidate compiler generated dependencies of target watchdog[0m
+[ 33%] Built target talker
+[ 66%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/watchdog.dir/src/watchdog.cpp.o[0m
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:[m[K In constructor ‘[01m[KWatchdogNode::WatchdogNode()[m[K’:
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:8:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kcpp_pubsub[m[K’ was not declared in this scope
+    8 |      rclcpp::Client<[01;31m[Kcpp_pubsub[m[K::srv::minimal_subscriber>::SharedPtr client_ = create_client<cpp_pubsub::srv::minimal_subscriber>("minimal_subscriber/shutdown");
+      |                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:8:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    8 |      rclcpp::Client<cpp_pubsub::srv::minimal_subscriber[01;31m[K>[m[K::SharedPtr client_ = create_client<cpp_pubsub::srv::minimal_subscriber>("minimal_subscriber/shutdown");
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:8:69:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[Kclient_[m[K’
+    8 |      rclcpp::Client<cpp_pubsub::srv::minimal_subscriber>::SharedPtr [01;31m[Kclient_[m[K = create_client<cpp_pubsub::srv::minimal_subscriber>("minimal_subscriber/shutdown");
+      |                                                                     [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/watchdog.dir/build.make:76: CMakeFiles/watchdog.dir/src/watchdog.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/watchdog.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 83%] [32m[1mLinking CXX executable listener[0m
+[ 83%] Built target listener
+gmake: *** [Makefile:146: all] Error 2

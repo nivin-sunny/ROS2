@@ -1,0 +1,40 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/watchdog.dir/src/watchdog.cpp.o[0m
+[ 50%] Built target talker
+[ 83%] Built target listener
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:1[m[K:
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:[m[K In member function ‘[01m[Kvoid WatchdogNode::checkPublisherStatus()[m[K’:
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:39:7:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Krclcpp::Client<tutorial_interfaces::srv::Empty>::FutureAndRequestId::FutureAndRequestId(const rclcpp::Client<tutorial_interfaces::srv::Empty>::FutureAndRequestId&)[m[K’
+   39 |       [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "req send %d",future);
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:403:10:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Client<tutorial_interfaces::srv::Empty>::FutureAndRequestId::FutureAndRequestId(const rclcpp::Client<tutorial_interfaces::srv::Empty>::FutureAndRequestId&)[m[K’ is implicitly deleted because the default definition would be ill-formed:
+  403 |   struct [01;36m[KFutureAndRequestId[m[K
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:403:10:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Krclcpp::detail::FutureAndRequestId<FutureT>::FutureAndRequestId(const rclcpp::detail::FutureAndRequestId<FutureT>&) [with FutureT = std::future<std::shared_ptr<tutorial_interfaces::srv::Empty_Response_<std::allocator<void> > > >][m[K’
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:107:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  107 |   [01;36m[KFutureAndRequestId[m[K(const FutureAndRequestId & other) = delete;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/watchdog.dir/build.make:76: CMakeFiles/watchdog.dir/src/watchdog.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/watchdog.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

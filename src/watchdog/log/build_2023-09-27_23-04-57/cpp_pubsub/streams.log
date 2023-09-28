@@ -1,0 +1,19 @@
+[0.081s] Invoking command in '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub -- -j8 -l8
+[0.126s] [ 33%] [32mBuilding CXX object CMakeFiles/watchdog.dir/src/watchdog.cpp.o[0m
+[0.126s] [ 50%] Built target talker
+[0.126s] [ 66%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.270s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/srv/addthreeints.hpp: No such file or directory
+[0.270s]     5 | #include [01;31m[K"tutorial_interfaces/srv/addthreeints.hpp"[m[K
+[0.270s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.270s] compilation terminated.
+[0.284s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/srv/addthreeints.hpp: No such file or directory
+[0.284s]     5 | #include [01;31m[K"tutorial_interfaces/srv/addthreeints.hpp"[m[K
+[0.284s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.284s] compilation terminated.
+[0.289s] gmake[2]: *** [CMakeFiles/watchdog.dir/build.make:76: CMakeFiles/watchdog.dir/src/watchdog.cpp.o] Error 1
+[0.289s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/watchdog.dir/all] Error 2
+[0.289s] gmake[1]: *** Waiting for unfinished jobs....
+[0.289s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[0.289s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/listener.dir/all] Error 2
+[0.290s] gmake: *** [Makefile:146: all] Error 2
+[0.291s] Invoked command in '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub -- -j8 -l8

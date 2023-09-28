@@ -1,0 +1,24 @@
+# - name: check_topic
+#   description: Monitors publisher.
+#   restart_timeout: 30
+#   monitors:
+#       - monitor_type: TopicFieldCondition
+#         topic: /battery_state/lifePercent
+#         condition: "{value} > 20"
+#   actions:
+#       - action_type: SendEmail
+#         to_addresses:  [cburbridge@gmail.com]
+#         from_address: cburbridge@gmail.com
+#         message: "Warning: robot battery is critically low."
+#         server: mail-relay.cs.bham.ac.uk
+#         port: 25
+watchdog_node:
+  description: Checks the /topic topic, kills scitos node if not published for 20s.
+  restart_timeout: 30
+  monitors:
+      - monitor_type: TopicAlive
+        topic: /topic
+        max_duration: 20
+  actions:
+      - action_type: KillNode
+        node_name: /listener

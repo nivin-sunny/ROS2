@@ -1,0 +1,19 @@
+[0.070s] Invoking command in '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub -- -j8 -l8
+[0.129s] [ 16%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.129s] [ 50%] [32mBuilding CXX object CMakeFiles/watchdog.dir/src/watchdog.cpp.o[0m
+[0.129s] [ 66%] Built target talker
+[0.274s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/srv/add_three_ints.hpp.hpp: No such file or directory
+[0.274s]     5 | #include [01;31m[K"tutorial_interfaces/srv/add_three_ints.hpp.hpp"[m[K
+[0.274s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.274s] compilation terminated.
+[0.276s] [01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/srv/add_three_ints.hpp.hpp: No such file or directory
+[0.276s]     5 | #include [01;31m[K"tutorial_interfaces/srv/add_three_ints.hpp.hpp"[m[K
+[0.276s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.276s] compilation terminated.
+[0.287s] gmake[2]: *** [CMakeFiles/watchdog.dir/build.make:76: CMakeFiles/watchdog.dir/src/watchdog.cpp.o] Error 1
+[0.287s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/watchdog.dir/all] Error 2
+[0.287s] gmake[1]: *** Waiting for unfinished jobs....
+[0.311s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[0.311s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/listener.dir/all] Error 2
+[0.311s] gmake: *** [Makefile:146: all] Error 2
+[0.313s] Invoked command in '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub -- -j8 -l8

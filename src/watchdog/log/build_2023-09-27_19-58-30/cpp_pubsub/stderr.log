@@ -1,0 +1,10 @@
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:[m[K In member function ‘[01m[Kvoid WatchdogNode::checkPublisherStatus()[m[K’:
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:36:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+   36 |         auto future = [01;31m[Kclient_[m[K->async_send_request(request);
+      |                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:38:87:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::executor[m[K’ has not been declared
+   38 |         if (rclcpp::spin_until_future_complete(shared_from_this(), future) == rclcpp::[01;31m[Kexecutor[m[K::FutureReturnCode::SUCCESS) {
+      |                                                                                       [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/watchdog.dir/build.make:76: CMakeFiles/watchdog.dir/src/watchdog.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/watchdog.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

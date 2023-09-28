@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.000206] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000255] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.012496] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.012996] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.013556] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'devuser'), ('GIO_MODULE_DIR', '/home/devuser/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/140/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/devuser/AOX/ros_ws/cpp_pubsub/src/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/devuser'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/devuser/AOX/ros_ws/cpp_pubsub/src/tutorial_interfaces'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/140/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/devuser/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/140/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/140/usr/share/code/code'), ('MANAGERPID', '2282'), ('SYSTEMD_EXEC_PID', '2398'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7867'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/devuser/AOX/ros_ws/cpp_pubsub/src/install:/home/devuser/AOX/ros_ws/cpp_pubsub/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'devuser'), ('JOURNAL_STREAM', '8:42053'), ('_', '/home/devuser/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'devuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/devuser/.cargo/bin:/home/devuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin::/usr/local/ssl/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ATWLLL1013:@/tmp/.ICE-unix/2380,unix/ATWLLL1013:/tmp/.ICE-unix/2380'), ('GTK_EXE_PREFIX', '/snap/code/140/usr'), ('INVOCATION_ID', '23e06dd0c88d42388333874cfd63b7eb'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/140/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RN2XB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-81a6cb4e02.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/devuser/snap/code/140/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/devuser/AOX/ros_ws/cpp_pubsub/src/install/tutorial_interfaces:/home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/devuser/AOX/ros_ws/cpp_pubsub/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/devuser/snap/code/140/.local/share:/home/devuser/snap/code/140:/snap/code/140/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/devuser/AOX/ros_ws/cpp_pubsub/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/devuser/AOX/ros_ws/cpp_pubsub/src/install/tutorial_interfaces:/home/devuser/AOX/ros_ws/cpp_pubsub/install/cpp_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.057259] (cpp_pubsub) StdoutLine: {'line': b'[ 33%] Built target talker\n'}
+[0.057608] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.057766] (cpp_pubsub) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/watchdog.dir/src/watchdog.cpp.o\x1b[0m\n'}
+[0.098513] (-) TimerEvent: {}
+[0.198835] (-) TimerEvent: {}
+[0.299183] (-) TimerEvent: {}
+[0.399514] (-) TimerEvent: {}
+[0.499848] (-) TimerEvent: {}
+[0.600206] (-) TimerEvent: {}
+[0.700542] (-) TimerEvent: {}
+[0.800944] (-) TimerEvent: {}
+[0.901291] (-) TimerEvent: {}
+[1.001593] (-) TimerEvent: {}
+[1.102091] (-) TimerEvent: {}
+[1.202947] (-) TimerEvent: {}
+[1.303367] (-) TimerEvent: {}
+[1.403719] (-) TimerEvent: {}
+[1.504032] (-) TimerEvent: {}
+[1.604372] (-) TimerEvent: {}
+[1.704901] (-) TimerEvent: {}
+[1.805255] (-) TimerEvent: {}
+[1.857383] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid notify(std::shared_ptr<tutorial_interfaces::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::Empty_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.857621] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:13:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.857713] (cpp_pubsub) StderrLine: {'line': b'   13 | void notify(\x1b[01;35m\x1b[Kconst std::shared_ptr<tutorial_interfaces::srv::Empty::Request> request\x1b[m\x1b[K,\n'}
+[1.857789] (cpp_pubsub) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[1.857861] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:14:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.857937] (cpp_pubsub) StderrLine: {'line': b'   14 |           \x1b[01;35m\x1b[Kstd::shared_ptr<tutorial_interfaces::srv::Empty::Response>      response\x1b[m\x1b[K)\n'}
+[1.858013] (cpp_pubsub) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[1.898993] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.899204] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.899291] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.899371] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.899449] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.899526] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.899596] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.899667] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.899737] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.899808] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.899877] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.899945] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:3\x1b[m\x1b[K:\n'}
+[1.900014] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::topic_callback(tutorial_interfaces::msg::Num_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.900085] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:50:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::_num_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.900170] (cpp_pubsub) StderrLine: {'line': b'   50 |     RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"I heard: \'%d\'"\x1b[m\x1b[K, \x1b[32m\x1b[Kmsg->num\x1b[m\x1b[K);              // CHANGE\n'}
+[1.900239] (cpp_pubsub) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[1.900308] (cpp_pubsub) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[1.900383] (cpp_pubsub) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::_num_type {aka long int}\x1b[m\x1b[K\n'}
+[1.900452] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:50:49:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[1.900522] (cpp_pubsub) StderrLine: {'line': b'   50 |     RCLCPP_INFO(this->get_logger(), "I heard: \'\x1b[01;36m\x1b[K%d\x1b[m\x1b[K\'", msg->num);              // CHANGE\n'}
+[1.900594] (cpp_pubsub) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[1.900659] (cpp_pubsub) StderrLine: {'line': b'      |                                                 \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[1.900723] (cpp_pubsub) StderrLine: {'line': b'      |                                                 \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[1.900791] (cpp_pubsub) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[1.901064] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.901143] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:64:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node> node\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.901214] (cpp_pubsub) StderrLine: {'line': b'   64 |       std::shared_ptr<rclcpp::Node> \x1b[01;31m\x1b[Knode\x1b[m\x1b[K = rclcpp::Node::make_shared("add_two_ints_server");\n'}
+[1.901283] (cpp_pubsub) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.901351] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/subscriber_member_function.cpp:59:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node> node\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[1.901420] (cpp_pubsub) StderrLine: {'line': b'   59 |   std::shared_ptr<rclcpp::Node> \x1b[01;36m\x1b[Knode\x1b[m\x1b[K=std::make_shared<MinimalSubscriber>();\n'}
+[1.901489] (cpp_pubsub) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.902933] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid WatchdogNode::checkPublisherStatus()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.903012] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:43:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.903081] (cpp_pubsub) StderrLine: {'line': b'   43 |       rclcpp::init(\x1b[01;31m\x1b[Kargc\x1b[m\x1b[K, argv);\n'}
+[1.903163] (cpp_pubsub) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.905338] (-) TimerEvent: {}
+[1.907811] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:43:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.908014] (cpp_pubsub) StderrLine: {'line': b'   43 |       rclcpp::init(argc, \x1b[01;31m\x1b[Kargv\x1b[m\x1b[K);\n'}
+[1.908107] (cpp_pubsub) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.908226] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:47:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn-statement with a value, in function returning \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.908334] (cpp_pubsub) StderrLine: {'line': b'   47 |       return \x1b[01;31m\x1b[K1\x1b[m\x1b[K;\n'}
+[1.908411] (cpp_pubsub) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.915379] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:51:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.915607] (cpp_pubsub) StderrLine: {'line': b'   51 |   rclcpp::Client<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::AddThreeInts>::SharedPtr client =\n'}
+[1.915698] (cpp_pubsub) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.915773] (cpp_pubsub) StderrLine: {'line': b'      |                  \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[1.915846] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:51:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.915916] (cpp_pubsub) StderrLine: {'line': b'   51 |   rclcpp::Client<example_interfaces::srv::AddThreeInts\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr client =\n'}
+[1.915986] (cpp_pubsub) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.916063] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:51:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[Kclient\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.916121] (cpp_pubsub) StderrLine: {'line': b'   51 |   rclcpp::Client<example_interfaces::srv::AddThreeInts>::SharedPtr \x1b[01;31m\x1b[Kclient\x1b[m\x1b[K =\n'}
+[1.916181] (cpp_pubsub) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.921703] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:58:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.921938] (cpp_pubsub) StderrLine: {'line': b'   58 |   while (!\x1b[01;31m\x1b[Kclient\x1b[m\x1b[K->wait_for_service(1s)) {\n'}
+[1.922087] (cpp_pubsub) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.922189] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:58:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""s\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.922275] (cpp_pubsub) StderrLine: {'line': b'   58 |   while (!client->wait_for_service(\x1b[01;31m\x1b[K1s\x1b[m\x1b[K)) {\n'}
+[1.922349] (cpp_pubsub) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.922443] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:61:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn-statement with a value, in function returning \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.922534] (cpp_pubsub) StderrLine: {'line': b'   61 |       return \x1b[01;31m\x1b[K0\x1b[m\x1b[K;\n'}
+[1.922612] (cpp_pubsub) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.927810] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:66:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.928065] (cpp_pubsub) StderrLine: {'line': b'   66 |   auto result = \x1b[01;31m\x1b[Kclient\x1b[m\x1b[K->async_send_request(request);\n'}
+[1.928161] (cpp_pubsub) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.931727] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:68:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KNode\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.931930] (cpp_pubsub) StderrLine: {'line': b'   68 |   if (rclcpp::spin_until_future_complete(\x1b[01;31m\x1b[Knode\x1b[m\x1b[K, result) ==\n'}
+[1.932014] (cpp_pubsub) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.932092] (cpp_pubsub) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[KNode\x1b[m\x1b[K\n'}
+[2.005460] (-) TimerEvent: {}
+[2.105805] (-) TimerEvent: {}
+[2.206165] (-) TimerEvent: {}
+[2.306592] (-) TimerEvent: {}
+[2.406990] (-) TimerEvent: {}
+[2.507274] (-) TimerEvent: {}
+[2.607559] (-) TimerEvent: {}
+[2.707801] (-) TimerEvent: {}
+[2.808223] (-) TimerEvent: {}
+[2.908699] (-) TimerEvent: {}
+[3.009141] (-) TimerEvent: {}
+[3.109492] (-) TimerEvent: {}
+[3.209860] (-) TimerEvent: {}
+[3.310398] (-) TimerEvent: {}
+[3.411015] (-) TimerEvent: {}
+[3.511521] (-) TimerEvent: {}
+[3.611897] (-) TimerEvent: {}
+[3.712243] (-) TimerEvent: {}
+[3.770302] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/watchdog.dir/build.make:76: CMakeFiles/watchdog.dir/src/watchdog.cpp.o] Error 1\n'}
+[3.770624] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/watchdog.dir/all] Error 2\n'}
+[3.770792] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.812415] (-) TimerEvent: {}
+[3.867199] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1\n'}
+[3.867423] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/listener.dir/all] Error 2\n'}
+[3.867567] (cpp_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.868970] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[3.907362] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[3.912611] (-) TimerEvent: {}
+[3.917775] (-) EventReactorShutdown: {}

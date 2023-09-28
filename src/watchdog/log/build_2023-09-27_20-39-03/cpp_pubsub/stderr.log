@@ -1,0 +1,10 @@
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:[m[K In member function ‘[01m[Kvoid WatchdogNode::checkPublisherStatus()[m[K’:
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:40:87:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::executor[m[K’ has not been declared
+   40 |         if (rclcpp::spin_until_future_complete(shared_from_this(), future) == rclcpp::[01;31m[Kexecutor[m[K::FutureReturnCode::SUCCESS) {
+      |                                                                                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/devuser/AOX/ros_ws/cpp_pubsub/src/watchdog.cpp:41:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct tutorial_interfaces::srv::Empty_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tutorial_interfaces::srv::Empty_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksuccess[m[K’
+   41 |             if (future.get()->[01;31m[Ksuccess[m[K) {
+      |                               [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/watchdog.dir/build.make:76: CMakeFiles/watchdog.dir/src/watchdog.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/watchdog.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
