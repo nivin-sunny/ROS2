@@ -1,0 +1,8 @@
+source;share/syncasyn/hook/cmake_prefix_path.ps1
+source;share/syncasyn/hook/cmake_prefix_path.dsv
+source;share/syncasyn/hook/cmake_prefix_path.sh
+source;share/syncasyn/local_setup.bash
+source;share/syncasyn/local_setup.dsv
+source;share/syncasyn/local_setup.ps1
+source;share/syncasyn/local_setup.sh
+source;share/syncasyn/local_setup.zsh

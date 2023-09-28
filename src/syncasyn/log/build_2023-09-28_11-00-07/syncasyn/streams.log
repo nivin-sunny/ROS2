@@ -1,0 +1,18 @@
+[0.013s] Invoking command in '/home/devuser/AOX/ros_ws/syncasyn/build/syncasyn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/syncasyn/build/syncasyn -- -j8 -l8
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target executor[0m
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/executor.dir/src/executors.cpp.o[0m
+[1.599s] [01m[K/home/devuser/AOX/ros_ws/syncasyn/src/executors.cpp:[m[K In constructor ‘[01m[KExecutor::Executor()[m[K’:
+[1.599s] [01m[K/home/devuser/AOX/ros_ws/syncasyn/src/executors.cpp:21:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_cb_group_[m[K’ was not declared in this scope
+[1.599s]    21 |       [01;31m[Ktimer_cb_group_[m[K = this->create_callback_group(rclcpp::CallbackGroupType::MutuallyExclusive);
+[1.599s]       |       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.605s] [01m[K/home/devuser/AOX/ros_ws/syncasyn/src/executors.cpp:22:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer1_cb_group_[m[K’ was not declared in this scope
+[1.605s]    22 |       [01;31m[Ktimer1_cb_group_[m[K = this->create_callback_group(rclcpp::CallbackGroupType::MutuallyExclusive);
+[1.605s]       |       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.611s] [01m[K/home/devuser/AOX/ros_ws/syncasyn/src/executors.cpp:25:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer1_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_[m[K’?
+[1.611s]    25 |       [01;31m[Ktimer1_[m[K = this->create_wall_timer(
+[1.611s]       |       [01;31m[K^~~~~~~[m[K
+[1.611s]       |       [32m[Ktimer_[m[K
+[2.149s] gmake[2]: *** [CMakeFiles/executor.dir/build.make:76: CMakeFiles/executor.dir/src/executors.cpp.o] Error 1
+[2.150s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/executor.dir/all] Error 2
+[2.150s] gmake: *** [Makefile:146: all] Error 2
+[2.151s] Invoked command in '/home/devuser/AOX/ros_ws/syncasyn/build/syncasyn' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/syncasyn/build/syncasyn -- -j8 -l8

@@ -1,0 +1,2 @@
+Invoking command in '/home/devuser/AOX/ros_ws/syncasyn/build/syncasyn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/devuser/AOX/ros_ws/syncasyn -DCMAKE_INSTALL_PREFIX=/home/devuser/AOX/ros_ws/syncasyn/install/syncasyn
+Invoked command in '/home/devuser/AOX/ros_ws/syncasyn/build/syncasyn' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/devuser/AOX/ros_ws/syncasyn -DCMAKE_INSTALL_PREFIX=/home/devuser/AOX/ros_ws/syncasyn/install/syncasyn

@@ -1,0 +1,14 @@
+[0.015s] Invoking command in '/home/devuser/AOX/ros_ws/syncasyn/build/syncasyn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/syncasyn/build/syncasyn -- -j8 -l8
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target executor[0m
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/executor.dir/src/executors.cpp.o[0m
+[1.580s] [01m[K/home/devuser/AOX/ros_ws/syncasyn/src/executors.cpp:[m[K In constructor ‘[01m[KExecutor::Executor()[m[K’:
+[1.580s] [01m[K/home/devuser/AOX/ros_ws/syncasyn/src/executors.cpp:21:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_cb_group_[m[K’ was not declared in this scope
+[1.580s]    21 |       [01;31m[Ktimer_cb_group_[m[K = this->create_callback_group(rclcpp::CallbackGroupType::MutuallyExclusive);
+[1.580s]       |       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.585s] [01m[K/home/devuser/AOX/ros_ws/syncasyn/src/executors.cpp:22:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer1_cb_group_[m[K’ was not declared in this scope
+[1.585s]    22 |       [01;31m[Ktimer1_cb_group_[m[K = this->create_callback_group(rclcpp::CallbackGroupType::MutuallyExclusive);
+[1.585s]       |       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.134s] gmake[2]: *** [CMakeFiles/executor.dir/build.make:76: CMakeFiles/executor.dir/src/executors.cpp.o] Error 1
+[2.134s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/executor.dir/all] Error 2
+[2.135s] gmake: *** [Makefile:146: all] Error 2
+[2.136s] Invoked command in '/home/devuser/AOX/ros_ws/syncasyn/build/syncasyn' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/syncasyn/build/syncasyn -- -j8 -l8

@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target executor[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/executor.dir/src/executors.cpp.o[0m
+[100%] [32m[1mLinking CXX executable executor[0m
+[100%] Built target executor
+-- Install configuration: ""
+-- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/ament_index/resource_index/package_run_dependencies/syncasyn
+-- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/ament_index/resource_index/parent_prefix_path/syncasyn
+-- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/environment/ament_prefix_path.sh
+-- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/environment/path.sh
+-- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/environment/path.dsv
+-- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/local_setup.bash
+-- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/local_setup.sh
+-- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/local_setup.zsh
+-- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/local_setup.dsv
+-- Installing: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/package.dsv
+-- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/ament_index/resource_index/packages/syncasyn
+-- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/cmake/syncasynConfig.cmake
+-- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/cmake/syncasynConfig-version.cmake
+-- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/package.xml

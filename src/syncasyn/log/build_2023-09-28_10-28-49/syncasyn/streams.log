@@ -1,0 +1,24 @@
+[0.014s] Invoking command in '/home/devuser/AOX/ros_ws/syncasyn/build/syncasyn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/syncasyn/build/syncasyn -- -j8 -l8
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target executor[0m
+[0.059s] [ 50%] [32mBuilding CXX object CMakeFiles/executor.dir/src/executors.cpp.o[0m
+[2.887s] [100%] [32m[1mLinking CXX executable executor[0m
+[3.006s] [100%] Built target executor
+[3.013s] Invoked command in '/home/devuser/AOX/ros_ws/syncasyn/build/syncasyn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ros_ws/syncasyn/build/syncasyn -- -j8 -l8
+[3.036s] Invoking command in '/home/devuser/AOX/ros_ws/syncasyn/build/syncasyn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devuser/AOX/ros_ws/syncasyn/build/syncasyn
+[3.041s] -- Install configuration: ""
+[3.041s] -- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/ament_index/resource_index/package_run_dependencies/syncasyn
+[3.041s] -- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/ament_index/resource_index/parent_prefix_path/syncasyn
+[3.042s] -- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/environment/ament_prefix_path.sh
+[3.042s] -- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/environment/ament_prefix_path.dsv
+[3.042s] -- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/environment/path.sh
+[3.042s] -- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/environment/path.dsv
+[3.042s] -- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/local_setup.bash
+[3.042s] -- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/local_setup.sh
+[3.042s] -- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/local_setup.zsh
+[3.042s] -- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/local_setup.dsv
+[3.042s] -- Installing: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/package.dsv
+[3.042s] -- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/ament_index/resource_index/packages/syncasyn
+[3.042s] -- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/cmake/syncasynConfig.cmake
+[3.042s] -- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/cmake/syncasynConfig-version.cmake
+[3.042s] -- Up-to-date: /home/devuser/AOX/ros_ws/syncasyn/install/syncasyn/share/syncasyn/package.xml
+[3.043s] Invoked command in '/home/devuser/AOX/ros_ws/syncasyn/build/syncasyn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devuser/AOX/ros_ws/syncasyn/build/syncasyn

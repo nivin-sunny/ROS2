@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target executor[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/executor.dir/src/executors.cpp.o[0m
+[01m[K/home/devuser/AOX/ros_ws/syncasyn/src/executors.cpp:[m[K In constructor ‘[01m[KExecutor::Executor()[m[K’:
+[01m[K/home/devuser/AOX/ros_ws/syncasyn/src/executors.cpp:25:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer1_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_[m[K’?
+   25 |       [01;31m[Ktimer1_[m[K = this->create_wall_timer(
+      |       [01;31m[K^~~~~~~[m[K
+      |       [32m[Ktimer_[m[K
+gmake[2]: *** [CMakeFiles/executor.dir/build.make:76: CMakeFiles/executor.dir/src/executors.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/executor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

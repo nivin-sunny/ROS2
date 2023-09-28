@@ -1,0 +1,4 @@
+source;share/syncasyn/local_setup.bash
+source;share/syncasyn/local_setup.dsv
+source;share/syncasyn/local_setup.sh
+source;share/syncasyn/local_setup.zsh
