@@ -1,0 +1,4 @@
+source;share/lcm_topic/local_setup.bash
+source;share/lcm_topic/local_setup.dsv
+source;share/lcm_topic/local_setup.sh
+source;share/lcm_topic/local_setup.zsh

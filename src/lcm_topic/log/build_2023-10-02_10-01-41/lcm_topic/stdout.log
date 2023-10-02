@@ -1,0 +1,49 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/devuser/AOX/ROS2/src/lcm_topic/build/lcm_topic
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener2.dir/src/node_b.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener1.dir/src/node_a.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener3.dir/src/node_c.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable talker[0m
+[ 62%] Built target talker
+[ 75%] [32m[1mLinking CXX executable listener1[0m
+[ 87%] [32m[1mLinking CXX executable listener3[0m
+[100%] [32m[1mLinking CXX executable listener2[0m
+[100%] Built target listener1
+[100%] Built target listener3
+[100%] Built target listener2
+-- Install configuration: ""
+-- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/lib/lcm_topic/talker
+-- Set runtime path of "/home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/lib/lcm_topic/talker" to ""
+-- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/lib/lcm_topic/listener1
+-- Set runtime path of "/home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/lib/lcm_topic/listener1" to ""
+-- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/lib/lcm_topic/listener2
+-- Set runtime path of "/home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/lib/lcm_topic/listener2" to ""
+-- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/lib/lcm_topic/listener3
+-- Set runtime path of "/home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/lib/lcm_topic/listener3" to ""
+-- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/ament_index/resource_index/package_run_dependencies/lcm_topic
+-- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/ament_index/resource_index/parent_prefix_path/lcm_topic
+-- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/environment/ament_prefix_path.sh
+-- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/environment/ament_prefix_path.dsv
+-- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/environment/path.sh
+-- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/environment/path.dsv
+-- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/local_setup.bash
+-- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/local_setup.sh
+-- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/local_setup.zsh
+-- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/local_setup.dsv
+-- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/package.dsv
+-- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/ament_index/resource_index/packages/lcm_topic
+-- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/cmake/lcm_topicConfig.cmake
+-- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/cmake/lcm_topicConfig-version.cmake
+-- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/package.xml

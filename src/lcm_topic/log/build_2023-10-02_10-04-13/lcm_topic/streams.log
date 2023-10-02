@@ -1,0 +1,35 @@
+[0.012s] Invoking command in '/home/devuser/AOX/ROS2/src/lcm_topic/build/lcm_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ROS2/src/lcm_topic/build/lcm_topic -- -j8 -l8
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target listener2[0m
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target listener1[0m
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target listener3[0m
+[0.048s] [ 37%] [32mBuilding CXX object CMakeFiles/listener1.dir/src/node_a.cpp.o[0m
+[0.048s] [ 37%] Built target talker
+[0.049s] [ 62%] Built target listener3
+[0.049s] [ 87%] Built target listener2
+[5.479s] [100%] [32m[1mLinking CXX executable listener1[0m
+[5.735s] [100%] Built target listener1
+[5.807s] Invoked command in '/home/devuser/AOX/ROS2/src/lcm_topic/build/lcm_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ROS2/src/lcm_topic/build/lcm_topic -- -j8 -l8
+[5.874s] Invoking command in '/home/devuser/AOX/ROS2/src/lcm_topic/build/lcm_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devuser/AOX/ROS2/src/lcm_topic/build/lcm_topic
+[5.879s] -- Install configuration: ""
+[5.879s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/lib/lcm_topic/talker
+[5.879s] -- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/lib/lcm_topic/listener1
+[5.881s] -- Set runtime path of "/home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/lib/lcm_topic/listener1" to ""
+[5.881s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/lib/lcm_topic/listener2
+[5.881s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/lib/lcm_topic/listener3
+[5.881s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/ament_index/resource_index/package_run_dependencies/lcm_topic
+[5.882s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/ament_index/resource_index/parent_prefix_path/lcm_topic
+[5.882s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/environment/ament_prefix_path.sh
+[5.882s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/environment/ament_prefix_path.dsv
+[5.882s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/environment/path.sh
+[5.882s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/environment/path.dsv
+[5.882s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/local_setup.bash
+[5.882s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/local_setup.sh
+[5.882s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/local_setup.zsh
+[5.882s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/local_setup.dsv
+[5.882s] -- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/package.dsv
+[5.882s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/ament_index/resource_index/packages/lcm_topic
+[5.882s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/cmake/lcm_topicConfig.cmake
+[5.882s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/cmake/lcm_topicConfig-version.cmake
+[5.882s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/package.xml
+[5.884s] Invoked command in '/home/devuser/AOX/ROS2/src/lcm_topic/build/lcm_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devuser/AOX/ROS2/src/lcm_topic/build/lcm_topic

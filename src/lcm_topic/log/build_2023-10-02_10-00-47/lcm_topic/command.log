@@ -1,0 +1,2 @@
+Invoking command in '/home/devuser/AOX/ROS2/src/lcm_topic/build/lcm_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/devuser/AOX/ROS2/src/lcm_topic -DCMAKE_INSTALL_PREFIX=/home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic
+Invoked command in '/home/devuser/AOX/ROS2/src/lcm_topic/build/lcm_topic' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/devuser/AOX/ROS2/src/lcm_topic -DCMAKE_INSTALL_PREFIX=/home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic

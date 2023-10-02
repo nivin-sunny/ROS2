@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.000359] (lcm_topic) JobQueued: {'identifier': 'lcm_topic', 'dependencies': OrderedDict()}
+[0.000466] (lcm_topic) JobStarted: {'identifier': 'lcm_topic'}
+[0.009951] (lcm_topic) JobProgress: {'identifier': 'lcm_topic', 'progress': 'cmake'}
+[0.010690] (lcm_topic) JobProgress: {'identifier': 'lcm_topic', 'progress': 'build'}
+[0.010738] (lcm_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/devuser/AOX/ROS2/src/lcm_topic/build/lcm_topic', '--', '-j8', '-l8'], 'cwd': '/home/devuser/AOX/ROS2/src/lcm_topic/build/lcm_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'devuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/devuser'), ('OLDPWD', '/home/devuser/AOX/ROS2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3980'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6e30bcfddd0e10086b4d7046651a6b6f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/devuser/AOX/ROS2/src/lcm_topic/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'devuser'), ('_', '/home/devuser/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'devuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/devuser/.cargo/bin:/home/devuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin::/usr/local/ssl/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ATWLLL1013:@/tmp/.ICE-unix/3980,unix/ATWLLL1013:/tmp/.ICE-unix/3980'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a318f434_382d_41ac_b29c_3791620fa20e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DMCWB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.202'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/devuser/AOX/ROS2/src/lcm_topic/build/lcm_topic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6e30bcfddd0e10086b4d7046651a6b6f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic:/opt/ros/humble')]), 'shell': False}
+[0.040786] (lcm_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener1\x1b[0m\n'}
+[0.046827] (lcm_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener3.dir/src/node_c.cpp.o\x1b[0m\n'}
+[0.047028] (lcm_topic) StdoutLine: {'line': b'[ 37%] Built target talker\n'}
+[0.047862] (lcm_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener2.dir/src/node_b.cpp.o\x1b[0m\n'}
+[0.054614] (lcm_topic) StdoutLine: {'line': b'[ 75%] Built target listener1\n'}
+[0.099891] (-) TimerEvent: {}
+[0.200218] (-) TimerEvent: {}
+[0.300479] (-) TimerEvent: {}
+[0.400833] (-) TimerEvent: {}
+[0.501113] (-) TimerEvent: {}
+[0.601395] (-) TimerEvent: {}
+[0.701674] (-) TimerEvent: {}
+[0.801965] (-) TimerEvent: {}
+[0.902227] (-) TimerEvent: {}
+[1.002496] (-) TimerEvent: {}
+[1.102750] (-) TimerEvent: {}
+[1.203022] (-) TimerEvent: {}
+[1.303305] (-) TimerEvent: {}
+[1.403640] (-) TimerEvent: {}
+[1.503979] (-) TimerEvent: {}
+[1.604229] (-) TimerEvent: {}
+[1.704581] (-) TimerEvent: {}
+[1.804867] (-) TimerEvent: {}
+[1.905161] (-) TimerEvent: {}
+[2.005430] (-) TimerEvent: {}
+[2.105733] (-) TimerEvent: {}
+[2.206046] (-) TimerEvent: {}
+[2.306382] (-) TimerEvent: {}
+[2.406715] (-) TimerEvent: {}
+[2.507039] (-) TimerEvent: {}
+[2.607349] (-) TimerEvent: {}
+[2.707727] (-) TimerEvent: {}
+[2.808144] (-) TimerEvent: {}
+[2.908443] (-) TimerEvent: {}
+[3.008714] (-) TimerEvent: {}
+[3.109036] (-) TimerEvent: {}
+[3.209329] (-) TimerEvent: {}
+[3.309597] (-) TimerEvent: {}
+[3.409909] (-) TimerEvent: {}
+[3.510200] (-) TimerEvent: {}
+[3.610499] (-) TimerEvent: {}
+[3.710807] (-) TimerEvent: {}
+[3.811124] (-) TimerEvent: {}
+[3.911404] (-) TimerEvent: {}
+[4.011748] (-) TimerEvent: {}
+[4.112014] (-) TimerEvent: {}
+[4.212274] (-) TimerEvent: {}
+[4.312553] (-) TimerEvent: {}
+[4.412910] (-) TimerEvent: {}
+[4.513185] (-) TimerEvent: {}
+[4.613442] (-) TimerEvent: {}
+[4.713703] (-) TimerEvent: {}
+[4.814019] (-) TimerEvent: {}
+[4.914363] (-) TimerEvent: {}
+[5.014647] (-) TimerEvent: {}
+[5.114934] (-) TimerEvent: {}
+[5.215218] (-) TimerEvent: {}
+[5.315550] (-) TimerEvent: {}
+[5.415994] (-) TimerEvent: {}
+[5.516643] (-) TimerEvent: {}
+[5.617165] (-) TimerEvent: {}
+[5.717438] (-) TimerEvent: {}
+[5.817816] (-) TimerEvent: {}
+[5.918142] (-) TimerEvent: {}
+[5.938101] (lcm_topic) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable listener3\x1b[0m\n'}
+[5.947474] (lcm_topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener2\x1b[0m\n'}
+[6.018261] (-) TimerEvent: {}
+[6.118596] (-) TimerEvent: {}
+[6.218941] (-) TimerEvent: {}
+[6.231237] (lcm_topic) StdoutLine: {'line': b'[100%] Built target listener2\n'}
+[6.236047] (lcm_topic) StdoutLine: {'line': b'[100%] Built target listener3\n'}
+[6.276678] (lcm_topic) CommandEnded: {'returncode': 0}
+[6.297861] (lcm_topic) JobProgress: {'identifier': 'lcm_topic', 'progress': 'install'}
+[6.303651] (lcm_topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/devuser/AOX/ROS2/src/lcm_topic/build/lcm_topic'], 'cwd': '/home/devuser/AOX/ROS2/src/lcm_topic/build/lcm_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'devuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/devuser'), ('OLDPWD', '/home/devuser/AOX/ROS2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3980'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6e30bcfddd0e10086b4d7046651a6b6f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/devuser/AOX/ROS2/src/lcm_topic/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'devuser'), ('_', '/home/devuser/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'devuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/devuser/.cargo/bin:/home/devuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin::/usr/local/ssl/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ATWLLL1013:@/tmp/.ICE-unix/3980,unix/ATWLLL1013:/tmp/.ICE-unix/3980'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a318f434_382d_41ac_b29c_3791620fa20e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DMCWB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.202'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/devuser/AOX/ROS2/src/lcm_topic/build/lcm_topic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6e30bcfddd0e10086b4d7046651a6b6f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic:/opt/ros/humble')]), 'shell': False}
+[6.308404] (lcm_topic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.308525] (lcm_topic) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/lib/lcm_topic/talker\n'}
+[6.308643] (lcm_topic) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/lib/lcm_topic/listener1\n'}
+[6.308790] (lcm_topic) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/lib/lcm_topic/listener2\n'}
+[6.311635] (lcm_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/lib/lcm_topic/listener2" to ""\n'}
+[6.311767] (lcm_topic) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/lib/lcm_topic/listener3\n'}
+[6.314198] (lcm_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/lib/lcm_topic/listener3" to ""\n'}
+[6.314320] (lcm_topic) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/ament_index/resource_index/package_run_dependencies/lcm_topic\n'}
+[6.314403] (lcm_topic) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/ament_index/resource_index/parent_prefix_path/lcm_topic\n'}
+[6.314445] (lcm_topic) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/environment/ament_prefix_path.sh\n'}
+[6.314485] (lcm_topic) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/environment/ament_prefix_path.dsv\n'}
+[6.314523] (lcm_topic) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/environment/path.sh\n'}
+[6.314560] (lcm_topic) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/environment/path.dsv\n'}
+[6.314598] (lcm_topic) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/local_setup.bash\n'}
+[6.314635] (lcm_topic) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/local_setup.sh\n'}
+[6.314672] (lcm_topic) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/local_setup.zsh\n'}
+[6.314708] (lcm_topic) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/local_setup.dsv\n'}
+[6.314745] (lcm_topic) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/package.dsv\n'}
+[6.314782] (lcm_topic) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/ament_index/resource_index/packages/lcm_topic\n'}
+[6.314818] (lcm_topic) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/cmake/lcm_topicConfig.cmake\n'}
+[6.314854] (lcm_topic) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/cmake/lcm_topicConfig-version.cmake\n'}
+[6.314890] (lcm_topic) StdoutLine: {'line': b'-- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic/share/lcm_topic/package.xml\n'}
+[6.315549] (lcm_topic) CommandEnded: {'returncode': 0}
+[6.319013] (-) TimerEvent: {}
+[6.359038] (lcm_topic) JobEnded: {'identifier': 'lcm_topic', 'rc': 0}
+[6.359452] (-) EventReactorShutdown: {}
