@@ -1,0 +1,35 @@
+[0.039s] Invoking command in '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service -- -j8 -l8
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target server_b[0m
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target server_a[0m
+[0.087s] [ 33%] Built target client
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/server_b.dir/src/server_b.cpp.o[0m
+[0.090s] [ 66%] [32mBuilding CXX object CMakeFiles/server_a.dir/src/server_a.cpp.o[0m
+[2.527s] [ 83%] [32m[1mLinking CXX executable server_b[0m
+[2.557s] [100%] [32m[1mLinking CXX executable server_a[0m
+[2.637s] [100%] Built target server_b
+[2.666s] [100%] Built target server_a
+[2.674s] Invoked command in '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service -- -j8 -l8
+[2.699s] Invoking command in '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service
+[2.703s] -- Install configuration: ""
+[2.703s] -- Installing: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/lib/lcm_service/server_a
+[2.704s] -- Set runtime path of "/home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/lib/lcm_service/server_a" to ""
+[2.704s] -- Installing: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/lib/lcm_service/server_b
+[2.704s] -- Set runtime path of "/home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/lib/lcm_service/server_b" to ""
+[2.704s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/lib/lcm_service/client
+[2.704s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/ament_index/resource_index/package_run_dependencies/lcm_service
+[2.705s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/ament_index/resource_index/parent_prefix_path/lcm_service
+[2.705s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/environment/ament_prefix_path.sh
+[2.705s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/environment/ament_prefix_path.dsv
+[2.705s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/environment/path.sh
+[2.705s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/environment/path.dsv
+[2.705s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/local_setup.bash
+[2.705s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/local_setup.sh
+[2.705s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/local_setup.zsh
+[2.705s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/local_setup.dsv
+[2.705s] -- Installing: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/package.dsv
+[2.705s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/ament_index/resource_index/packages/lcm_service
+[2.705s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/cmake/lcm_serviceConfig.cmake
+[2.705s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/cmake/lcm_serviceConfig-version.cmake
+[2.705s] -- Up-to-date: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/package.xml
+[2.707s] Invoked command in '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service

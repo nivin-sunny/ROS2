@@ -1,0 +1,1155 @@
+[0.000000] (-) TimerEvent: {}
+[0.000295] (lcm_service) JobQueued: {'identifier': 'lcm_service', 'dependencies': OrderedDict()}
+[0.000868] (lcm_service) JobStarted: {'identifier': 'lcm_service'}
+[0.099837] (-) TimerEvent: {}
+[0.200249] (-) TimerEvent: {}
+[0.300731] (-) TimerEvent: {}
+[0.401140] (-) TimerEvent: {}
+[0.501556] (-) TimerEvent: {}
+[0.601991] (-) TimerEvent: {}
+[0.702424] (-) TimerEvent: {}
+[0.802830] (-) TimerEvent: {}
+[0.903236] (-) TimerEvent: {}
+[1.003657] (-) TimerEvent: {}
+[1.104081] (-) TimerEvent: {}
+[1.204501] (-) TimerEvent: {}
+[1.304895] (-) TimerEvent: {}
+[1.405322] (-) TimerEvent: {}
+[1.505746] (-) TimerEvent: {}
+[1.606184] (-) TimerEvent: {}
+[1.706629] (-) TimerEvent: {}
+[1.807195] (-) TimerEvent: {}
+[1.895954] (lcm_service) JobProgress: {'identifier': 'lcm_service', 'progress': 'cmake'}
+[1.907297] (-) TimerEvent: {}
+[2.007696] (-) TimerEvent: {}
+[2.108124] (-) TimerEvent: {}
+[2.208533] (-) TimerEvent: {}
+[2.308958] (-) TimerEvent: {}
+[2.310509] (lcm_service) JobProgress: {'identifier': 'lcm_service', 'progress': 'build'}
+[2.312062] (lcm_service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service', '--', '-j8', '-l8'], 'cwd': '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'devuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/devuser/AOX/ROS2/src/install/tutorial_interfaces/lib:/home/devuser/AOX/ROS2/src/tutorial_interfaces/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/devuser'), ('OLDPWD', '/home/devuser/AOX/ROS2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2343'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=89ae1eaa020aa0758c074890651c172b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/devuser/AOX/ROS2/src/lcm_service/install:/home/devuser/AOX/ROS2/src/install:/home/devuser/AOX/ROS2/src/lcm_topic/install:/home/devuser/AOX/ROS2/src/tutorial_interfaces/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'devuser'), ('_', '/home/devuser/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'devuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/devuser/.cargo/bin:/home/devuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin::/usr/local/ssl/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ATWLLL1013:@/tmp/.ICE-unix/2343,unix/ATWLLL1013:/tmp/.ICE-unix/2343'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ac746065_3dc2_47ca_8f98_4e18f314c8ee'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WEEAC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.228'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/devuser/AOX/ROS2/src/install/tutorial_interfaces:/home/devuser/AOX/ROS2/src/install/lcm_service:/home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic:/home/devuser/AOX/ROS2/src/tutorial_interfaces/install/tutorial_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=89ae1eaa020aa0758c074890651c172b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/devuser/AOX/ROS2/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/devuser/AOX/ROS2/src/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/devuser/AOX/ROS2/src/install/tutorial_interfaces:/home/devuser/AOX/ROS2/src/install/lcm_service:/home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic:/home/devuser/AOX/ROS2/src/tutorial_interfaces/install/tutorial_interfaces:/opt/ros/humble')]), 'shell': False}
+[2.409110] (-) TimerEvent: {}
+[2.509553] (-) TimerEvent: {}
+[2.610000] (-) TimerEvent: {}
+[2.710427] (-) TimerEvent: {}
+[2.951164] (-) TimerEvent: {}
+[3.055294] (-) TimerEvent: {}
+[3.155714] (-) TimerEvent: {}
+[3.256150] (-) TimerEvent: {}
+[3.356589] (-) TimerEvent: {}
+[3.457020] (-) TimerEvent: {}
+[3.557456] (-) TimerEvent: {}
+[3.657900] (-) TimerEvent: {}
+[3.758345] (-) TimerEvent: {}
+[3.858766] (-) TimerEvent: {}
+[3.959181] (-) TimerEvent: {}
+[4.059636] (-) TimerEvent: {}
+[4.160046] (-) TimerEvent: {}
+[4.260480] (-) TimerEvent: {}
+[4.360897] (-) TimerEvent: {}
+[4.461312] (-) TimerEvent: {}
+[4.668691] (-) TimerEvent: {}
+[4.769137] (-) TimerEvent: {}
+[4.869607] (-) TimerEvent: {}
+[4.970071] (-) TimerEvent: {}
+[5.070543] (-) TimerEvent: {}
+[5.170994] (-) TimerEvent: {}
+[5.271539] (-) TimerEvent: {}
+[5.371974] (-) TimerEvent: {}
+[5.472392] (-) TimerEvent: {}
+[5.574485] (-) TimerEvent: {}
+[5.674865] (-) TimerEvent: {}
+[5.775314] (-) TimerEvent: {}
+[5.875612] (-) TimerEvent: {}
+[5.975971] (-) TimerEvent: {}
+[6.076241] (-) TimerEvent: {}
+[6.176528] (-) TimerEvent: {}
+[6.276931] (-) TimerEvent: {}
+[6.377331] (-) TimerEvent: {}
+[6.477737] (-) TimerEvent: {}
+[6.578156] (-) TimerEvent: {}
+[6.678566] (-) TimerEvent: {}
+[6.778973] (-) TimerEvent: {}
+[6.879321] (-) TimerEvent: {}
+[6.979669] (-) TimerEvent: {}
+[7.079912] (-) TimerEvent: {}
+[7.180158] (-) TimerEvent: {}
+[7.280532] (-) TimerEvent: {}
+[7.381046] (-) TimerEvent: {}
+[7.481515] (-) TimerEvent: {}
+[7.581986] (-) TimerEvent: {}
+[7.682441] (-) TimerEvent: {}
+[7.782927] (-) TimerEvent: {}
+[7.883437] (-) TimerEvent: {}
+[7.983836] (-) TimerEvent: {}
+[8.084124] (-) TimerEvent: {}
+[8.184363] (-) TimerEvent: {}
+[8.284610] (-) TimerEvent: {}
+[8.384909] (-) TimerEvent: {}
+[8.485225] (-) TimerEvent: {}
+[8.585507] (-) TimerEvent: {}
+[8.685821] (-) TimerEvent: {}
+[8.786311] (-) TimerEvent: {}
+[8.886796] (-) TimerEvent: {}
+[8.987313] (-) TimerEvent: {}
+[9.087764] (-) TimerEvent: {}
+[9.188126] (-) TimerEvent: {}
+[9.288451] (-) TimerEvent: {}
+[9.388884] (-) TimerEvent: {}
+[9.489295] (-) TimerEvent: {}
+[9.589693] (-) TimerEvent: {}
+[9.690014] (-) TimerEvent: {}
+[9.790498] (-) TimerEvent: {}
+[9.890906] (-) TimerEvent: {}
+[9.991283] (-) TimerEvent: {}
+[10.091574] (-) TimerEvent: {}
+[10.192063] (-) TimerEvent: {}
+[10.292548] (-) TimerEvent: {}
+[10.393051] (-) TimerEvent: {}
+[10.493499] (-) TimerEvent: {}
+[10.593790] (-) TimerEvent: {}
+[10.694229] (-) TimerEvent: {}
+[10.794628] (-) TimerEvent: {}
+[10.895049] (-) TimerEvent: {}
+[10.995462] (-) TimerEvent: {}
+[11.095880] (-) TimerEvent: {}
+[11.196289] (-) TimerEvent: {}
+[11.296711] (-) TimerEvent: {}
+[11.397125] (-) TimerEvent: {}
+[11.497574] (-) TimerEvent: {}
+[11.597978] (-) TimerEvent: {}
+[11.698299] (-) TimerEvent: {}
+[11.798724] (-) TimerEvent: {}
+[11.899235] (-) TimerEvent: {}
+[11.999744] (-) TimerEvent: {}
+[12.100245] (-) TimerEvent: {}
+[12.200728] (-) TimerEvent: {}
+[12.301228] (-) TimerEvent: {}
+[12.401722] (-) TimerEvent: {}
+[12.502205] (-) TimerEvent: {}
+[12.602702] (-) TimerEvent: {}
+[12.703183] (-) TimerEvent: {}
+[12.803715] (-) TimerEvent: {}
+[12.904228] (-) TimerEvent: {}
+[13.004800] (-) TimerEvent: {}
+[13.105241] (-) TimerEvent: {}
+[13.205680] (-) TimerEvent: {}
+[13.306101] (-) TimerEvent: {}
+[13.406537] (-) TimerEvent: {}
+[13.506939] (-) TimerEvent: {}
+[13.607456] (-) TimerEvent: {}
+[13.707955] (-) TimerEvent: {}
+[13.808516] (-) TimerEvent: {}
+[13.909036] (-) TimerEvent: {}
+[14.009524] (-) TimerEvent: {}
+[14.110043] (-) TimerEvent: {}
+[14.210463] (-) TimerEvent: {}
+[14.310891] (-) TimerEvent: {}
+[14.411279] (-) TimerEvent: {}
+[14.511687] (-) TimerEvent: {}
+[14.612228] (-) TimerEvent: {}
+[14.712700] (-) TimerEvent: {}
+[14.813191] (-) TimerEvent: {}
+[14.913678] (-) TimerEvent: {}
+[15.014119] (-) TimerEvent: {}
+[15.114565] (-) TimerEvent: {}
+[15.215052] (-) TimerEvent: {}
+[15.315585] (-) TimerEvent: {}
+[15.416083] (-) TimerEvent: {}
+[15.516582] (-) TimerEvent: {}
+[15.617082] (-) TimerEvent: {}
+[15.717554] (-) TimerEvent: {}
+[15.818039] (-) TimerEvent: {}
+[15.918521] (-) TimerEvent: {}
+[16.019006] (-) TimerEvent: {}
+[16.119493] (-) TimerEvent: {}
+[16.219985] (-) TimerEvent: {}
+[16.320463] (-) TimerEvent: {}
+[16.420992] (-) TimerEvent: {}
+[16.521495] (-) TimerEvent: {}
+[16.621999] (-) TimerEvent: {}
+[16.722490] (-) TimerEvent: {}
+[16.822973] (-) TimerEvent: {}
+[16.923483] (-) TimerEvent: {}
+[17.024006] (-) TimerEvent: {}
+[17.124503] (-) TimerEvent: {}
+[17.225004] (-) TimerEvent: {}
+[17.325508] (-) TimerEvent: {}
+[17.425950] (-) TimerEvent: {}
+[17.526268] (-) TimerEvent: {}
+[17.626764] (-) TimerEvent: {}
+[17.727266] (-) TimerEvent: {}
+[17.830565] (-) TimerEvent: {}
+[17.931054] (-) TimerEvent: {}
+[18.031549] (-) TimerEvent: {}
+[18.132059] (-) TimerEvent: {}
+[18.232569] (-) TimerEvent: {}
+[18.333071] (-) TimerEvent: {}
+[18.433568] (-) TimerEvent: {}
+[18.534040] (-) TimerEvent: {}
+[18.634365] (-) TimerEvent: {}
+[18.734744] (-) TimerEvent: {}
+[18.835332] (-) TimerEvent: {}
+[18.935765] (-) TimerEvent: {}
+[19.036155] (-) TimerEvent: {}
+[19.136467] (-) TimerEvent: {}
+[19.236843] (-) TimerEvent: {}
+[19.338065] (-) TimerEvent: {}
+[19.438493] (-) TimerEvent: {}
+[19.538919] (-) TimerEvent: {}
+[19.639352] (-) TimerEvent: {}
+[19.739674] (-) TimerEvent: {}
+[19.840138] (-) TimerEvent: {}
+[19.940564] (-) TimerEvent: {}
+[20.041064] (-) TimerEvent: {}
+[20.141550] (-) TimerEvent: {}
+[20.242030] (-) TimerEvent: {}
+[20.342500] (-) TimerEvent: {}
+[20.442994] (-) TimerEvent: {}
+[20.543448] (-) TimerEvent: {}
+[20.643921] (-) TimerEvent: {}
+[20.744346] (-) TimerEvent: {}
+[20.844643] (-) TimerEvent: {}
+[20.944959] (-) TimerEvent: {}
+[21.045241] (-) TimerEvent: {}
+[21.145482] (-) TimerEvent: {}
+[21.245727] (-) TimerEvent: {}
+[21.345991] (-) TimerEvent: {}
+[21.446264] (-) TimerEvent: {}
+[21.457412] (lcm_service) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server_a\x1b[0m\n'}
+[21.546358] (-) TimerEvent: {}
+[21.646625] (-) TimerEvent: {}
+[21.746874] (-) TimerEvent: {}
+[21.847127] (-) TimerEvent: {}
+[21.947362] (-) TimerEvent: {}
+[22.047626] (-) TimerEvent: {}
+[22.147857] (-) TimerEvent: {}
+[22.245953] (lcm_service) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/server_a.dir/src/server_a.cpp.o\x1b[0m\n'}
+[22.247948] (-) TimerEvent: {}
+[22.348163] (-) TimerEvent: {}
+[22.448416] (-) TimerEvent: {}
+[22.548663] (-) TimerEvent: {}
+[22.648912] (-) TimerEvent: {}
+[22.749179] (-) TimerEvent: {}
+[22.849425] (-) TimerEvent: {}
+[22.949677] (-) TimerEvent: {}
+[23.049931] (-) TimerEvent: {}
+[23.150183] (-) TimerEvent: {}
+[23.250428] (-) TimerEvent: {}
+[23.350698] (-) TimerEvent: {}
+[23.450950] (-) TimerEvent: {}
+[23.551260] (-) TimerEvent: {}
+[23.651474] (-) TimerEvent: {}
+[23.751705] (-) TimerEvent: {}
+[23.851937] (-) TimerEvent: {}
+[23.952225] (-) TimerEvent: {}
+[24.052493] (-) TimerEvent: {}
+[24.152776] (-) TimerEvent: {}
+[24.253084] (-) TimerEvent: {}
+[24.353377] (-) TimerEvent: {}
+[24.453639] (-) TimerEvent: {}
+[24.553897] (-) TimerEvent: {}
+[24.654149] (-) TimerEvent: {}
+[24.754410] (-) TimerEvent: {}
+[24.854645] (-) TimerEvent: {}
+[24.954941] (-) TimerEvent: {}
+[25.055223] (-) TimerEvent: {}
+[25.155474] (-) TimerEvent: {}
+[25.255746] (-) TimerEvent: {}
+[25.356039] (-) TimerEvent: {}
+[25.456273] (-) TimerEvent: {}
+[25.556524] (-) TimerEvent: {}
+[25.656760] (-) TimerEvent: {}
+[25.756974] (-) TimerEvent: {}
+[25.857240] (-) TimerEvent: {}
+[25.957492] (-) TimerEvent: {}
+[26.057761] (-) TimerEvent: {}
+[26.158049] (-) TimerEvent: {}
+[26.258323] (-) TimerEvent: {}
+[26.358599] (-) TimerEvent: {}
+[26.458890] (-) TimerEvent: {}
+[26.559132] (-) TimerEvent: {}
+[26.659364] (-) TimerEvent: {}
+[26.759615] (-) TimerEvent: {}
+[26.859846] (-) TimerEvent: {}
+[26.960138] (-) TimerEvent: {}
+[27.060359] (-) TimerEvent: {}
+[27.160666] (-) TimerEvent: {}
+[27.260984] (-) TimerEvent: {}
+[27.361218] (-) TimerEvent: {}
+[27.461532] (-) TimerEvent: {}
+[27.561775] (-) TimerEvent: {}
+[27.662076] (-) TimerEvent: {}
+[27.762310] (-) TimerEvent: {}
+[27.862587] (-) TimerEvent: {}
+[27.962814] (-) TimerEvent: {}
+[28.063068] (-) TimerEvent: {}
+[28.163371] (-) TimerEvent: {}
+[28.263617] (-) TimerEvent: {}
+[28.363853] (-) TimerEvent: {}
+[28.464092] (-) TimerEvent: {}
+[28.564330] (-) TimerEvent: {}
+[28.664573] (-) TimerEvent: {}
+[28.764818] (-) TimerEvent: {}
+[28.865062] (-) TimerEvent: {}
+[28.965363] (-) TimerEvent: {}
+[29.065601] (-) TimerEvent: {}
+[29.165902] (-) TimerEvent: {}
+[29.266207] (-) TimerEvent: {}
+[29.366525] (-) TimerEvent: {}
+[29.466790] (-) TimerEvent: {}
+[29.567032] (-) TimerEvent: {}
+[29.667341] (-) TimerEvent: {}
+[29.767546] (-) TimerEvent: {}
+[29.867787] (-) TimerEvent: {}
+[29.968008] (-) TimerEvent: {}
+[30.068259] (-) TimerEvent: {}
+[30.168528] (-) TimerEvent: {}
+[30.268757] (-) TimerEvent: {}
+[30.369012] (-) TimerEvent: {}
+[30.469245] (-) TimerEvent: {}
+[30.569492] (-) TimerEvent: {}
+[30.669773] (-) TimerEvent: {}
+[30.770039] (-) TimerEvent: {}
+[30.985437] (-) TimerEvent: {}
+[31.085730] (-) TimerEvent: {}
+[31.185953] (-) TimerEvent: {}
+[31.286222] (-) TimerEvent: {}
+[31.386465] (-) TimerEvent: {}
+[31.486689] (-) TimerEvent: {}
+[31.586936] (-) TimerEvent: {}
+[31.687185] (-) TimerEvent: {}
+[31.787417] (-) TimerEvent: {}
+[31.887666] (-) TimerEvent: {}
+[31.987891] (-) TimerEvent: {}
+[32.088163] (-) TimerEvent: {}
+[32.188398] (-) TimerEvent: {}
+[32.288643] (-) TimerEvent: {}
+[32.388885] (-) TimerEvent: {}
+[32.489122] (-) TimerEvent: {}
+[32.589370] (-) TimerEvent: {}
+[32.689598] (-) TimerEvent: {}
+[32.789911] (-) TimerEvent: {}
+[32.890187] (-) TimerEvent: {}
+[32.990490] (-) TimerEvent: {}
+[33.090888] (-) TimerEvent: {}
+[33.191193] (-) TimerEvent: {}
+[33.291597] (-) TimerEvent: {}
+[33.392009] (-) TimerEvent: {}
+[33.492483] (-) TimerEvent: {}
+[33.593005] (-) TimerEvent: {}
+[33.693570] (-) TimerEvent: {}
+[33.794135] (-) TimerEvent: {}
+[33.894781] (-) TimerEvent: {}
+[33.995321] (-) TimerEvent: {}
+[34.095891] (-) TimerEvent: {}
+[34.196440] (-) TimerEvent: {}
+[34.296751] (-) TimerEvent: {}
+[34.397177] (-) TimerEvent: {}
+[34.497599] (-) TimerEvent: {}
+[34.598031] (-) TimerEvent: {}
+[34.698458] (-) TimerEvent: {}
+[34.798814] (-) TimerEvent: {}
+[34.899235] (-) TimerEvent: {}
+[34.999631] (-) TimerEvent: {}
+[35.100047] (-) TimerEvent: {}
+[35.200463] (-) TimerEvent: {}
+[35.300828] (-) TimerEvent: {}
+[35.401086] (-) TimerEvent: {}
+[35.501395] (-) TimerEvent: {}
+[35.601731] (-) TimerEvent: {}
+[35.702240] (-) TimerEvent: {}
+[35.802655] (-) TimerEvent: {}
+[35.902907] (-) TimerEvent: {}
+[36.003171] (-) TimerEvent: {}
+[36.103606] (-) TimerEvent: {}
+[36.203987] (-) TimerEvent: {}
+[36.304257] (-) TimerEvent: {}
+[36.404500] (-) TimerEvent: {}
+[36.504840] (-) TimerEvent: {}
+[36.605325] (-) TimerEvent: {}
+[36.705714] (-) TimerEvent: {}
+[36.805973] (-) TimerEvent: {}
+[36.906273] (-) TimerEvent: {}
+[37.006564] (-) TimerEvent: {}
+[37.107102] (-) TimerEvent: {}
+[37.207527] (-) TimerEvent: {}
+[37.307762] (-) TimerEvent: {}
+[37.408020] (-) TimerEvent: {}
+[37.508325] (-) TimerEvent: {}
+[37.608751] (-) TimerEvent: {}
+[37.709153] (-) TimerEvent: {}
+[37.809565] (-) TimerEvent: {}
+[37.909988] (-) TimerEvent: {}
+[38.010413] (-) TimerEvent: {}
+[38.110855] (-) TimerEvent: {}
+[38.211317] (-) TimerEvent: {}
+[38.311575] (-) TimerEvent: {}
+[38.411813] (-) TimerEvent: {}
+[38.512164] (-) TimerEvent: {}
+[38.612540] (-) TimerEvent: {}
+[38.712809] (-) TimerEvent: {}
+[38.813158] (-) TimerEvent: {}
+[38.913457] (-) TimerEvent: {}
+[38.925644] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[38.925895] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[38.925971] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[38.926029] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[38.926083] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[38.926137] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[38.926190] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[38.926242] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[38.926292] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[38.926344] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[38.926396] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[38.926449] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[38.926502] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid shutdown(std::shared_ptr<tutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::Shutdown_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[38.926559] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:10:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[38.926623] (lcm_service) StderrLine: {'line': b'   10 |    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), \x1b[01;35m\x1b[K"Incoming request\\na: %s"\x1b[m\x1b[K,   // CHANGE\n'}
+[38.926677] (lcm_service) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.926730] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:10:69:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[38.926783] (lcm_service) StderrLine: {'line': b'   10 |    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Incoming request\\na: \x1b[01;36m\x1b[K%s\x1b[m\x1b[K",   // CHANGE\n'}
+[38.926836] (lcm_service) StderrLine: {'line': b'      |                                                                    \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[38.926889] (lcm_service) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[38.926941] (lcm_service) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[39.013615] (-) TimerEvent: {}
+[39.059661] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator==\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[39.060068] (lcm_service) StderrLine: {'line': b'   13 |   if(\x1b[32m\x1b[Krequest->req\x1b[m\x1b[K\x1b[01;31m\x1b[K==\x1b[m\x1b[K\x1b[34m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.060277] (lcm_service) StderrLine: {'line': b'      |      \x1b[32m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K\x1b[01;31m\x1b[K^~\x1b[m\x1b[K\x1b[34m\x1b[K~\x1b[m\x1b[K\n'}
+[39.060471] (lcm_service) StderrLine: {'line': b'      |               \x1b[32m\x1b[K|\x1b[m\x1b[K    \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[39.060660] (lcm_service) StderrLine: {'line': b'      |               \x1b[32m\x1b[K|\x1b[m\x1b[K    \x1b[34m\x1b[Kint\x1b[m\x1b[K\n'}
+[39.060848] (lcm_service) StderrLine: {'line': b'      |               \x1b[32m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type {aka std::__cxx11::basic_string<char>}\x1b[m\x1b[K\n'}
+[39.113819] (-) TimerEvent: {}
+[39.205605] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[39.206065] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[39.206304] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[39.206519] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.206587] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1155:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.206855] (lcm_service) StderrLine: {'line': b' 1155 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __normal_iterator<_IteratorL, _Container>& __lhs,\n'}
+[39.206995] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.207125] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1155:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.207281] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst __gnu_cxx::__normal_iterator<_IteratorL, _Container>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.207390] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.207800] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.208105] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[39.208172] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[39.208237] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[39.208301] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.208363] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1163:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.208426] (lcm_service) StderrLine: {'line': b' 1163 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __normal_iterator<_Iterator, _Container>& __lhs,\n'}
+[39.208488] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.208549] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1163:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.208609] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst __gnu_cxx::__normal_iterator<_Iterator, _Container>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.208671] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.208731] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.208790] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[39.208850] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[39.208908] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[39.208968] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[39.209028] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.209092] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:183:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Up> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<char>&, const __gnu_cxx::new_allocator<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.209155] (lcm_service) StderrLine: {'line': b'  183 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const new_allocator&, const new_allocator<_Up>&)\n'}
+[39.209218] (lcm_service) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.209278] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:183:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.209338] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst __gnu_cxx::new_allocator<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.209404] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.209463] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.209522] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[39.209581] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[39.209641] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[39.209701] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.209764] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:466:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.209825] (lcm_service) StderrLine: {'line': b'  466 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)\n'}
+[39.209889] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.209949] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:466:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.210012] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<_T1, _T2>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.210073] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.210133] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.210193] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[39.210252] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[39.210312] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[39.210371] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.210434] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:420:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.210499] (lcm_service) StderrLine: {'line': b'  420 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const reverse_iterator<_Iterator>& __x,\n'}
+[39.210558] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.210617] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:420:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.210678] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.210740] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.210798] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.210858] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[39.210918] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[39.210977] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[39.211037] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.211096] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:459:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.211158] (lcm_service) StderrLine: {'line': b'  459 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const reverse_iterator<_IteratorL>& __x,\n'}
+[39.211223] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.211287] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:459:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.211347] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.211461] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.211524] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.211583] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[39.211643] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[39.211702] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[39.211767] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.211826] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1585:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.211888] (lcm_service) StderrLine: {'line': b' 1585 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const move_iterator<_IteratorL>& __x,\n'}
+[39.211948] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.212007] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1585:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.212066] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.212135] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.212195] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.212255] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[39.212315] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[39.212373] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[39.212433] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.212495] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1648:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.212556] (lcm_service) StderrLine: {'line': b' 1648 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const move_iterator<_Iterator>& __x,\n'}
+[39.212616] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.212675] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1648:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.212735] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.212799] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.212858] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.212918] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[39.212977] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[39.213041] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.213100] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:218:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _T1, class _T2> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_T2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.213162] (lcm_service) StderrLine: {'line': b'  218 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const allocator<_T1>&, const allocator<_T2>&)\n'}
+[39.213222] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.213281] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:218:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.213340] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::allocator<_Tp1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.213406] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.213466] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.213526] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[39.213585] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[39.213646] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[39.213706] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[39.213765] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.213823] (-) TimerEvent: {}
+[39.213917] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/array:276:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> bool std::operator==(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.213985] (lcm_service) StderrLine: {'line': b'  276 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)\n'}
+[39.214046] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.214107] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/array:276:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.214168] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<_Tp, _Nm>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.214233] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.214293] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.214352] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[39.214421] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[39.214480] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[39.214545] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.214605] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:1524:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::operator==(const std::tuple<_Tps ...>&, const std::tuple<_UTypes ...>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.214666] (lcm_service) StderrLine: {'line': b' 1524 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const tuple<_TElements...>& __t,\n'}
+[39.214725] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.214784] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:1524:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.214845] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::tuple<_Tps ...>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.214907] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.214966] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.215025] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[39.215085] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[39.215144] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.215204] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:753:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.215273] (lcm_service) StderrLine: {'line': b'  753 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unique_ptr<_Tp, _Dp>& __x,\n'}
+[39.215334] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.215393] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:753:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.215453] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.215516] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.215577] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.215636] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[39.215698] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[39.215758] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.215817] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:760:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.215877] (lcm_service) StderrLine: {'line': b'  760 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept\n'}
+[39.215936] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.215996] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:760:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.216055] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.216121] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.216180] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.216240] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[39.216299] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[39.216357] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.216417] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:767:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp> bool std::operator==(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.216478] (lcm_service) StderrLine: {'line': b'  767 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const unique_ptr<_Tp, _Dp>& __x) noexcept\n'}
+[39.216539] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.216602] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:767:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.216662] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.216726] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.216785] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.216844] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iosfwd:40\x1b[m\x1b[K,\n'}
+[39.216903] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:52\x1b[m\x1b[K,\n'}
+[39.216962] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[39.217022] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[39.217085] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.217145] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/postypes.h:222:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.217206] (lcm_service) StderrLine: {'line': b'  222 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)\n'}
+[39.217265] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.217324] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/postypes.h:222:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.217383] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::fpos<_StateT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.217446] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.217506] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.217566] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[39.217626] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[39.217686] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[39.217750] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.217811] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1410:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.217873] (lcm_service) StderrLine: {'line': b' 1410 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __shared_ptr<_Tp1, _Lp>& __a,\n'}
+[39.217933] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.217993] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1410:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.218054] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp1, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.218126] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.218188] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.218247] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[39.218310] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[39.218370] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[39.218429] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.218489] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1416:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.218550] (lcm_service) StderrLine: {'line': b' 1416 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept\n'}
+[39.218609] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.218668] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1416:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.218727] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.218793] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.218852] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.218915] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[39.218976] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[39.219035] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[39.219094] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.219153] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1436:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.219217] (lcm_service) StderrLine: {'line': b' 1436 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept\n'}
+[39.219281] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.219341] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1436:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.219401] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.219462] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.219524] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.219584] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[39.219647] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[39.219707] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.219769] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:437:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> bool std::operator==(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.219830] (lcm_service) StderrLine: {'line': b'  437 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept\n'}
+[39.219889] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.219950] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:437:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.220009] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.220071] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.220131] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.220190] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[39.220249] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[39.220308] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.220368] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:443:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> bool std::operator==(const std::shared_ptr<_Tp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.220429] (lcm_service) StderrLine: {'line': b'  443 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const shared_ptr<_Tp>& __a, nullptr_t) noexcept\n'}
+[39.220490] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.220550] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:443:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.220610] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.220672] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.220731] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.220791] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[39.220850] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[39.220917] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.220976] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:464:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> bool std::operator==(std::nullptr_t, const std::shared_ptr<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.221037] (lcm_service) StderrLine: {'line': b'  464 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const shared_ptr<_Tp>& __a) noexcept\n'}
+[39.221099] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.221158] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:464:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.221220] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.221281] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.221342] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.221402] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[39.221463] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[39.221523] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[39.221582] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[39.221641] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[39.221700] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[39.221759] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[39.221818] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.221877] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.221941] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:535:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.222004] (lcm_service) StderrLine: {'line': b'  535 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(basic_string_view<_CharT, _Traits> __x,\n'}
+[39.222063] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.222122] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:535:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.222182] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.222242] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.222301] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.222364] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[39.222424] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[39.222483] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[39.222542] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[39.222601] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[39.222660] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[39.222718] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[39.222777] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.222836] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.222896] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.222958] (lcm_service) StderrLine: {'line': b'  541 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(basic_string_view<_CharT, _Traits> __x,\n'}
+[39.223016] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.223076] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.223137] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.223198] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.223264] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.223324] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[39.223385] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[39.223444] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[39.223503] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[39.223562] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[39.223622] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[39.223681] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[39.223744] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.223802] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.223869] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:564:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >, std::basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.223932] (lcm_service) StderrLine: {'line': b'  564 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(__type_identity_t<basic_string_view<_CharT, _Traits>> __x,\n'}
+[39.223991] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.224051] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:564:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.224109] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.224173] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.224232] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.224291] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[39.224352] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[39.224410] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[39.224469] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[39.224528] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[39.224586] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[39.224645] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.224705] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.224764] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.224826] (lcm_service) StderrLine: {'line': b' 6226 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[39.224886] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.224945] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.225005] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.225065] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.225124] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.225183] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[39.225245] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[39.225305] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[39.225364] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[39.225423] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[39.225482] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[39.225542] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.225601] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.225660] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6234:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.225724] (lcm_service) StderrLine: {'line': b' 6234 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const basic_string<_CharT>& __lhs,\n'}
+[39.225783] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.225842] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6234:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.225901] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.225960] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.226019] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.226078] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[39.226140] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[39.226199] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[39.226263] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[39.226322] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[39.226381] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[39.226440] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.226502] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.226562] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6248:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.226623] (lcm_service) StderrLine: {'line': b' 6248 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[39.226686] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.226745] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6248:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.226805] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.226865] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.226924] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.226982] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[39.227041] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[39.227100] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[39.227160] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[39.227224] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[39.227287] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[39.227349] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.227408] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.227468] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6289:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.227529] (lcm_service) StderrLine: {'line': b' 6289 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const _CharT* __lhs,\n'}
+[39.227589] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.227648] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6289:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.227708] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.227768] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.227826] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.227885] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/future:47\x1b[m\x1b[K,\n'}
+[39.227944] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[39.228002] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.228061] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.228125] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:718:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _Args> bool std::operator==(const std::function<_Res(_ArgTypes ...)>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.228186] (lcm_service) StderrLine: {'line': b'  718 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const function<_Res(_Args...)>& __f, nullptr_t) noexcept\n'}
+[39.228245] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.228303] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:718:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.228362] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<_Res(_ArgTypes ...)>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.228424] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.228483] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.228546] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/future:47\x1b[m\x1b[K,\n'}
+[39.228606] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[39.228671] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.228730] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.228789] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:725:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _Args> bool std::operator==(std::nullptr_t, const std::function<_Res(_ArgTypes ...)>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.228850] (lcm_service) StderrLine: {'line': b'  725 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const function<_Res(_Args...)>& __f) noexcept\n'}
+[39.228909] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.228968] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:725:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.229028] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<_Res(_ArgTypes ...)>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.229087] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.229147] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.229206] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/set:61\x1b[m\x1b[K,\n'}
+[39.229265] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21\x1b[m\x1b[K,\n'}
+[39.229325] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[39.229384] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.229447] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.229507] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_set.h:985:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::set<_Key, _Compare, _Allocator>&, const std::set<_Key, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.229568] (lcm_service) StderrLine: {'line': b'  985 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const set<_Key, _Compare, _Alloc>& __x,\n'}
+[39.229628] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.229687] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_set.h:985:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.229747] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::set<_Key, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.229809] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.229868] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.229926] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/set:62\x1b[m\x1b[K,\n'}
+[39.229986] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21\x1b[m\x1b[K,\n'}
+[39.230045] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[39.230105] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.230163] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.230225] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multiset.h:971:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::multiset<_Key, _Compare, _Allocator>&, const std::multiset<_Key, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.230287] (lcm_service) StderrLine: {'line': b'  971 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const multiset<_Key, _Compare, _Alloc>& __x,\n'}
+[39.230346] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.230405] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multiset.h:971:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.230464] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::multiset<_Key, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.230529] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.230589] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.230651] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:47\x1b[m\x1b[K,\n'}
+[39.230714] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:23\x1b[m\x1b[K,\n'}
+[39.230773] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[39.230835] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.230895] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.230954] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_map.h:2134:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.231017] (lcm_service) StderrLine: {'line': b' 2134 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,\n'}
+[39.231079] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.231138] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_map.h:2134:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.231199] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.231267] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.231328] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.231388] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:47\x1b[m\x1b[K,\n'}
+[39.231448] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:23\x1b[m\x1b[K,\n'}
+[39.231507] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[39.231566] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.231626] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.231684] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_map.h:2148:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.231745] (lcm_service) StderrLine: {'line': b' 2148 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,\n'}
+[39.231805] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.231863] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_map.h:2148:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.231926] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.231987] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.232047] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.232107] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[39.232165] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[39.232224] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[39.232282] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[39.232340] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[39.232399] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[39.232458] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[39.232521] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.232581] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.232640] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1892:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.232700] (lcm_service) StderrLine: {'line': b' 1892 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)\n'}
+[39.232764] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.232823] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1892:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.232887] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.232949] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.233009] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.233067] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_facets.h:48\x1b[m\x1b[K,\n'}
+[39.233127] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_ios.h:37\x1b[m\x1b[K,\n'}
+[39.233189] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:44\x1b[m\x1b[K,\n'}
+[39.233245] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[39.233302] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[39.233360] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[39.233419] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[39.233478] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[39.233537] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.233596] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.233654] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/streambuf_iterator.h:226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.233715] (lcm_service) StderrLine: {'line': b'  226 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const istreambuf_iterator<_CharT, _Traits>& __a,\n'}
+[39.233779] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.233838] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/streambuf_iterator.h:226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.233897] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::istreambuf_iterator<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.233962] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.234021] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.234079] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/list:63\x1b[m\x1b[K,\n'}
+[39.234138] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:23\x1b[m\x1b[K,\n'}
+[39.234197] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[39.234256] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[39.234315] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.234374] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.234433] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_list.h:2030:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.234501] (lcm_service) StderrLine: {'line': b' 2030 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)\n'}
+[39.234562] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.234621] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_list.h:2030:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.234681] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::list<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.234743] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.234802] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.234861] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/map:61\x1b[m\x1b[K,\n'}
+[39.234920] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K,\n'}
+[39.234983] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[39.235043] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[39.235105] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.235164] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.235227] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_map.h:1463:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::map<_Key, _Tp, _Compare, _Allocator>&, const std::map<_Key, _Tp, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.235292] (lcm_service) StderrLine: {'line': b' 1463 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const map<_Key, _Tp, _Compare, _Alloc>& __x,\n'}
+[39.235351] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.235410] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_map.h:1463:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.235471] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::map<_Key, _Tp, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.235532] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.235591] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.235650] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/map:62\x1b[m\x1b[K,\n'}
+[39.235708] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K,\n'}
+[39.235767] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[39.235830] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[39.235889] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.235948] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.236008] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multimap.h:1128:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::multimap<_Key, _Tp, _Compare, _Allocator>&, const std::multimap<_Key, _Tp, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.236068] (lcm_service) StderrLine: {'line': b' 1128 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,\n'}
+[39.236127] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.236186] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multimap.h:1128:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.236245] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.236309] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.236372] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.236431] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_set:47\x1b[m\x1b[K,\n'}
+[39.236490] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:26\x1b[m\x1b[K,\n'}
+[39.236549] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34\x1b[m\x1b[K,\n'}
+[39.236608] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[39.236667] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[39.236725] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.236783] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.236842] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_set.h:1804:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.236904] (lcm_service) StderrLine: {'line': b' 1804 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_set<_Value, _Hash, _Pred, _Alloc>& __x,\n'}
+[39.236963] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.237022] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_set.h:1804:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.237089] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.237154] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.237213] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.237271] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_set:47\x1b[m\x1b[K,\n'}
+[39.237329] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:26\x1b[m\x1b[K,\n'}
+[39.237389] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34\x1b[m\x1b[K,\n'}
+[39.237451] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[39.237511] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[39.237570] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.237629] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.237689] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_set.h:1818:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.237750] (lcm_service) StderrLine: {'line': b' 1818 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_multiset<_Value, _Hash, _Pred, _Alloc>& __x,\n'}
+[39.237811] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.237869] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_set.h:1818:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.237928] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.237989] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.238048] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.238107] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[39.238166] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[39.238226] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[39.238289] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[39.238353] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[39.238413] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[39.238482] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[39.238541] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[39.238600] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[39.238659] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.238718] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.238779] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1045:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::operator==(const std::optional<_Tp>&, const std::optional<_Up>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.238840] (lcm_service) StderrLine: {'line': b' 1045 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)\n'}
+[39.238900] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.238958] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1045:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.239017] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.239083] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.239156] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.239225] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[39.239281] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[39.239316] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[39.239351] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[39.239402] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[39.239438] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[39.239472] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[39.239507] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[39.239545] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[39.239581] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.239616] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.239650] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1105:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::operator==(const std::optional<_Tp>&, std::nullopt_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.239685] (lcm_service) StderrLine: {'line': b' 1105 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const optional<_Tp>& __lhs, nullopt_t) noexcept\n'}
+[39.239719] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.239753] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1105:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.239788] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.239824] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.239859] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.239894] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[39.239928] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[39.239965] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[39.239999] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[39.240033] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[39.240067] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[39.240101] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[39.240135] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[39.240169] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[39.240202] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.240236] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.240270] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1116:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::operator==(std::nullopt_t, const std::optional<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.240309] (lcm_service) StderrLine: {'line': b' 1116 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullopt_t, const optional<_Tp>& __rhs) noexcept\n'}
+[39.240345] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.240380] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1116:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.240415] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.240452] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.240487] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.240523] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[39.240559] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[39.240600] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[39.240635] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[39.240672] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[39.240707] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[39.240740] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[39.240775] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[39.240809] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[39.240843] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.240877] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.240911] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1173:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::operator==(const std::optional<_Tp>&, const _Up&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.240946] (lcm_service) StderrLine: {'line': b' 1173 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const optional<_Tp>& __lhs, const _Up& __rhs)\n'}
+[39.240980] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.241015] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1173:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.241049] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.241088] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.241122] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.241155] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[39.241189] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[39.241225] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[39.241260] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[39.241294] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[39.241328] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[39.241362] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[39.241396] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[39.241430] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[39.241463] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.241508] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.241557] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1179:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Up, _Tp> std::operator==(const _Up&, const std::optional<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.241627] (lcm_service) StderrLine: {'line': b' 1179 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const _Up& __lhs, const optional<_Tp>& __rhs)\n'}
+[39.241772] (lcm_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.241885] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1179:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.241995] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.242100] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.242170] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.242219] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[39.242272] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[39.242308] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[39.242342] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[39.242377] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[39.242420] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[39.242460] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[39.242512] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[39.242549] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[39.242584] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.242618] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.242651] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1232:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _Types> constexpr bool std::operator==(const std::variant<_Types ...>&, const std::variant<_Types ...>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.242686] (lcm_service) StderrLine: {'line': b' 1232 |   \x1b[01;36m\x1b[K_VARIANT_RELATION_FUNCTION_TEMPLATE\x1b[m\x1b[K(==, equal)\n'}
+[39.242719] (lcm_service) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[39.242753] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1232:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[39.242790] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:13:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::variant<_Types ...>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.242826] (lcm_service) StderrLine: {'line': b'   13 |   if(request->req==\x1b[01;36m\x1b[K0\x1b[m\x1b[K)\n'}
+[39.242860] (lcm_service) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[39.242893] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[39.242928] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[39.242961] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.242994] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:204:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::allocator<char>&, const std::allocator<char>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.243028] (lcm_service) StderrLine: {'line': b'  204 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const allocator&, const allocator&) _GLIBCXX_NOTHROW\n'}
+[39.243061] (lcm_service) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.243094] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:204:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::allocator<char>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.243133] (lcm_service) StderrLine: {'line': b'  204 |       operator==(\x1b[01;36m\x1b[Kconst allocator&\x1b[m\x1b[K, const allocator&) _GLIBCXX_NOTHROW\n'}
+[39.243167] (lcm_service) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[39.243199] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[39.243255] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[39.243289] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[39.243323] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.243356] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.243390] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:362:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_code&, const std::error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.243429] (lcm_service) StderrLine: {'line': b'  362 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_code& __lhs, const error_code& __rhs) noexcept\n'}
+[39.243463] (lcm_service) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.243496] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:362:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.243532] (lcm_service) StderrLine: {'line': b'  362 |   operator==(\x1b[01;36m\x1b[Kconst error_code& __lhs\x1b[m\x1b[K, const error_code& __rhs) noexcept\n'}
+[39.243565] (lcm_service) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[39.243598] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:368:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_code&, const std::error_condition&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.243632] (lcm_service) StderrLine: {'line': b'  368 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_code& __lhs, const error_condition& __rhs) noexcept\n'}
+[39.243665] (lcm_service) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.243698] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:368:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.243738] (lcm_service) StderrLine: {'line': b'  368 |   operator==(\x1b[01;36m\x1b[Kconst error_code& __lhs\x1b[m\x1b[K, const error_condition& __rhs) noexcept\n'}
+[39.243772] (lcm_service) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[39.243805] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:376:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_condition&, const std::error_condition&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.243839] (lcm_service) StderrLine: {'line': b'  376 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_condition& __lhs,\n'}
+[39.243875] (lcm_service) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.243907] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:376:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_condition&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.243943] (lcm_service) StderrLine: {'line': b'  376 |   operator==(\x1b[01;36m\x1b[Kconst error_condition& __lhs\x1b[m\x1b[K,\n'}
+[39.243976] (lcm_service) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[39.244011] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:408:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_condition&, const std::error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.244046] (lcm_service) StderrLine: {'line': b'  408 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_condition& __lhs, const error_code& __rhs) noexcept\n'}
+[39.244079] (lcm_service) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.244111] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:408:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_condition&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.244146] (lcm_service) StderrLine: {'line': b'  408 |   operator==(\x1b[01;36m\x1b[Kconst error_condition& __lhs\x1b[m\x1b[K, const error_code& __rhs) noexcept\n'}
+[39.244178] (lcm_service) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[39.244212] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/future:48\x1b[m\x1b[K,\n'}
+[39.244245] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[39.244279] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.244311] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.244344] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:287:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(std::thread::id, std::thread::id)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.244378] (lcm_service) StderrLine: {'line': b'  287 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(thread::id __x, thread::id __y) noexcept\n'}
+[39.244412] (lcm_service) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.244445] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:287:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::id\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.244480] (lcm_service) StderrLine: {'line': b'  287 |   operator==(\x1b[01;36m\x1b[Kthread::id __x\x1b[m\x1b[K, thread::id __y) noexcept\n'}
+[39.244515] (lcm_service) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[39.244551] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[39.244601] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[39.244634] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[39.244667] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[39.244702] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[39.244735] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[39.244768] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[39.244801] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[39.244834] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[39.244867] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[39.244900] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[39.244935] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1239:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr bool std::operator==(std::monostate, std::monostate)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.244972] (lcm_service) StderrLine: {'line': b' 1239 |   constexpr bool \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(monostate, monostate) noexcept { return true; }\n'}
+[39.245006] (lcm_service) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[39.245039] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1239:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::monostate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[39.245075] (lcm_service) StderrLine: {'line': b' 1239 |   constexpr bool operator==(\x1b[01;36m\x1b[Kmonostate\x1b[m\x1b[K, monostate) noexcept { return true; }\n'}
+[39.245108] (lcm_service) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[39.313939] (-) TimerEvent: {}
+[39.414267] (-) TimerEvent: {}
+[39.514645] (-) TimerEvent: {}
+[39.615150] (-) TimerEvent: {}
+[39.715584] (-) TimerEvent: {}
+[39.816074] (-) TimerEvent: {}
+[39.916442] (-) TimerEvent: {}
+[40.016759] (-) TimerEvent: {}
+[40.117178] (-) TimerEvent: {}
+[40.217579] (-) TimerEvent: {}
+[40.317995] (-) TimerEvent: {}
+[40.418466] (-) TimerEvent: {}
+[40.518889] (-) TimerEvent: {}
+[40.619307] (-) TimerEvent: {}
+[40.719662] (-) TimerEvent: {}
+[40.819927] (-) TimerEvent: {}
+[40.920213] (-) TimerEvent: {}
+[41.030702] (-) TimerEvent: {}
+[41.130940] (-) TimerEvent: {}
+[41.231259] (-) TimerEvent: {}
+[41.331676] (-) TimerEvent: {}
+[41.432057] (-) TimerEvent: {}
+[41.532473] (-) TimerEvent: {}
+[41.632914] (-) TimerEvent: {}
+[41.686077] (lcm_service) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/server_a.dir/build.make:76: CMakeFiles/server_a.dir/src/server_a.cpp.o] Error 1\n'}
+[41.686278] (lcm_service) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/server_a.dir/all] Error 2\n'}
+[41.686352] (lcm_service) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[41.687946] (lcm_service) CommandEnded: {'returncode': 2}
+[41.733031] (-) TimerEvent: {}
+[41.833404] (-) TimerEvent: {}
+[41.933819] (-) TimerEvent: {}
+[42.034213] (-) TimerEvent: {}
+[42.134602] (-) TimerEvent: {}
+[42.234978] (-) TimerEvent: {}
+[42.335428] (-) TimerEvent: {}
+[42.435831] (-) TimerEvent: {}
+[42.536208] (-) TimerEvent: {}
+[42.636601] (-) TimerEvent: {}
+[42.736993] (-) TimerEvent: {}
+[42.837463] (-) TimerEvent: {}
+[42.937896] (-) TimerEvent: {}
+[43.038322] (-) TimerEvent: {}
+[43.138755] (-) TimerEvent: {}
+[43.239233] (-) TimerEvent: {}
+[43.339617] (-) TimerEvent: {}
+[43.440104] (-) TimerEvent: {}
+[43.540581] (-) TimerEvent: {}
+[43.641027] (-) TimerEvent: {}
+[43.741508] (-) TimerEvent: {}
+[43.841971] (-) TimerEvent: {}
+[43.942387] (-) TimerEvent: {}
+[44.042781] (-) TimerEvent: {}
+[44.119560] (lcm_service) JobEnded: {'identifier': 'lcm_service', 'rc': 2}
+[44.244136] (-) TimerEvent: {}
+[44.244355] (-) EventReactorShutdown: {}

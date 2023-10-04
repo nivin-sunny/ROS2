@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/devuser/AOX/ROS2/install/tutorial_interfaces/include/**",
+        "/home/devuser/AOX/ROS2/install/more_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/devuser/AOX/ROS2/src/callback_trials/include/**",
+        "/home/devuser/AOX/ROS2/src/lcm_service/include/**",
+        "/home/devuser/AOX/ROS2/src/lcm_topic/include/**",
+        "/home/devuser/AOX/ROS2/src/syncasyn/include/**",
+        "/home/devuser/AOX/ROS2/src/watchdog/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

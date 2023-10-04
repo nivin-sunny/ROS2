@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target server_b[0m
+[35m[1mConsolidate compiler generated dependencies of target client[0m
+[35m[1mConsolidate compiler generated dependencies of target server_a[0m
+[ 33%] Built target client
+[ 50%] [32mBuilding CXX object CMakeFiles/server_b.dir/src/server_b.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/server_a.dir/src/server_a.cpp.o[0m

@@ -1,0 +1,609 @@
+[0.000000] (-) TimerEvent: {}
+[0.000138] (lcm_service) JobQueued: {'identifier': 'lcm_service', 'dependencies': OrderedDict()}
+[0.000383] (lcm_service) JobStarted: {'identifier': 'lcm_service'}
+[0.099898] (-) TimerEvent: {}
+[0.100534] (lcm_service) JobProgress: {'identifier': 'lcm_service', 'progress': 'cmake'}
+[0.102290] (lcm_service) JobProgress: {'identifier': 'lcm_service', 'progress': 'build'}
+[0.102762] (lcm_service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service', '--', '-j8', '-l8'], 'cwd': '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'devuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/devuser/AOX/ROS2/src/install/tutorial_interfaces/lib:/home/devuser/AOX/ROS2/src/tutorial_interfaces/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/devuser'), ('OLDPWD', '/home/devuser/AOX/ROS2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2343'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=89ae1eaa020aa0758c074890651c172b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/devuser/AOX/ROS2/src/lcm_service/install:/home/devuser/AOX/ROS2/src/install:/home/devuser/AOX/ROS2/src/lcm_topic/install:/home/devuser/AOX/ROS2/src/tutorial_interfaces/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'devuser'), ('_', '/home/devuser/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'devuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/devuser/.cargo/bin:/home/devuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin::/usr/local/ssl/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ATWLLL1013:@/tmp/.ICE-unix/2343,unix/ATWLLL1013:/tmp/.ICE-unix/2343'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ac746065_3dc2_47ca_8f98_4e18f314c8ee'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WEEAC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.228'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/devuser/AOX/ROS2/src/install/tutorial_interfaces:/home/devuser/AOX/ROS2/src/install/lcm_service:/home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic:/home/devuser/AOX/ROS2/src/tutorial_interfaces/install/tutorial_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=89ae1eaa020aa0758c074890651c172b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/devuser/AOX/ROS2/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/devuser/AOX/ROS2/src/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/devuser/AOX/ROS2/src/install/tutorial_interfaces:/home/devuser/AOX/ROS2/src/install/lcm_service:/home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic:/home/devuser/AOX/ROS2/src/tutorial_interfaces/install/tutorial_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.200012] (-) TimerEvent: {}
+[0.300279] (-) TimerEvent: {}
+[0.400533] (-) TimerEvent: {}
+[0.485719] (lcm_service) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500628] (-) TimerEvent: {}
+[0.600881] (-) TimerEvent: {}
+[0.701151] (-) TimerEvent: {}
+[0.801421] (-) TimerEvent: {}
+[0.901666] (-) TimerEvent: {}
+[1.001934] (-) TimerEvent: {}
+[1.076405] (lcm_service) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.102050] (-) TimerEvent: {}
+[1.202322] (-) TimerEvent: {}
+[1.302581] (-) TimerEvent: {}
+[1.402896] (-) TimerEvent: {}
+[1.503173] (-) TimerEvent: {}
+[1.603437] (-) TimerEvent: {}
+[1.703701] (-) TimerEvent: {}
+[1.804002] (-) TimerEvent: {}
+[1.904275] (-) TimerEvent: {}
+[2.004541] (-) TimerEvent: {}
+[2.104814] (-) TimerEvent: {}
+[2.205095] (-) TimerEvent: {}
+[2.305381] (-) TimerEvent: {}
+[2.405624] (-) TimerEvent: {}
+[2.451916] (lcm_service) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.453413] (lcm_service) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.457321] (lcm_service) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.464861] (lcm_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.475417] (lcm_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.505731] (-) TimerEvent: {}
+[2.605991] (-) TimerEvent: {}
+[2.706246] (-) TimerEvent: {}
+[2.806486] (-) TimerEvent: {}
+[2.906772] (-) TimerEvent: {}
+[3.007019] (-) TimerEvent: {}
+[3.107262] (-) TimerEvent: {}
+[3.207552] (-) TimerEvent: {}
+[3.307813] (-) TimerEvent: {}
+[3.470238] (-) TimerEvent: {}
+[3.570497] (-) TimerEvent: {}
+[3.670766] (-) TimerEvent: {}
+[3.771037] (-) TimerEvent: {}
+[3.871292] (-) TimerEvent: {}
+[3.971550] (-) TimerEvent: {}
+[4.071772] (-) TimerEvent: {}
+[4.172043] (-) TimerEvent: {}
+[4.272320] (-) TimerEvent: {}
+[4.372640] (-) TimerEvent: {}
+[4.472943] (-) TimerEvent: {}
+[4.573221] (-) TimerEvent: {}
+[4.673510] (-) TimerEvent: {}
+[4.773741] (-) TimerEvent: {}
+[4.874047] (-) TimerEvent: {}
+[4.974301] (-) TimerEvent: {}
+[5.074560] (-) TimerEvent: {}
+[5.174867] (-) TimerEvent: {}
+[5.275119] (-) TimerEvent: {}
+[5.375396] (-) TimerEvent: {}
+[5.475670] (-) TimerEvent: {}
+[5.575927] (-) TimerEvent: {}
+[5.676186] (-) TimerEvent: {}
+[5.776413] (-) TimerEvent: {}
+[5.876750] (-) TimerEvent: {}
+[5.977048] (-) TimerEvent: {}
+[6.077321] (-) TimerEvent: {}
+[6.177561] (-) TimerEvent: {}
+[6.277844] (-) TimerEvent: {}
+[6.378185] (-) TimerEvent: {}
+[6.478447] (-) TimerEvent: {}
+[6.578752] (-) TimerEvent: {}
+[6.615618] (lcm_service) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.678880] (-) TimerEvent: {}
+[6.779140] (-) TimerEvent: {}
+[6.879386] (-) TimerEvent: {}
+[6.979658] (-) TimerEvent: {}
+[7.025601] (lcm_service) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.079779] (-) TimerEvent: {}
+[7.180062] (-) TimerEvent: {}
+[7.280321] (-) TimerEvent: {}
+[7.380601] (-) TimerEvent: {}
+[7.480856] (-) TimerEvent: {}
+[7.581136] (-) TimerEvent: {}
+[7.681414] (-) TimerEvent: {}
+[7.781669] (-) TimerEvent: {}
+[7.881893] (-) TimerEvent: {}
+[7.982169] (-) TimerEvent: {}
+[8.082417] (-) TimerEvent: {}
+[8.182701] (-) TimerEvent: {}
+[8.282966] (-) TimerEvent: {}
+[8.383263] (-) TimerEvent: {}
+[8.483528] (-) TimerEvent: {}
+[8.583790] (-) TimerEvent: {}
+[8.684103] (-) TimerEvent: {}
+[8.784391] (-) TimerEvent: {}
+[8.884640] (-) TimerEvent: {}
+[8.984899] (-) TimerEvent: {}
+[9.085206] (-) TimerEvent: {}
+[9.185517] (-) TimerEvent: {}
+[9.285780] (-) TimerEvent: {}
+[9.386084] (-) TimerEvent: {}
+[9.486334] (-) TimerEvent: {}
+[9.586588] (-) TimerEvent: {}
+[9.686849] (-) TimerEvent: {}
+[9.787093] (-) TimerEvent: {}
+[9.887355] (-) TimerEvent: {}
+[9.987626] (-) TimerEvent: {}
+[10.087892] (-) TimerEvent: {}
+[10.188148] (-) TimerEvent: {}
+[10.288392] (-) TimerEvent: {}
+[10.388639] (-) TimerEvent: {}
+[10.488896] (-) TimerEvent: {}
+[10.589163] (-) TimerEvent: {}
+[10.689421] (-) TimerEvent: {}
+[10.789654] (-) TimerEvent: {}
+[10.889898] (-) TimerEvent: {}
+[10.990147] (-) TimerEvent: {}
+[11.090411] (-) TimerEvent: {}
+[11.190676] (-) TimerEvent: {}
+[11.290939] (-) TimerEvent: {}
+[11.391197] (-) TimerEvent: {}
+[11.491466] (-) TimerEvent: {}
+[11.591762] (-) TimerEvent: {}
+[11.692047] (-) TimerEvent: {}
+[11.792354] (-) TimerEvent: {}
+[11.892657] (-) TimerEvent: {}
+[11.992967] (-) TimerEvent: {}
+[12.093240] (-) TimerEvent: {}
+[12.193536] (-) TimerEvent: {}
+[12.293805] (-) TimerEvent: {}
+[12.394077] (-) TimerEvent: {}
+[12.494353] (-) TimerEvent: {}
+[12.594636] (-) TimerEvent: {}
+[12.694923] (-) TimerEvent: {}
+[12.795194] (-) TimerEvent: {}
+[12.895490] (-) TimerEvent: {}
+[12.995784] (-) TimerEvent: {}
+[13.096060] (-) TimerEvent: {}
+[13.196370] (-) TimerEvent: {}
+[13.296648] (-) TimerEvent: {}
+[13.396979] (-) TimerEvent: {}
+[13.452691] (lcm_service) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[13.497125] (-) TimerEvent: {}
+[13.597389] (-) TimerEvent: {}
+[13.697622] (-) TimerEvent: {}
+[13.797887] (-) TimerEvent: {}
+[13.898138] (-) TimerEvent: {}
+[13.998397] (-) TimerEvent: {}
+[14.098671] (-) TimerEvent: {}
+[14.198951] (-) TimerEvent: {}
+[14.299258] (-) TimerEvent: {}
+[14.399521] (-) TimerEvent: {}
+[14.499788] (-) TimerEvent: {}
+[14.600162] (-) TimerEvent: {}
+[14.700453] (-) TimerEvent: {}
+[14.800703] (-) TimerEvent: {}
+[14.900945] (-) TimerEvent: {}
+[15.017028] (-) TimerEvent: {}
+[15.117292] (-) TimerEvent: {}
+[15.217529] (-) TimerEvent: {}
+[15.317767] (-) TimerEvent: {}
+[15.417987] (-) TimerEvent: {}
+[15.518239] (-) TimerEvent: {}
+[15.618474] (-) TimerEvent: {}
+[15.718796] (-) TimerEvent: {}
+[15.819042] (-) TimerEvent: {}
+[15.919300] (-) TimerEvent: {}
+[16.019566] (-) TimerEvent: {}
+[16.119829] (-) TimerEvent: {}
+[16.220106] (-) TimerEvent: {}
+[16.320387] (-) TimerEvent: {}
+[16.420683] (-) TimerEvent: {}
+[16.520932] (-) TimerEvent: {}
+[16.621199] (-) TimerEvent: {}
+[16.721502] (-) TimerEvent: {}
+[16.821755] (-) TimerEvent: {}
+[16.922043] (-) TimerEvent: {}
+[17.022283] (-) TimerEvent: {}
+[17.122512] (-) TimerEvent: {}
+[17.222747] (-) TimerEvent: {}
+[17.323000] (-) TimerEvent: {}
+[17.423255] (-) TimerEvent: {}
+[17.523530] (-) TimerEvent: {}
+[17.623748] (-) TimerEvent: {}
+[17.723998] (-) TimerEvent: {}
+[17.824280] (-) TimerEvent: {}
+[17.924549] (-) TimerEvent: {}
+[18.024818] (-) TimerEvent: {}
+[18.125084] (-) TimerEvent: {}
+[18.225435] (-) TimerEvent: {}
+[18.325697] (-) TimerEvent: {}
+[18.425964] (-) TimerEvent: {}
+[18.526270] (-) TimerEvent: {}
+[18.626617] (-) TimerEvent: {}
+[18.726973] (-) TimerEvent: {}
+[18.827265] (-) TimerEvent: {}
+[18.927608] (-) TimerEvent: {}
+[19.027901] (-) TimerEvent: {}
+[19.128261] (-) TimerEvent: {}
+[19.228638] (-) TimerEvent: {}
+[19.329005] (-) TimerEvent: {}
+[19.429379] (-) TimerEvent: {}
+[19.529652] (-) TimerEvent: {}
+[19.629935] (-) TimerEvent: {}
+[19.730208] (-) TimerEvent: {}
+[19.830564] (-) TimerEvent: {}
+[19.930849] (-) TimerEvent: {}
+[20.031206] (-) TimerEvent: {}
+[20.131554] (-) TimerEvent: {}
+[20.231854] (-) TimerEvent: {}
+[20.332232] (-) TimerEvent: {}
+[20.432524] (-) TimerEvent: {}
+[20.532800] (-) TimerEvent: {}
+[20.633161] (-) TimerEvent: {}
+[20.733521] (-) TimerEvent: {}
+[20.833813] (-) TimerEvent: {}
+[20.934083] (-) TimerEvent: {}
+[20.987410] (lcm_service) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/devuser/AOX/ROS2/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[21.034196] (-) TimerEvent: {}
+[21.134545] (-) TimerEvent: {}
+[21.234778] (-) TimerEvent: {}
+[21.335027] (-) TimerEvent: {}
+[21.435272] (-) TimerEvent: {}
+[21.590390] (-) TimerEvent: {}
+[21.690631] (-) TimerEvent: {}
+[21.790880] (-) TimerEvent: {}
+[21.891144] (-) TimerEvent: {}
+[21.991390] (-) TimerEvent: {}
+[22.091665] (-) TimerEvent: {}
+[22.191926] (-) TimerEvent: {}
+[22.292204] (-) TimerEvent: {}
+[22.392555] (-) TimerEvent: {}
+[22.492837] (-) TimerEvent: {}
+[22.593106] (-) TimerEvent: {}
+[22.693368] (-) TimerEvent: {}
+[22.793651] (-) TimerEvent: {}
+[22.893929] (-) TimerEvent: {}
+[22.994182] (-) TimerEvent: {}
+[23.094460] (-) TimerEvent: {}
+[23.128640] (lcm_service) StdoutLine: {'line': b'-- Configuring done\n'}
+[23.194583] (-) TimerEvent: {}
+[23.294844] (-) TimerEvent: {}
+[23.395105] (-) TimerEvent: {}
+[23.495344] (-) TimerEvent: {}
+[23.595604] (-) TimerEvent: {}
+[23.695837] (-) TimerEvent: {}
+[23.796125] (-) TimerEvent: {}
+[23.896391] (-) TimerEvent: {}
+[23.996650] (-) TimerEvent: {}
+[24.096910] (-) TimerEvent: {}
+[24.197158] (-) TimerEvent: {}
+[24.297399] (-) TimerEvent: {}
+[24.397644] (-) TimerEvent: {}
+[24.497885] (-) TimerEvent: {}
+[24.598137] (-) TimerEvent: {}
+[24.698411] (-) TimerEvent: {}
+[24.798693] (-) TimerEvent: {}
+[24.898953] (-) TimerEvent: {}
+[24.999246] (-) TimerEvent: {}
+[25.099515] (-) TimerEvent: {}
+[25.131916] (lcm_service) StdoutLine: {'line': b'-- Generating done\n'}
+[25.199645] (-) TimerEvent: {}
+[25.285869] (lcm_service) StdoutLine: {'line': b'-- Build files have been written to: /home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service\n'}
+[25.299761] (-) TimerEvent: {}
+[25.302964] (lcm_service) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server_a\x1b[0m\n'}
+[25.373213] (lcm_service) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/server_a.dir/src/server_a.cpp.o\x1b[0m\n'}
+[25.399859] (-) TimerEvent: {}
+[25.500150] (-) TimerEvent: {}
+[25.600444] (-) TimerEvent: {}
+[25.700734] (-) TimerEvent: {}
+[25.801025] (-) TimerEvent: {}
+[25.901310] (-) TimerEvent: {}
+[26.001562] (-) TimerEvent: {}
+[26.101806] (-) TimerEvent: {}
+[26.202069] (-) TimerEvent: {}
+[26.302349] (-) TimerEvent: {}
+[26.402617] (-) TimerEvent: {}
+[26.502886] (-) TimerEvent: {}
+[26.603169] (-) TimerEvent: {}
+[26.703446] (-) TimerEvent: {}
+[26.803813] (-) TimerEvent: {}
+[26.898506] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[26.898679] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[26.898749] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[26.898817] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[26.898878] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[26.898939] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[26.899000] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[26.899061] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[26.899121] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[26.899181] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[26.899242] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[26.899302] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:1\x1b[m\x1b[K:\n'}
+[26.899362] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid shutdown(std::shared_ptr<tutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::Shutdown_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.899427] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:10:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.899492] (lcm_service) StderrLine: {'line': b'   10 |    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), \x1b[01;35m\x1b[K"Incoming request\\na: %s"\x1b[m\x1b[K,   // CHANGE\n'}
+[26.899553] (lcm_service) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.899613] (lcm_service) StderrLine: {'line': b'   11 |                 \x1b[32m\x1b[Krequest->req\x1b[m\x1b[K);\n'}
+[26.899672] (lcm_service) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K                  \n'}
+[26.899732] (lcm_service) StderrLine: {'line': b'      |                          \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[26.899855] (lcm_service) StderrLine: {'line': b'      |                          \x1b[32m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type {aka long int}\x1b[m\x1b[K\n'}
+[26.903999] (-) TimerEvent: {}
+[27.004325] (-) TimerEvent: {}
+[27.104681] (-) TimerEvent: {}
+[27.198195] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_a.cpp:10:69:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[27.198365] (lcm_service) StderrLine: {'line': b'   10 |    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Incoming request\\na: \x1b[01;36m\x1b[K%s\x1b[m\x1b[K",   // CHANGE\n'}
+[27.198436] (lcm_service) StderrLine: {'line': b'      |                                                                    \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[27.198509] (lcm_service) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[27.198569] (lcm_service) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[27.198636] (lcm_service) StderrLine: {'line': b'      |                                                                    \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[27.204856] (-) TimerEvent: {}
+[27.305188] (-) TimerEvent: {}
+[27.405475] (-) TimerEvent: {}
+[27.505773] (-) TimerEvent: {}
+[27.606006] (-) TimerEvent: {}
+[27.706262] (-) TimerEvent: {}
+[27.806504] (-) TimerEvent: {}
+[27.906762] (-) TimerEvent: {}
+[28.007029] (-) TimerEvent: {}
+[28.107312] (-) TimerEvent: {}
+[28.207564] (-) TimerEvent: {}
+[28.307822] (-) TimerEvent: {}
+[28.408078] (-) TimerEvent: {}
+[28.508342] (-) TimerEvent: {}
+[28.594192] (lcm_service) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX executable server_a\x1b[0m\n'}
+[28.608471] (-) TimerEvent: {}
+[28.708715] (-) TimerEvent: {}
+[28.809028] (-) TimerEvent: {}
+[28.909355] (-) TimerEvent: {}
+[29.009631] (-) TimerEvent: {}
+[29.109894] (-) TimerEvent: {}
+[29.210145] (-) TimerEvent: {}
+[29.310396] (-) TimerEvent: {}
+[29.410650] (-) TimerEvent: {}
+[29.510906] (-) TimerEvent: {}
+[29.611197] (-) TimerEvent: {}
+[29.711486] (-) TimerEvent: {}
+[29.811776] (-) TimerEvent: {}
+[29.912133] (-) TimerEvent: {}
+[30.012487] (-) TimerEvent: {}
+[30.112841] (-) TimerEvent: {}
+[30.213092] (-) TimerEvent: {}
+[30.313395] (-) TimerEvent: {}
+[30.413644] (-) TimerEvent: {}
+[30.513894] (-) TimerEvent: {}
+[30.614195] (-) TimerEvent: {}
+[30.714452] (-) TimerEvent: {}
+[30.814737] (-) TimerEvent: {}
+[30.914963] (-) TimerEvent: {}
+[31.015197] (-) TimerEvent: {}
+[31.115427] (-) TimerEvent: {}
+[31.215695] (-) TimerEvent: {}
+[31.315933] (-) TimerEvent: {}
+[31.416190] (-) TimerEvent: {}
+[31.516458] (-) TimerEvent: {}
+[31.616718] (-) TimerEvent: {}
+[31.716994] (-) TimerEvent: {}
+[31.817250] (-) TimerEvent: {}
+[31.917520] (-) TimerEvent: {}
+[32.017758] (-) TimerEvent: {}
+[32.117983] (-) TimerEvent: {}
+[32.218253] (-) TimerEvent: {}
+[32.318557] (-) TimerEvent: {}
+[32.418814] (-) TimerEvent: {}
+[32.519122] (-) TimerEvent: {}
+[32.619375] (-) TimerEvent: {}
+[32.719677] (-) TimerEvent: {}
+[32.819937] (-) TimerEvent: {}
+[32.920197] (-) TimerEvent: {}
+[33.020472] (-) TimerEvent: {}
+[33.120753] (-) TimerEvent: {}
+[33.221010] (-) TimerEvent: {}
+[33.321323] (-) TimerEvent: {}
+[33.421550] (-) TimerEvent: {}
+[33.521806] (-) TimerEvent: {}
+[33.622109] (-) TimerEvent: {}
+[33.722413] (-) TimerEvent: {}
+[33.822669] (-) TimerEvent: {}
+[33.922929] (-) TimerEvent: {}
+[34.023148] (-) TimerEvent: {}
+[34.123410] (-) TimerEvent: {}
+[34.223626] (-) TimerEvent: {}
+[34.323883] (-) TimerEvent: {}
+[34.424157] (-) TimerEvent: {}
+[34.524444] (-) TimerEvent: {}
+[34.624691] (-) TimerEvent: {}
+[34.724975] (-) TimerEvent: {}
+[34.825265] (-) TimerEvent: {}
+[34.925628] (-) TimerEvent: {}
+[35.025877] (-) TimerEvent: {}
+[35.126126] (-) TimerEvent: {}
+[35.226372] (-) TimerEvent: {}
+[35.326617] (-) TimerEvent: {}
+[35.426893] (-) TimerEvent: {}
+[35.527173] (-) TimerEvent: {}
+[35.627453] (-) TimerEvent: {}
+[35.727722] (-) TimerEvent: {}
+[35.827991] (-) TimerEvent: {}
+[35.928260] (-) TimerEvent: {}
+[36.028525] (-) TimerEvent: {}
+[36.128861] (-) TimerEvent: {}
+[36.229141] (-) TimerEvent: {}
+[36.329470] (-) TimerEvent: {}
+[36.429711] (-) TimerEvent: {}
+[36.530064] (-) TimerEvent: {}
+[36.630329] (-) TimerEvent: {}
+[36.730660] (-) TimerEvent: {}
+[36.830937] (-) TimerEvent: {}
+[36.931286] (-) TimerEvent: {}
+[37.031572] (-) TimerEvent: {}
+[37.131794] (-) TimerEvent: {}
+[37.232089] (-) TimerEvent: {}
+[37.332358] (-) TimerEvent: {}
+[37.432648] (-) TimerEvent: {}
+[37.532988] (-) TimerEvent: {}
+[37.633247] (-) TimerEvent: {}
+[37.733541] (-) TimerEvent: {}
+[37.833769] (-) TimerEvent: {}
+[37.934014] (-) TimerEvent: {}
+[38.034278] (-) TimerEvent: {}
+[38.134570] (-) TimerEvent: {}
+[38.234852] (-) TimerEvent: {}
+[38.333680] (lcm_service) StdoutLine: {'line': b'[ 33%] Built target server_a\n'}
+[38.334929] (-) TimerEvent: {}
+[38.435171] (-) TimerEvent: {}
+[38.535467] (-) TimerEvent: {}
+[38.635761] (-) TimerEvent: {}
+[38.736053] (-) TimerEvent: {}
+[38.775402] (lcm_service) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client\x1b[0m\n'}
+[38.798800] (lcm_service) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o\x1b[0m\n'}
+[38.836169] (-) TimerEvent: {}
+[38.936423] (-) TimerEvent: {}
+[39.036697] (-) TimerEvent: {}
+[39.136962] (-) TimerEvent: {}
+[39.237228] (-) TimerEvent: {}
+[39.337489] (-) TimerEvent: {}
+[39.437832] (-) TimerEvent: {}
+[39.538147] (-) TimerEvent: {}
+[39.638468] (-) TimerEvent: {}
+[39.738802] (-) TimerEvent: {}
+[39.839119] (-) TimerEvent: {}
+[39.939472] (-) TimerEvent: {}
+[40.039807] (-) TimerEvent: {}
+[40.140150] (-) TimerEvent: {}
+[40.240499] (-) TimerEvent: {}
+[40.340752] (-) TimerEvent: {}
+[40.401204] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[40.401399] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[40.401519] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[40.401595] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[40.401661] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[40.401729] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[40.401795] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[40.401862] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[40.401928] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[40.401996] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[40.402065] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[40.402128] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/client.cpp:1\x1b[m\x1b[K:\n'}
+[40.402263] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/client.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[40.402341] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/client.cpp:40:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%ld\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[40.402415] (lcm_service) StderrLine: {'line': b'   40 |     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), \x1b[01;35m\x1b[K"Sum: %ld"\x1b[m\x1b[K, \x1b[32m\x1b[Kresult.get()->resp\x1b[m\x1b[K);\n'}
+[40.402484] (lcm_service) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[40.402552] (lcm_service) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[40.402627] (lcm_service) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[Kint\x1b[m\x1b[K\n'}
+[40.402690] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/client.cpp:40:55:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[40.402753] (lcm_service) StderrLine: {'line': b'   40 |     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Sum: \x1b[01;36m\x1b[K%ld\x1b[m\x1b[K", result.get()->resp);\n'}
+[40.402817] (lcm_service) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K~~^\x1b[m\x1b[K\n'}
+[40.402877] (lcm_service) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[40.402939] (lcm_service) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[Klong int\x1b[m\x1b[K\n'}
+[40.403002] (lcm_service) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[40.403061] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[40.403120] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[40.403187] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[40.403249] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[40.403322] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[40.403382] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[40.403433] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[40.403492] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[40.403546] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[40.403604] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[40.403670] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[40.403731] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/client.cpp:1\x1b[m\x1b[K:\n'}
+[40.403801] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/client.cpp:50:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%ld\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[40.403875] (lcm_service) StderrLine: {'line': b'   50 |     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), \x1b[01;35m\x1b[K"Sum: %ld"\x1b[m\x1b[K, \x1b[32m\x1b[Kresult.get()->resp\x1b[m\x1b[K);\n'}
+[40.403938] (lcm_service) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[40.404009] (lcm_service) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[40.404081] (lcm_service) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[Kint\x1b[m\x1b[K\n'}
+[40.404163] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/client.cpp:50:55:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[40.404246] (lcm_service) StderrLine: {'line': b'   50 |     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Sum: \x1b[01;36m\x1b[K%ld\x1b[m\x1b[K", result.get()->resp);\n'}
+[40.404326] (lcm_service) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K~~^\x1b[m\x1b[K\n'}
+[40.404381] (lcm_service) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[40.404441] (lcm_service) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[Klong int\x1b[m\x1b[K\n'}
+[40.404505] (lcm_service) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[40.440856] (-) TimerEvent: {}
+[40.541150] (-) TimerEvent: {}
+[40.641454] (-) TimerEvent: {}
+[40.741741] (-) TimerEvent: {}
+[40.842046] (-) TimerEvent: {}
+[40.942300] (-) TimerEvent: {}
+[41.042643] (-) TimerEvent: {}
+[41.142905] (-) TimerEvent: {}
+[41.243217] (-) TimerEvent: {}
+[41.343470] (-) TimerEvent: {}
+[41.443771] (-) TimerEvent: {}
+[41.544067] (-) TimerEvent: {}
+[41.644394] (-) TimerEvent: {}
+[41.744731] (-) TimerEvent: {}
+[41.845004] (-) TimerEvent: {}
+[41.945281] (-) TimerEvent: {}
+[42.045610] (-) TimerEvent: {}
+[42.086013] (lcm_service) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[42.145703] (-) TimerEvent: {}
+[42.191586] (lcm_service) StdoutLine: {'line': b'[ 66%] Built target client\n'}
+[42.245810] (-) TimerEvent: {}
+[42.346096] (-) TimerEvent: {}
+[42.396016] (lcm_service) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server_b\x1b[0m\n'}
+[42.446217] (-) TimerEvent: {}
+[42.463255] (lcm_service) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/server_b.dir/src/server_b.cpp.o\x1b[0m\n'}
+[42.546330] (-) TimerEvent: {}
+[42.646642] (-) TimerEvent: {}
+[42.746919] (-) TimerEvent: {}
+[42.847191] (-) TimerEvent: {}
+[42.947454] (-) TimerEvent: {}
+[43.047720] (-) TimerEvent: {}
+[43.147997] (-) TimerEvent: {}
+[43.248269] (-) TimerEvent: {}
+[43.348543] (-) TimerEvent: {}
+[43.448810] (-) TimerEvent: {}
+[43.549132] (-) TimerEvent: {}
+[43.649454] (-) TimerEvent: {}
+[43.749733] (-) TimerEvent: {}
+[43.850014] (-) TimerEvent: {}
+[43.950289] (-) TimerEvent: {}
+[44.001001] (lcm_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[44.001217] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[44.001297] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[44.001370] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[44.001450] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[44.001525] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[44.001595] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[44.001666] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[44.001743] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[44.001806] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[44.001866] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[44.001926] (lcm_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_b.cpp:1\x1b[m\x1b[K:\n'}
+[44.001990] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_b.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid shutdown(std::shared_ptr<tutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::Shutdown_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[44.002054] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_b.cpp:10:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[44.002122] (lcm_service) StderrLine: {'line': b'   10 |    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), \x1b[01;35m\x1b[K"Incoming request\\na: %s"\x1b[m\x1b[K,   // CHANGE\n'}
+[44.002182] (lcm_service) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[44.002243] (lcm_service) StderrLine: {'line': b'   11 |                 \x1b[32m\x1b[Krequest->req\x1b[m\x1b[K);\n'}
+[44.002304] (lcm_service) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K                  \n'}
+[44.002364] (lcm_service) StderrLine: {'line': b'      |                          \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[44.002423] (lcm_service) StderrLine: {'line': b'      |                          \x1b[32m\x1b[Ktutorial_interfaces::srv::Shutdown_Request_<std::allocator<void> >::_req_type {aka long int}\x1b[m\x1b[K\n'}
+[44.002485] (lcm_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/devuser/AOX/ROS2/src/lcm_service/src/server_b.cpp:10:69:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[44.002548] (lcm_service) StderrLine: {'line': b'   10 |    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Incoming request\\na: \x1b[01;36m\x1b[K%s\x1b[m\x1b[K",   // CHANGE\n'}
+[44.002609] (lcm_service) StderrLine: {'line': b'      |                                                                    \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[44.002668] (lcm_service) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[44.002728] (lcm_service) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[44.002786] (lcm_service) StderrLine: {'line': b'      |                                                                    \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[44.050402] (-) TimerEvent: {}
+[44.150687] (-) TimerEvent: {}
+[44.250959] (-) TimerEvent: {}
+[44.351233] (-) TimerEvent: {}
+[44.451511] (-) TimerEvent: {}
+[44.551793] (-) TimerEvent: {}
+[44.652067] (-) TimerEvent: {}
+[44.752407] (-) TimerEvent: {}
+[44.807135] (lcm_service) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable server_b\x1b[0m\n'}
+[44.852539] (-) TimerEvent: {}
+[44.952842] (-) TimerEvent: {}
+[44.977031] (lcm_service) StdoutLine: {'line': b'[100%] Built target server_b\n'}
+[44.986148] (lcm_service) CommandEnded: {'returncode': 0}
+[45.005482] (lcm_service) JobProgress: {'identifier': 'lcm_service', 'progress': 'install'}
+[45.011455] (lcm_service) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service'], 'cwd': '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'devuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/devuser/AOX/ROS2/src/install/tutorial_interfaces/lib:/home/devuser/AOX/ROS2/src/tutorial_interfaces/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/devuser'), ('OLDPWD', '/home/devuser/AOX/ROS2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2343'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=89ae1eaa020aa0758c074890651c172b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/devuser/AOX/ROS2/src/lcm_service/install:/home/devuser/AOX/ROS2/src/install:/home/devuser/AOX/ROS2/src/lcm_topic/install:/home/devuser/AOX/ROS2/src/tutorial_interfaces/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'devuser'), ('_', '/home/devuser/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'devuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/devuser/.cargo/bin:/home/devuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin::/usr/local/ssl/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ATWLLL1013:@/tmp/.ICE-unix/2343,unix/ATWLLL1013:/tmp/.ICE-unix/2343'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ac746065_3dc2_47ca_8f98_4e18f314c8ee'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WEEAC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.228'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/devuser/AOX/ROS2/src/install/tutorial_interfaces:/home/devuser/AOX/ROS2/src/install/lcm_service:/home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic:/home/devuser/AOX/ROS2/src/tutorial_interfaces/install/tutorial_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/devuser/AOX/ROS2/src/lcm_service/build/lcm_service'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=89ae1eaa020aa0758c074890651c172b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/devuser/AOX/ROS2/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/devuser/AOX/ROS2/src/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/devuser/AOX/ROS2/src/install/tutorial_interfaces:/home/devuser/AOX/ROS2/src/install/lcm_service:/home/devuser/AOX/ROS2/src/lcm_topic/install/lcm_topic:/home/devuser/AOX/ROS2/src/tutorial_interfaces/install/tutorial_interfaces:/opt/ros/humble')]), 'shell': False}
+[45.017418] (lcm_service) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[45.017558] (lcm_service) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/lib/lcm_service/server_a\n'}
+[45.017982] (lcm_service) StdoutLine: {'line': b'-- Set runtime path of "/home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/lib/lcm_service/server_a" to ""\n'}
+[45.018049] (lcm_service) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/lib/lcm_service/server_b\n'}
+[45.018470] (lcm_service) StdoutLine: {'line': b'-- Set runtime path of "/home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/lib/lcm_service/server_b" to ""\n'}
+[45.018529] (lcm_service) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/lib/lcm_service/client\n'}
+[45.018989] (lcm_service) StdoutLine: {'line': b'-- Set runtime path of "/home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/lib/lcm_service/client" to ""\n'}
+[45.019072] (lcm_service) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/ament_index/resource_index/package_run_dependencies/lcm_service\n'}
+[45.019172] (lcm_service) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/ament_index/resource_index/parent_prefix_path/lcm_service\n'}
+[45.019265] (lcm_service) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/environment/ament_prefix_path.sh\n'}
+[45.019335] (lcm_service) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/environment/ament_prefix_path.dsv\n'}
+[45.019403] (lcm_service) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/environment/path.sh\n'}
+[45.019473] (lcm_service) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/environment/path.dsv\n'}
+[45.019541] (lcm_service) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/local_setup.bash\n'}
+[45.019617] (lcm_service) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/local_setup.sh\n'}
+[45.019697] (lcm_service) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/local_setup.zsh\n'}
+[45.019771] (lcm_service) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/local_setup.dsv\n'}
+[45.019844] (lcm_service) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/package.dsv\n'}
+[45.019965] (lcm_service) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/ament_index/resource_index/packages/lcm_service\n'}
+[45.020048] (lcm_service) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/cmake/lcm_serviceConfig.cmake\n'}
+[45.020102] (lcm_service) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/cmake/lcm_serviceConfig-version.cmake\n'}
+[45.020172] (lcm_service) StdoutLine: {'line': b'-- Installing: /home/devuser/AOX/ROS2/src/lcm_service/install/lcm_service/share/lcm_service/package.xml\n'}
+[45.021234] (lcm_service) CommandEnded: {'returncode': 0}
+[45.052960] (-) TimerEvent: {}
+[45.153227] (-) TimerEvent: {}
+[45.253497] (-) TimerEvent: {}
+[45.286943] (lcm_service) JobEnded: {'identifier': 'lcm_service', 'rc': 0}
+[45.344291] (-) EventReactorShutdown: {}
